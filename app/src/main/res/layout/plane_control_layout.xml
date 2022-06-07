@@ -1,0 +1,160 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_transparent"
+    android:clickable="true">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/adjust_direction_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/adjust_rising"
+            android:layout_width="140px"
+            android:layout_height="140px"
+            android:background="@mipmap/control_bg_def"
+            android:gravity="center"
+            android:text="@string/rising"
+            android:textColor="@color/color_ffffff"
+            android:textSize="35px"
+            android:textStyle="bold"></TextView>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/adjust_turn_left"
+                android:layout_width="140px"
+                android:layout_height="140px"
+                android:layout_marginRight="108px"
+                android:layout_toLeftOf="@+id/adjust_turn_right"
+                android:background="@mipmap/control_bg_def"
+                android:gravity="center"
+                android:text="@string/turn_left"
+                android:textColor="@color/color_ffffff"
+                android:textSize="35px"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/adjust_turn_right"
+                android:layout_width="140px"
+                android:layout_height="140px"
+                android:layout_below="@+id/adjust_rising"
+                android:layout_marginLeft="108px"
+                android:background="@mipmap/control_bg_def"
+                android:gravity="center"
+                android:text="@string/turn_right"
+                android:textColor="@color/color_ffffff"
+                android:textSize="35px"
+                android:textStyle="bold"></TextView>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@+id/adjust_falling"
+            android:layout_width="140px"
+            android:layout_height="140px"
+            android:layout_marginTop="25px"
+            android:background="@mipmap/control_bg_def"
+            android:gravity="center"
+            android:text="@string/falling"
+            android:textColor="@color/color_ffffff"
+            android:textSize="35px"
+            android:textStyle="bold"></TextView>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/adjust_front_fly"
+            android:layout_width="140px"
+            android:layout_height="140px"
+            android:background="@mipmap/control_bg_def"
+            android:gravity="center"
+            android:text="@string/front_fly"
+            android:textColor="@color/color_ffffff"
+            android:textSize="35px"
+            android:textStyle="bold"></TextView>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/adjust_left_fly"
+                android:layout_width="140px"
+                android:layout_height="140px"
+                android:layout_marginRight="108px"
+                android:layout_toLeftOf="@+id/adjust_turn_right"
+                android:background="@mipmap/control_bg_def"
+                android:gravity="center"
+                android:text="@string/left_fly"
+                android:textColor="@color/color_ffffff"
+                android:textSize="35px"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/adjust_right_fly"
+                android:layout_width="140px"
+                android:layout_height="140px"
+                android:layout_marginLeft="108px"
+                android:background="@mipmap/control_bg_def"
+                android:gravity="center"
+                android:text="@string/right_fly"
+                android:textColor="@color/color_ffffff"
+                android:textSize="35px"
+                android:textStyle="bold"></TextView>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@+id/adjust_behind_fly"
+            android:layout_width="140px"
+            android:layout_height="140px"
+            android:layout_marginTop="25px"
+            android:background="@mipmap/control_bg_def"
+            android:gravity="center"
+            android:text="@string/behind_fly"
+            android:textColor="@color/color_ffffff"
+            android:textSize="35px"
+            android:textStyle="bold"></TextView>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <Button
+        android:id="@+id/adjust_control_start_but"
+        android:layout_width="253px"
+        android:layout_height="100px"
+        android:layout_below="@+id/adjust_direction_ly"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_button_selcetor"
+        android:text="@string/start_fly"
+        android:textColor="@color/color_ffffff"></Button>
+
+    <TextView
+        android:id="@+id/adjust_control_stop_hint_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adjust_control_start_but"
+        android:layout_centerHorizontal="true"
+        android:text="@string/adjust_stop_fly"
+        android:textColor="@color/color_ffffff"
+        android:textSize="36px"
+        android:visibility="gone"></TextView>
+</com.zhy.autolayout.AutoRelativeLayout>

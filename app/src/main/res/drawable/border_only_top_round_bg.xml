@@ -1,0 +1,29 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+    <!-- This is the line -->
+    <item>
+        <shape>
+            <padding
+                android:bottom="3px"
+                android:left="3px"
+                android:right="3px"
+                android:top="3px" />
+            <stroke
+                android:width="3px"
+                android:color="@color/color_cfcfcf70" />
+            <corners
+                android:topLeftRadius="8px"
+                android:topRightRadius="8px" />
+        </shape>
+    </item>
+    <!-- This is the main color -->
+    <item>
+        <shape>
+            <solid android:color="@color/color_ffffff" />
+            <corners
+                android:topLeftRadius="8px"
+                android:topRightRadius="8px" />
+        </shape>
+    </item>
+</layer-list>

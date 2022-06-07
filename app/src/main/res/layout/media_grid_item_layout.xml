@@ -1,0 +1,117 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/media_dir_item_ly"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff"
+    android:foreground="?attr/selectableItemBackground">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/media_header_recy_item_pic_bg_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <com.feipai.flypai.ui.view.roundview.RCImageView
+                android:layout_width="match_parent"
+                android:layout_height="312px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18px"
+                android:layout_marginTop="18px"
+                android:layout_marginRight="18px"
+                android:src="@color/color_cccccc"
+                app:round_corner="8px" />
+
+            <com.feipai.flypai.ui.view.roundview.RCImageView
+                android:layout_width="match_parent"
+                android:layout_height="312px"
+                android:layout_marginLeft="9px"
+                android:layout_marginTop="9px"
+                android:layout_marginRight="9px"
+                android:src="@color/color_b3b3b3"
+                app:round_corner="8px" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <com.feipai.flypai.ui.view.roundview.RCImageView
+            android:id="@+id/media_header_recy_item_pic_img"
+            android:layout_width="match_parent"
+            android:layout_height="312px"
+            android:scaleType="fitXY"
+            android:src="@mipmap/def_media_img"
+            app:round_corner="8px" />
+
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/media_header_recy_item_choose_mode_ly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/media_header_recy_item_pic_img"
+            android:layout_alignTop="@+id/media_header_recy_item_pic_img"
+            android:layout_alignRight="@+id/media_header_recy_item_pic_img"
+            android:layout_alignBottom="@+id/media_header_recy_item_pic_img"
+            android:background="@drawable/media_choose_mode_border_bg"
+            android:visibility="gone" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/media_header_recy_item_remote_ly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/media_header_recy_item_pic_img"
+            android:layout_alignTop="@+id/media_header_recy_item_pic_img"
+            android:layout_alignRight="@+id/media_header_recy_item_pic_img"
+            android:layout_alignBottom="@+id/media_header_recy_item_pic_img"
+            android:background="@drawable/media_undownload_border_bg"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/media_header_recy_item_choose_img"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_alignTop="@+id/media_header_recy_item_pic_img"
+            android:layout_alignRight="@+id/media_header_recy_item_pic_img"
+            android:layout_marginTop="22px"
+            android:layout_marginRight="22px"
+            android:src="@mipmap/selected_img" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60px"
+            android:layout_alignRight="@+id/media_header_recy_item_pic_img"
+            android:layout_alignBottom="@+id/media_header_recy_item_pic_img"
+            android:background="@drawable/media_photo_item_time_bg">
+
+            <TextView
+                android:id="@+id/media_header_recy_item_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="40px"
+                android:lines="1"
+                android:text="04月10日16:54:06"
+                android:textColor="@color/color_ffffff"
+                android:textSize="28px" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/media_header_recy_item_download_img"
+            android:layout_width="72px"
+            android:layout_height="72px"
+            android:layout_alignLeft="@+id/media_header_recy_item_pic_img"
+            android:layout_alignTop="@+id/media_header_recy_item_pic_img"
+            android:layout_marginLeft="22px"
+            android:layout_marginTop="22px"
+            android:src="@mipmap/video_play_down_def" />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

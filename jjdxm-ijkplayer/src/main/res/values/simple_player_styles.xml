@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--声音调节器seekbar-->
+
+    <!--视频播放器进度条-->
+    <style name="Media.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">9px</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:progressDrawable">@drawable/seekbar_media_horizontal</item>
+        <item name="android:minHeight">9px</item>
+        <item name="android:thumbOffset">0px</item>
+    </style>
+
+    <!--popupwindow弹出动画 -->
+    <style name="mypopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/enter_bottom_anim</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/exit_bottom_anim</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+</resources>

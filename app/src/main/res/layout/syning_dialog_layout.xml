@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="872px"
+    android:layout_height="1000px">
+
+    <TextView
+        android:id="@+id/syning_hint_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80px"
+        android:gravity="center"
+        android:text="@string/syning_panor_hint"
+        android:textColor="@color/color_333333"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/syning_advertising_img"
+        android:layout_width="match_parent"
+        android:layout_height="635px"
+        android:layout_below="@+id/syning_hint_tv"
+        android:layout_marginTop="81px"
+        android:scaleType="fitXY"
+        android:src="@mipmap/advertising_def_img" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syning_advertising_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16px"
+        android:gravity="center"
+        android:text="预置广告图片或推荐图片及文案"
+        android:textColor="@color/color_333333"
+        android:textSize="40px"
+        android:visibility="invisible" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

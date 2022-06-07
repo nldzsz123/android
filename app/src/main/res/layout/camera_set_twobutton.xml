@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="144px">
+
+    <TextView
+        android:id="@+id/twobutton_left_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32px"
+        android:textColor="#fff"
+        android:textSize="50px" />
+
+    <com.feipai.flypai.ui.view.FPButton
+        android:id="@+id/twobutton_fist_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8px"
+        android:layout_toLeftOf="@+id/twobutton_second_button"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="50px" />
+
+    <com.feipai.flypai.ui.view.FPButton
+        android:id="@+id/twobutton_second_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="32px"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="50px" />
+</com.zhy.autolayout.AutoRelativeLayout>

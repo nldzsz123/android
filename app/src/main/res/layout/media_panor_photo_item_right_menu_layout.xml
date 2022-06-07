@@ -1,0 +1,26 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff"
+    android:orientation="vertical">
+
+    <com.feipai.flypai.ui.view.swipemenuLayout.EasySwipeMenuLayout
+        android:id="@+id/panor_photo_item_swipe_menu_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentView="@+id/media_panor_photo_item_ly"
+        app:rightMenuView="@+id/right_menu_ly">
+
+        <include
+            android:id="@+id/media_panor_photo_item_ly"
+            layout="@layout/media_panor_photo_item_layout"></include>
+
+        <include
+            android:id="@+id/right_menu_ly"
+            layout="@layout/swipe_right_menu_layout"></include>
+
+    </com.feipai.flypai.ui.view.swipemenuLayout.EasySwipeMenuLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

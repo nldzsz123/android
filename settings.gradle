@@ -1,0 +1,11 @@
+include ':app', ':videostab',
+        ':mavlinklib',
+        'kprogresshud',
+        'expandablerecycleradapter',
+        ':videoplayer',
+        ':autolayout',
+        ':library',
+        ':jjdxm-ijkplayer',
+        ':vrlib',
+        ':ucrop',
+        ':ffmpaeglib'

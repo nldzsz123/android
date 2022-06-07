@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_333333"
+    android:orientation="vertical"
+    tools:ignore="ResourceName">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_dialog_button_bg_def"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bottom_dialog_take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="144px"
+            android:background="@null"
+            android:text="@string/take_photo"
+            android:textColor="@color/login_button_tv_selcetor"
+            android:textSize="48px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="@color/color_ffffff"></View>
+
+        <Button
+            android:id="@+id/bottom_dialog_photo_album"
+            android:layout_width="match_parent"
+            android:layout_height="144px"
+            android:background="@null"
+            android:text="@string/photo_album"
+            android:textColor="@color/login_button_tv_selcetor"
+            android:textSize="48px" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <Button
+        android:id="@+id/bottom_dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="144px"
+        android:layout_marginTop="21px"
+        android:background="@drawable/bottom_dialog_button_bg_def"
+        android:text="@string/cancel"
+        android:textColor="@color/login_button_tv_selcetor"
+        android:textSize="48px" />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

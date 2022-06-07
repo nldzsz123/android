@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mian_container"
+    android:layout_width="672px"
+    android:layout_height="408px">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/confirm_action_bottom_ly"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/confirm_action_titile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_deletion"
+            android:textColor="@color/color_333333"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/confirm_action_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17px"
+            android:gravity="center"
+            android:text="@string/synthetic_long_time_prompt"
+            android:textColor="@color/color_333333"
+            android:textSize="26px"
+            android:visibility="visible" />
+
+        <TextView
+            android:textColor="@color/color_b8b8b8"
+            android:textSize="26px"
+            android:visibility="gone"
+            android:id="@+id/confirm_action_second_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></TextView>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/retrun_back_ly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17px"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/plane_climb_to"
+                android:textColor="@color/color_333333"
+                android:textSize="30px"
+                android:visibility="visible" />
+
+            <com.feipai.flypai.ui.view.CursorAtLastEditText
+                android:id="@+id/message_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:background="@drawable/edittext_bg"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:digits="1234567890"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:hint="120"
+                android:imeActionLabel="完成"
+                android:inputType="number"
+                android:lines="1"
+                android:maxLength="3"
+                android:paddingBottom="10px"
+                android:textColor="@color/color_00cf00"
+                android:textColorHint="@color/color_00cf00"
+                android:textSize="39px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/then_return_to_departure_point"
+                android:textColor="@color/color_333333"
+                android:textSize="30px"
+                android:visibility="visible" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </LinearLayout>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/confirm_action_bottom_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_b8b8b8" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/download_dlg_button_ly"
+            android:layout_width="match_parent"
+            android:layout_height="138px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/confirm_action_cancel_tv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/color_333333"
+                android:textSize="40px"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/download_dlg_bottom_ly_canter_view"
+                android:layout_width="3px"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/button_ly"
+                android:background="@color/color_b8b8b8" />
+
+            <TextView
+                android:id="@+id/confirm_action_confirm_tv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/delete"
+                android:textColor="@color/color_f34235"
+                android:textSize="40px"
+                android:textStyle="bold" />
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

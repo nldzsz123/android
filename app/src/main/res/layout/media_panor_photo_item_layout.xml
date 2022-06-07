@@ -1,0 +1,80 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_panor_photo_item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="344px"
+    android:layout_marginBottom="24px"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+
+    <ImageView
+        android:id="@+id/media_panor_photo_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/panorama_gallery_item_bg" />
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/media_panor_photo_item_img_choose_mode_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/media_panor_photo_item_img"
+        android:layout_alignTop="@+id/media_panor_photo_item_img"
+        android:layout_alignRight="@+id/media_panor_photo_item_img"
+        android:layout_alignBottom="@+id/media_panor_photo_item_img"
+        android:background="@color/color_ffffff_20"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/media_panor_photo_item_choose_img"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignTop="@+id/media_panor_photo_item_img"
+        android:layout_alignRight="@+id/media_panor_photo_item_img"
+        android:layout_marginTop="22px"
+        android:layout_marginRight="22px"
+        android:src="@mipmap/selected_img" />
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/media_panor_photo_item_img"
+        android:layout_alignBottom="@+id/media_panor_photo_item_img"
+        android:background="@drawable/media_time_bg">
+
+        <TextView
+            android:id="@+id/media_panor_photo_item_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="12px"
+            android:layout_marginRight="16px"
+            android:layout_marginBottom="12px"
+            android:gravity="right"
+            android:shadowColor="@color/color_333333"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:text="深圳市·南山区  04月10日  15:06:06"
+            android:textColor="@color/color_ffffff"
+            android:textSize="30px" />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/media_panor_photo_item_download_img"
+        android:layout_width="72px"
+        android:layout_height="72px"
+        android:layout_alignLeft="@+id/media_panor_photo_item_img"
+        android:layout_alignTop="@+id/media_panor_photo_item_img"
+        android:layout_marginLeft="22px"
+        android:layout_marginTop="22px"
+        android:src="@mipmap/video_play_down_def" />
+
+
+</com.zhy.autolayout.AutoRelativeLayout>
+

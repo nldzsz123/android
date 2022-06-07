@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mian_container"
+    android:layout_width="672px"
+    android:layout_height="408px">
+
+    <TextView
+        android:id="@+id/download_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40px"
+        android:text="@string/downloading_file_form_flypai"
+        android:textColor="@color/color_000000"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+
+    <com.feipai.flypai.ui.view.CircleProgressBar
+        android:id="@+id/download_circle_progress"
+        android:layout_width="105px"
+        android:layout_height="105px"
+        android:layout_below="@+id/download_title_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33px"
+        android:visibility="visible"
+        app:line_count="30"
+        app:line_width="0dp"
+        app:progress_background_color="@color/color_ffffff"
+        app:progress_end_color="@color/color_38bcff"
+        app:progress_shader="sweep"
+        app:progress_start_color="@color/color_38bcff"
+        app:progress_stroke_cap="round"
+        app:progress_stroke_width="12px"
+        app:progress_text_color="@color/color_38bcff"
+        app:progress_text_size="24px"
+        app:style="solid_line" />
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="138px"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_b8b8b8" />
+
+        <TextView
+            android:id="@+id/download_cancel_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/color_b8b8b8"
+            android:textSize="40px"
+            android:textStyle="bold" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>
+

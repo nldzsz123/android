@@ -1,0 +1,66 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_transparent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:layout_marginBottom="30px"
+        android:background="@drawable/border_bg"
+        android:elevation="8px"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="96px"
+            android:layout_height="96px"
+            android:src="@mipmap/splash_logo"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13px"
+            android:text="@string/warranty_and_activation"
+            android:textColor="@color/color_4097e1"
+            android:textSize="56px"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:layout_width="572px"
+            android:layout_height="572px"
+            android:layout_marginTop="75px"
+            android:src="@mipmap/plane_connect_img" />
+
+        <TextView
+            android:id="@+id/content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60px"
+            android:gravity="center"
+            android:scrollbars="vertical"
+            android:text="@string/warranty_and_activation_hint"
+            android:textColor="@color/color_404040"
+            android:textSize="39px" />
+
+
+        <Button
+            android:id="@+id/goto_next_button"
+            android:layout_width="814px"
+            android:layout_height="124px"
+            android:layout_marginTop="99px"
+            android:background="@drawable/search_button_bg_def"
+            android:text="@string/next_step"
+            android:textColor="@color/color_ffffff"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true">
+
+
+    <ImageView
+        android:id="@+id/adjust_control_show_btn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/adjust_control_show_button_selcetor"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/camera_turn_back_btn_ly"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/camera_smart_button_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/camera_smart_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="#0000"
+            android:clickable="false"
+            android:src="@mipmap/smart_cancel_img" />
+
+        <TextView
+            android:id="@+id/smart_view_cancel_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/gradient_black_to_white"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:shadowColor="@color/color_000000"
+            android:shadowDx="1"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:text="@string/cancel"
+            android:textColor="@color/color_ffffff"
+            android:textSize="10sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/camera_turn_back_btn_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/camera_smart_button_ly"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ImageButton
+            android:id="@+id/camera_turn_back_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="14dp"
+            android:background="#0000"
+            android:src="@mipmap/camera_turn_back" />
+
+        <TextView
+            android:id="@+id/camera_turn_back_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/gradient_black_to_white"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:shadowColor="@color/color_000000"
+            android:shadowDx="1"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:text="@string/stop_return_back"
+            android:textColor="@color/color_ffffff"
+            android:textSize="10sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ab_control_function_ly"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/camera_round_all"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/camera_smart_button_ly"
+        app:layout_constraintLeft_toRightOf="@id/camera_smart_button_ly"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/smart_hand_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0f00"
+            android:visibility="visible"
+            android:drawableTop="@mipmap/smart_hand"
+            android:drawablePadding="5dp"
+            android:text="@string/waypoint_fly"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/smart_gensui_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0f00"
+            android:drawableTop="@mipmap/smart_gensui"
+            android:drawablePadding="5dp"
+            android:text="@string/smart_follow"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/smart_huanrao_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0f00"
+            android:drawableTop="@mipmap/smart_huanrao"
+            android:drawablePadding="5dp"
+            android:text="@string/tagget_around"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/smart_delay_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0f00"
+            android:drawableTop="@mipmap/smart_delay"
+            android:drawablePadding="5dp"
+            android:text="@string/move_time_delay"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/smart_vr_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0f00"
+            android:drawableTop="@mipmap/smart_vr_btn"
+            android:drawablePadding="5dp"
+            android:text="@string/vr_mode"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/smart_guangjiao_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0f00"
+            android:drawableTop="@mipmap/smart_guangjiao"
+            android:drawablePadding="5dp"
+            android:text="@string/wide_photo_mode"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

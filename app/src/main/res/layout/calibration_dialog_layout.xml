@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mian_container"
+    android:layout_width="1032px"
+    android:layout_height="755px">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/confirm_action_bottom_ly"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cali_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:text="@string/confirm_deletion"
+            android:textColor="@color/color_333333"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/cali_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:gravity="center"
+            android:text="@string/synthetic_long_time_prompt"
+            android:textColor="@color/color_333333"
+            android:textSize="30px"
+            android:visibility="visible" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cali_img"
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:visibility="visible"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/cali_img" />
+
+            <ImageView
+                android:id="@+id/cali_img_gif"
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/cali_img" />
+
+            <ProgressBar
+                android:id="@+id/cali_progress"
+                style="@style/CalibrationProgressStyle"
+                android:layout_width="700px"
+                android:layout_height="10px"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16px"
+                android:max="100"
+                android:progress="0" />
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/confirm_action_bottom_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="137px"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_b8b8b8" />
+        <TextView
+            android:id="@+id/cali_cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/color_333333"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

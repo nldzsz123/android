@@ -1,0 +1,72 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ffffff"
+    tools:context=".ui.activity.ActivationActivity">
+
+    <include
+        android:id="@+id/top_view"
+        layout="@layout/title_layout"></include>
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/offline_mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_view"
+        mapbox:mapbox_cameraZoom="15"
+        mapbox:mapbox_cameraZoomMin="12" />
+
+    <ProgressBar
+        android:id="@+id/offline_progress_bar"
+        style="@style/OfflineMapProgressStyle"
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_5098e4"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        android:paddingTop="24px">
+
+        <Button
+            android:id="@+id/offline_download_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:drawableTop="@drawable/mapbox_offlie_download_img"
+            android:text="@string/download"
+            android:textAllCaps="false"
+            android:textColor="@color/mapbox_offline_white"
+            android:textSize="36px" />
+
+        <Button
+            android:id="@+id/offline_list_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@mipmap/ab_cotr_more_ly"
+            android:text="@string/list"
+            android:textAllCaps="false"
+            android:textColor="@color/mapbox_offline_white"
+            android:textSize="36px" />
+
+    </LinearLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

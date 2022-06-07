@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_4097e1"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MainActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/fly_container"
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:layout_marginTop="72px"
+        android:background="@color/color_transparent"
+        tools:context=".demo_flow.MainActivity">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/eidtor_info_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="72px"
+                android:layout_height="72px"
+                android:layout_marginLeft="48px"
+                android:src="@drawable/back_selcetor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_back"
+                android:textColor="@color/color_ffffff"
+                android:textSize="48px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <TextView
+            android:id="@+id/eidtor_info_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="48px"
+            android:gravity="center"
+            android:text="@string/skip"
+            android:textColor="@color/color_ffffff"
+            android:textSize="48px" />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="567px"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/eidtor_info_head"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/eidtor_info_nike_name_et"
+            android:layout_width="225px"
+            android:layout_height="168px"
+            android:layout_marginTop="15px"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/modify_nickname"
+            android:textColorHint="@color/color_ffffff"
+            android:autoSizeMaxTextSize="57px" />
+
+        <View
+            android:layout_width="225px"
+            android:layout_height="3px"
+            android:layout_marginTop="9px"
+            android:background="@color/color_ffffff"></View>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f3f3f3">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/location_region_ly"
+            android:layout_width="912px"
+            android:layout_height="144px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="72px"
+            android:background="@drawable/user_info_location_bg">
+
+            <ImageView
+                android:id="@+id/location_region_img"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="54px"
+                android:src="@mipmap/location_region_img" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30px"
+                android:layout_toRightOf="@+id/location_region_img"
+                android:text="中国 广东省 深圳市"
+                android:textColor="@color/color_b8b8b8"
+                android:textSize="39px" />
+
+            <TextView
+                android:id="@+id/eidtor_info_reposition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:text="@string/reposition"
+                android:textColor="@color/color_38bcff"
+                android:textSize="39px" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/optional_region_ly"
+            android:layout_width="912px"
+            android:layout_height="144px"
+            android:layout_below="@+id/location_region_ly"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24px"
+            android:background="@drawable/user_info_location_bg">
+
+
+            <ImageView
+                android:id="@+id/optional_region_img"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="54px"
+                android:src="@mipmap/optional_region_img" />
+
+            <TextView
+                android:id="@+id/region_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30px"
+                android:layout_toRightOf="@+id/optional_region_img"
+                android:text="@string/region"
+                android:textColor="@color/color_b8b8b8"
+                android:textSize="39px" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="3px"
+                android:layout_height="72px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="39px"
+                android:layout_toRightOf="@+id/region_tv"
+                android:background="@color/color_38bcff"></View>
+
+
+            <TextView
+                android:id="@+id/optional_region_value_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/goto_optional_region_img"
+                android:layout_toRightOf="@+id/view"
+                android:gravity="center"
+                android:text="中国 广东省 深圳市"
+                android:textColor="@color/color_38bcff"
+                android:textSize="39px" />
+
+
+            <ImageView
+                android:id="@+id/goto_optional_region_img"
+                android:layout_width="72px"
+                android:layout_height="72px"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:src="@mipmap/goto_verification_code_img_sele" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <Button
+            android:id="@+id/eidtor_info_save"
+            android:layout_width="840px"
+            android:layout_height="144px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="288px"
+            android:background="@drawable/login_button_selcetor"
+            android:text="@string/save"
+            android:textColor="@color/login_button_tv_selcetor"
+            android:textSize="48px" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,723 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">DUMS Drone</string>
+    <string name="login_photo_def" translatable="false">Enter_Phone_Number</string>
+    <string name="click_login_botton_means_you_agree" translatable="false">click login botton means you agree</string>
+    <string name="and" translatable="false">and</string>
+    <string name="user_agreement" translatable="false">user\n agreement</string>
+    <string name="privacy_policy" translatable="false">privacy\npolicy</string>
+    <string name="understood_and_agreed" translatable="false">understood and agreed</string>
+    <string name="user_agreement_content" translatable="false">
+      《USER AGREEMENT》 (COLLECTIVELY "AGREEMENT").  This is an agreement between you (OR your user , who is a person OR organization who has registered, signed up, used OR browsed the SERVICE) and Shenzhen FlyPie Technology Co. , Ltd. (COLLECTIVELY FLYPIE OR FLYPIE TECHNOLOGY) regarding the FLYPIE APP APP APP APP (COLLECTIVELY FLYPIE APP) and the products, programs and services (including but not limited to Flypie APP) associated with the FLYPIE APP (COLLECTIVELY Flypie Service) . Use of the content is governed by the terms and conditions of this agreement and/or the terms and conditions of license agreements or notice indicated or referenced below. By using the content, you agree that your use of the content is governed by this agreement and/or the terms and conditions of this agreement of any applicable license agreement or notices indicated or referenced below. If you do not agree to the terms and conditions of this agreement and the terms and conditions of any applicable license agreements or notices indicated or referenced below, then you may not use the content. Your acceptance of this agreement is your voluntary acceptance of all terms and conditions, including any changes to any terms and conditions that may be made by Flypie Technology.This agreement can be updated at any time by Flypie technology. The updated terms and conditions will replace the original terms and conditions once published. Users can check the updated terms and conditions in Flypie APP without prior notice. If the user does not accept the modified terms and conditions, please stop using the service immediately. Users who continue to use the service will be deemed to have accepted the modified terms and conditions.\n
+        One、 Flypie Drone App and Flypie Service\n
+        1、 Flypie Drone App and Flypie Service: You can use Flypie drone APP to control the flight of the drone during the flight, plan the flight path to simulate the flight. You can also use the FlyPie drone APP to upload photos or videos to social media.\n
+        2、You must know and confirm：\n
+        1) We may unilaterally change, suspend, restrict, terminate or cancel all or part of the content of the Flypie service at any time without any notice due to the development of our business at the user\'s risk. \n
+        2) FlyPie The service may include advertising and other activities. The user agrees to display advertisements and other activities provided by US and related parties with third-party suppliers, partners, etc. \n
+        3) We have the right to decide, at our sole discretion and in accordance with the law, to stop the transmission of any content that violates the laws and regulations or the agreement hereof, or that infringes, impairs or threatens the rights or security of any person, and shall have the right to take appropriate legal actions against any person who contravenes this agreement at its own discretion, including, but not limited to, deleting from the auction service any content that is illegal, infringing, improper, etc. , and terminating the login qualification of the violator, to prevent the use of all or part of our flying services, and in accordance with the laws and regulations to maintain relevant information and provide reports as required by the relevant departments. \n
+        Two、 User Register and Account\n
+        1、Sign up: You must sign up for a user account to view the drone APP. According to the `Mobile Internett Applicationn Informationn Servicee Managementt Regulations\'\'" , you must bind the real-name-based registration of mobile phone numbers in order to successfully register user accounts. At the same time, you may need to provide relevant personal information on the registration page, including but not limited to your name, email, contact number, etc. You may terminate the use of your account at any time in accordance with the instructions of the FLYPIE UAV APP. The Flypie UAV APP will retain or terminate your account in accordance with the provisions of this agreement.
+        2、You must promise and guarantee:
+        1)You understand and agree that the FlyPie APP is a service product, and the user should take full responsibility for the authenticity, legitimacy and validity of the registration information; the user shall not impersonate another person. Do not use the name of others to use the flypie service, post any information and/or use the Flypie APP to control the Flypie drone in flight in the name of another person; do not use the registered account maliciously to cause other users to misidentify; Otherwise, we have the right to immediately stop providing any services, including the Flying Service, you alone bear all the legal responsibilities arising therefrom.
+        2) Your use of the FlyPie APP and the FlyPie service must be legal, and you must be responsible for any actions you take under your registered account This includes any content you post via the Flypie APP, any controls of the Flypie drone, and any resulting results. Users shall make their own judgements about the use of the content and functions therein and take responsibility of all risks arising from their use, including those arising from reliance on the correctness, completeness or usefulness of the content and functions. Flypie technology can not and will not be liable for any loss or damage caused by the user's actions.
+        3) You are responsible for keeping your login information confidential, not being accessed and used by others, and for all actions you take under your Flypie APP account. You must notify us of any unauthorized use or suspected unauthorized use that may be in violation of the law. We are not liable for any loss or damage caused by your failure to comply with the above requirements.
+        4) The information you publish through the APP is public information, other third parties can get the information published by the user through this APP, and the user approves any information published as public information And is solely responsible for this action; any information that users do not want to be shared with other third parties should not be published on the Flypie APP.
+        Three、USER CONTENT
+        1) User content: User content refers to all content generated when the user downloads, publishes, or otherwise uses the Flypie APP and Flypie service. You are the sole responsible person for your user You take responsibility of the risk that you or any third party will be identified as a result of your user content disclosure.
+        2)Permission: Your Upload, publish, distribute, or other use of user content from your Flypie APP and Flypie service Is deemed to be an automatic permitted and warrants and warrants that you are authorized to grant us an irrevocable, non-exclusive, royalty-free and fully paid global permission.
+        3)Third Party content: The FlyPie APP can publish user generated content to third party platforms. You as the shooting and publishing behavior of the users of the Flypie APP, Flypie technology does not control and does not take responsibility legal responsibility for the content posted by those users. There is no obligation to inspect, monitor, approve, or approve such user content. You are fully responsible for the content and risks of your own publication, and FLYPIE is not liable for any such acts and related circumstances.
+        4 User Rights and Obligations
+        1)The legal right to use FlyPie APP and the drone service；
+        2)The right to download, install, and use the FlyPie service on all of your legally owned devices；
+        3)The user account is owned by FlyPie Technology company. Due to the security of the account, it is forbidden to use other people's mobile phone number, email address and account number. After you have completed the registration procedure, you will be granted the right to use the account number. The right belongs to the original applicant only. Due to operational needs, Flypie technology has the right to recover user accounts;
+        4)You have the right to change or delete your personal information, registration information and content on Flypie APP, but be aware that deleting this information may also delete any text or images you have stored in the system. The risk is borne by the user;
+        5、 You are responsible for the security of your registered account information and your account password. You are legally responsible for the actions you take under your registered account and Password. The user agrees not to use the other member's account or password under any circumstances. If you suspect that someone else is using your account or password, you agree to immediately contact Flypie Technology;
+        6、 Limitation of rights:
+        1) You are not allowed to sell, lease, transfer, distribute, or use FlyPie APP or the service for any other commercial purposes;
+        2) You can not access the FlyPie APP or use the FlyPie service for the purpose of creating the same or competing service;
+        3) You are not allowed to take any form whatsoever of any part of the drone APP or FlyPie service (including but not limited to content or advertising or sponsored content in the product) , to copy, distribute, reprint, download, display, post, modify, translate, merge, utilize, decompose, or reverse-compile, etc;
+        4) You are liable for any risks you may incur from using third-party websites and advertising. Third-party terms and policies apply when you visit third-party websites and advertisements.
+        5) You have agreed to upload, publish or otherwise use the aerial photography drone app or aerial photography service. During the use, you will bear the risks caused by the following actions.
+        All legal liabilities arising:
+        ① Undermine the basic principles established by the Constitution;
+        ② Those that endanger national security, leak state secrets, subvert state power, or disrupt national unity; those that harm national honor and interests; incite ethnic hatred, ethnic discrimination, and damage ethnic groups
+        united; undermining the country's religious policies and preaching cults and feudal superstitions;
+        ③ Spreading rumors, disturbing social order and destabilizing society; spreading obscenity, pornography, gambling, violence, homicide, terror or instigating crimes; insults or slander
+        others, infringing upon the legal rights and interests of others; containing other contents prohibited by laws, regulations and administrative regulations;
+        ④ Violation of relevant national regulations on drone airspace management;
+               ⑤Other acts that violate national laws and regulations or have an adverse impact on society.
+        6) You have agreed not to engage in the following actions with the Drone app or using the Drone service:
+        ① Upload or publish computer viruses, worms, malicious code, software that deliberately destroys or alters computer systems or data; collects information from other users without authorization or
+        data, such as mobile phone numbers;
+        ② Disable the network connection of the Drone APP, which will cause an excessive burden on the Drone APP, or otherwise interfere with or damage the website server and network links;
+        ③ Interfering with or destroying other users' normal use of the aerial photography drone APP or aerial photography service.
+        V. Damages
+        1. You must use the aerial photography drone APP and aerial photography service in accordance with the laws, regulations and the provisions of this agreement to avoid aerial photography from being suffered from the third party due to the following acts or related acts.
+        any complaints and / or litigations of the party, and bear any losses, damages, liabilities, costs and expenses (including but not limited to attorneys' fees) resulting from:
+        1) Your use of the aerial photography drone app and aerial photography service;
+        2) You control the behavior of the Drone through the Drone APP;
+        3) Your user content;
+        4) Your violation of this agreement.
+        2. You have agreed that you shall not settle unilaterally in a lawsuit that you and Flypie Technology have jointly filed against a third party unless you obtain Flypie Technology's written consent.
+        3. Under no circumstances will aerial photography damage any indirect, consequential, punitive, incidental, special or punitive damage to you or any third party arising from this agreement.
+        Liability for compensation. For the avoidance of doubt, the risk of damaging the computer system or the database of mobile communication equipment caused by accessing and using the aerial photography drone APP and aerial photography service will be left to you.
+        bear.
+        Disclaimer
+        1. If the following situations occur, Flypie Technology will not bear any legal responsibility:
+        1) Monitor, collect and provide your personal information (including, but not limited to, users using airspace) in accordance with legal requirements, or requirements of relevant government departments, or national airspace safety supervision requirements
+        flight data generated during the shooting service, such as flight altitude, flight speed, bearing, etc.);
+        2) Any leakage of personal information due to your improper use or other own reasons;
+        3) Any hacking, computer virus intrusion, blocking of illegal content information, harassment information, government control, and any other network, technology, communication line, information security
+        service interruption and obstruction caused by management measures and other reasons that cannot meet user requirements;
+        4) The user violated the laws and regulations and suffered from various penalties and losses by using the aerial photography service in the no-fly area including mainland China;
+        5) The user's loss due to a third party such as the operator's communication line failure, technical problems, network, computer failure, system instability and other losses caused by force majeure;
+        6) Risks that may arise from the use of aerial photography services from anonymous or impostorous information containing threatening, defamatory, objectionable or illegal content;
+        7) Users interact with other users through the aerial photography drone app and aerial photography service. Any psychological or physical injury and economic loss caused or possibly caused by misleading or deceiving.
+        2. Any content published by the user in the Flying Drone APP, or any manipulation of the Flying Drone through the Flying Drone APP, does not represent and reflect any views of the Flying Drone technology.
+        or policy, Flypie Technology does not assume any responsibility for this.
+        3. Under any circumstances, Snapshot Technology shall not be liable for any indirect, consequential, punitive, accidental, special or penal damages, including loss of profits suffered by users using the Snapshot service. Although this Agreement may contain contradictory provisions, our full responsibility to you
+        , No matter what the reason or the behavior, it will not exceed the fee (if any) you paid to the camera for the use of the camera service during the registration period.
+        Seven, intellectual property
+        1. The information released by the user during the use of the aerial photography drone app and aerial photography service shall not infringe the intellectual property rights of any third party without the prior written permission of the owner with the relevant ownership
+        it is agreed that users shall not upload, publish, modify, disseminate or reproduce any copyrighted material, trademarks or proprietary information belonging to others in any way. If you receive any
+        we may assist, provide, review or remove such content or evidence that infringes on the copyrights of others after the copyright owner or his legal representative has given appropriate notice to Flying Shot Technology.
+        2. The copyright of the original content published by users when they use the aerial photography drone APP and aerial photography services belongs to the users themselves, and the users can authorize third parties to use them in any way. Multiple ginseng
+        And the editor's content, including but not limited to questions and supplementary explanations, answer summary, topic description, topic structure, all participants agree, the relevant intellectual property rights belong to Flypie.
+        3. All the content released by the user when using the aerial photography drone app and aerial photography service are granted to aerial photography technology for free, irrevocable, non-exclusive license.
+        Technology reserves the right to use this content in various forms of products and services in various forms, including but not limited to websites, applications, media or other.
+        4. The aerial photography logo and products, service names, pictures, graphics, etc. involved in the aerial photography drone app and aerial photography services are protected by copyright, trademark and other laws. Without the prior written consent of
+        It is intended that users shall not display or use the above contents in any way or do other processing, and no unit or individual may use any part of the trademark in any way or for any reason.
+        , Copy, modify, disseminate, transcribe or bundle with other products for sale.
+        5. In addition to the foregoing provisions, if you believe that someone has copied and published your work on the aerial photography drone app and aerial photography service, and it has constituted an infringement of your copyright, please contact me in time.
+        We contact and provide a written notice containing the following information:
+        1) Proof of ownership as the owner of the allegedly infringing content;
+        2) Clear identification, address and contact information;
+        3) The location of the allegedly infringing content on the aerial photography service;
+        4) a description of the copyrighted work that you claim has been infringed;
+        5) Proof that your copyright has been violated;
+        6) Under the premise of agreeing to bear the consequences of the perjury penalty, issue a written statement to declare that the content described in your notice is accurate and true.
+        Modification and termination
+        1. Modify:
+        1) This agreement allows changes. If there are changes to this agreement, we will announce the updated agreement on the Flying Drone APP. After that, continue to use the flying shot drone app and fly
+        The shooting service is deemed to be aware of such changes and agree to be bound by the terms;
+        2) Flying Shot Technology reserves the right to modify, retain or close the Flying Shot drone app and flying shot service at any time without notice; 3) You have agreed that Flying Shot Technology does not need to be modified due to modification
+        , Retaining or closing the aerial photography drone app and aerial photography service are responsible to you or a third party.
+        2. Termination:
+        1) This agreement is effective from the date you accept it, and it will continue to be valid in the process of using the Drone APP and the Drone service until it is terminated in accordance with this agreement;
+        2) Notwithstanding the above, if you use the Drone app and the Drone service earlier than the time you accept this agreement, if you know here or should know and agree with
+        If you agree to this agreement, then this agreement will take effect the first time you use the aerial photography drone app and aerial photography service, unless terminated in advance according to this agreement.
+        3. If the user infringes the copyright of a third party and Flypie Technology receives the notification from the copyright owner or the legal representative of the copyright owner, FlyPie Technology reserves the right to terminate this agreement.
+        4. Once this agreement is terminated, your camera account and right to use camera app and camera service will be terminated. You should be aware that the termination of your camera account means your user content
+        will be removed from our active database.Flypie Technology will not bear any responsibility to you for terminating this agreement, including termination of your user account and deletion of your user content.
+        5. Any updated version of the aerial photography drone app or future versions, updates or other changes of aerial photography services will be subject to this agreement.
+        Nine, other
+        1. Feedback If you make suggestions (or “feedback”) to Flypie, it is deemed that you transfer all the rights of “Feedback” to Flypie and agree that Flypie has the right to use it in any reasonable way.
+        2.Privacy Policy
+        1) Please review our Privacy Terms, which are the same and integral part of this agreement. At all times, your information
+        "Privacy Terms".
+        2) Flying Shot Technology will fully protect the user\'s personal privacy information. Flying Shot Technology guarantees that it will not disclose or disclose the user's personal privacy information to third parties, or that the user is using the service.
+        Non-public content stored during business hours, unless required by law or a government department authorized by law or explicitly authorized by the user in advance, etc.
+        Personal privacy information of the user, including but not limited to flight data generated by the user during the use of the aerial photography service.
+        3. Notice You must provide a valid email address that you have used frequently recently. The email address you provided is unavailable or for any reason we are unable to deliver the notification to you and
+        no responsibility is assumed for the resulting risks. Announcement notices issued by the Flying Drone APP and the emails (if any) sent to you containing such notices will undoubtedly constitute effective communication.
+        know.
+        4. Applicable law This agreement shall be governed by the laws of the People\'s Republic of China. If a dispute arises between the two parties, it should be settled through consultations based on the principle of friendship;
+        The local court filed a lawsuit.
+        5. Independence If some clauses in this agreement cannot be applied for any reason, other clauses in this agreement will continue to apply and those that cannot be applied will be modified
+        change so that it can be applied according to law.
+        6. Integrity This agreement (including the privacy policy) is the final agreement between you and the camera on matters related to the camera app and service.
+        , Complete, exclusive agreement, and supersedes and merges previous parties ’discussions and agreements on such matters (including previous end-user licenses, terms of service).
+        7. The title of each part of the title is for reading only and has no legal or contractual obligations.
+        8. Transfer Unless you agree in writing with Flypie Technology, you may not transfer the rights and obligations under this agreement. Any attempt to transfer in violation of the above provisions is invalid.
+    </string>
+
+    <string name="privacy_agreement_content" translatable="false">
+    Description \n
+            Shenzhen Flypie Technology Co., Ltd. is a limited liability company established in accordance with the laws of the People\'s Republic of China (hereinafter referred to as "FlyPie", "FlyPie Technology" or "us").
+            We value the maintenance and protection of users\' personal information. When you use our products and services, we may collect and use your personal information. This Privacy The purpose of the Policy is to explain how we collect, store, use or share your personal information. I hope you read this Privacy Policy carefully so that you can
+            To enable you to make the right choice. \n
+            Your use or continued use of the products or services of Snapshot Technology means that you agree to our collection, storage and storage in accordance with this Privacy Policy
+            , Use and share your personal information. \n
+            What personal information do we collect from you? \n
+            1） Provided to FlyPie Technology through the use of its products or services information such as name, phone number, email address, etc.\n
+            2) Information read or stored by the system when you use our products or services, such as your location, log records of product use, configuration information of your electronic devices, access
+            IP addresses, time information, location information, shared text or pictures of our products or services.\n
+            3) Your personal information may contain sensitive information, such as your race, religion, personal health status, gender orientation, etc., when you use our products or services
+            , You may upload or post such sensitive information in public channels. Please handle this sensitive information with caution. \n
+            Why do we collect your personal information? \n
+            We collect your personal information for the following purposes: \n
+             Authenticate your identity to prevent fraud; \n
+             Define your technical service needs; \n
+             Identify products and services that are right for you; \n
+             Provide products and services according to your requirements; \n
+             Comply with the requirements of laws and regulations. \n
+            How may we store your personal information? \n
+             Regardless of how your personal information is provided to Snapshot Technology, it will be stored and protected by Snapshot Technology. We have established an information security control system to prevent your personal
+            The information is used, accessed, modified, copied, destroyed, leaked, lost or stolen by others. \n
+             In order to store and protect your personal information, Snapshot Technology adopts various physical and electronic security methods and strict confidentiality procedures. For example, strict restrictions on personnel access to information
+            Management and storage areas, limiting the establishment of personnel to release information confidentiality, using passwords, identification codes, backup passwords, firewalls and information transmission encryption, and using passwords in file cabinets and file rooms
+            Locks, etc. \n
+             When we entrust a third party to provide services and provide you with the necessary personal information, we will sign a relevant confidentiality agreement with them to ensure that your personal information is protected and used only by them
+            to provide you with services. How may we use your personal information? The personal information we collect about you may be used by us for the following purposes: \n
+             Providing services to you. \n
+             Help us design new products or services and improve our existing products or services. \n
+            Used for identification, customer service, security, archiving or backup, etc. \n
+             Offer you ads that are more relevant to you. \n
+             Let you participate in our product or service survey. \n
+             We may entrust other third parties to provide services, such as data processing, account management and marketing, on behalf of FlyPie Technology. We only provide these third parties with what is necessary to complete their services
+            information, and we sign confidentiality agreements with these third parties to the same standards of confidentiality that Flying Shot Technology adheres to. These third parties may come from abroad, according to the laws of their location, these
+            overseas third parties may have certain information disclosure obligations. How we share your personal information We do not share your personal information with any third party outside
+            except for the following: \n
+             With your consent. \n
+             Share your information with a product or service provider authorized by Snapshot Technology for the purposes in the "How may we use your personal information?" Section. \n
+             Share your personal information inside Snapshot Technology to achieve the purpose in the "How may we use your personal information?" Section. \n
+             In the future, we may replace, sell, expand, and transfer our business or acquire new businesses. In this case, your personal information and related accounts, products and services you purchase, etc.
+            Will be transferred along with the business. \n
+             Your personal information may be required to be disclosed under the following circumstances: \n
+            1) When suspected of criminal activity, disclose it to judicial or law enforcement agencies to investigate and prevent crime; \n
+            2) disclosure required by law (or court); \n
+            3) Disclose according to government mandatory requirements; \n
+            4) In order to protect the assets of Flying Shot Technology (such as settlement of overdue accounts), etc.
+            In the above circumstances, we will record the content, time, reason and object of information disclosure. Your permissions \n
+             If you would like to review or verify your personal information, and to view our disclosure records, please contact our marketing department or distributor. If in some cases we are unable to provide
+            Relevant information, we will inform you in a timely manner. \n
+             In some cases you have the right to refuse to provide certain information to us, but we may not be able to provide you with certain products, services or information. To protect the interests of both parties, such as
+            to ensure that your requirements are fulfilled, and to prove that we have provided you with the required information, we may monitor your phone or email correspondence with Snapshot to ensure the quality of our services. \n
+             If you do not wish to receive our communication about direct marketing, please let us know and we will delete your personal information from the direct marketing list. \n
+             If you do not want us to share your personal information with the members of the Snap, please let us know. In this case, we may not be able to provide you with special information due to lack of information.
+            Products or services. \n
+             If you are under the age of eighteen, you should obtain the consent and guidance of a parent or guardian to ensure the proper use of our products and services. \n
+             Depending on the laws of your area, some provisions of this Privacy Policy may not apply to you. This Privacy Policy does not exclude or restrict your compliance with local laws
+            any rights you have. Changes We may amend the terms of this Privacy Policy from time to time, and such amendments form part of this Privacy Policy. If such amendments cause you
+            in the event of a substantial reduction in rights under this Privacy Policy, before the amendments take effect, we will promptly highlight them on the homepage, mention them in the change log, send you an email, or use the
+            notify you in another way. In the event that any, some or all of the above mentioned notification methods are actually implemented, if you continue to use our services, you agree to be subject to the revised
+            of this Privacy Policy. \n
+            Our promise \n
+             We are very grateful for the opportunity to provide you with products and services. Since the establishment of FlyPie Technology, winning and maintaining your trust has always been our service tenet. We promise to respect and guarantee
+            protect the privacy and personal information you provide, and also hope that you understand our privacy protection policies, including how to collect, use and disclose your personal information. \n
+             We designate a dedicated team to manage your personal information protection, including systems, dispute resolution, training, liaison, etc., and directly report to the chairman, general manager and marketing director
+            report matters related to privacy protection. \n
+             We will ensure that when you apply for any product or service, you are informed of the purpose for which the above information was collected. If we wish to use your personal information for other purposes, we will apply to you. \n
+    </string>
+    <string name="login_verification_def" translatable="false">Login_verification</string>
+    <string name="getting_verification" translatable="false">Getting_verification...</string>
+    <string name="resend" translatable="false">Resend</string>
+    <string name="login_get_verification" translatable="false">Send code</string>
+    <string name="enter_your_phone_number" translatable="false">Enter Your Phone Number</string>
+    <string name="phone_number_does_not_meet_the_requirements" translatable="false">Invalid Phone Number</string>
+    <string name="verification_code_does_not_meet_the_requirements" translatable="false">Invalid Code</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="modify_nickname" translatable="false">Name</string>
+    <string name="login_back" translatable="false">back</string>
+    <string name="reposition" translatable="false">Repostion</string>
+    <string name="region" translatable="false">Region</string>
+    <string name="main_network_exception" translatable="false">The network is abnormal, please check the network connection</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="select_country" translatable="false">Select Country</string>
+    <string name="prompt" translatable="false">Note</string>
+    <string name="go_to_settings" translatable="false">Setting</string>
+    <string name="permission_not_open" translatable="false">The permission has not been activated, the application cannot be used normally, please go to the settings interface to start it!</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="end" translatable="false">Finish</string>
+    <string name="continues" translatable="false">Continue</string>
+    <string name="confirm" translatable="false">Confirm</string>
+    <string name="skip" translatable="false">Skip</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="take_photo" translatable="false">Take_Photo</string>
+    <string name="photo_album" translatable="false">Album</string>
+    <string name="flypai" translatable="false">DUMS</string>
+    <string name="uav" translatable="false">Drone</string>
+    <string name="media" translatable="false">Album</string>
+    <string name="can_installed_fw" translatable="false">Firmware_Update</string>
+    <string name="found_update" translatable="false">Update</string>
+    <string name="updating_plane_fw" translatable="false">Update_fms_firmware</string>
+    <string name="updating_camera_fw" translatable="false">Update_camera_firmware</string>
+    <string name="updating_yuntai_fw" translatable="false">Update_gimbal_firmware</string>
+    <string name="confirm_updating_plane_fw" translatable="false">Confirm update flight controller firmware</string>
+    <string name="confirm_updating_camera_fw" translatable="false">Confirm update camera firmware</string>
+    <string name="confirm_updating_yuntai_fw" translatable="false">Confirm update PTZ firmware</string>
+    <string name="cont_updating" translatable="false">Unable to upgrade</string>
+    <string name="updating_failed" translatable="false">Upgrade unsuccessful</string>
+    <string name="updating_success" translatable="false">Update successed</string>
+    <string name="check_sd_or_connection_retry" translatable="false">Please check the SD card status or connect the drone and try again</string>
+    <string name="insert_external_card_and_retry" translatable="false">Please insert external card and try again</string>
+    <string name="updated_complete" translatable="false">Compelete</string>
+    <string name="unpacking_zip" translatable="false">Unzip the firmware</string>
+    <string name="unpacking_zip_and_dont_close_app" translatable="false">Do not close the app while the firmware is being decompressed</string>
+    <string name="unpack_zip_failed" translatable="false">Firmware extraction failed!</string>
+    <string name="dont_close_or_disconnect" translatable="false">Do not close the app or disconnect the drone</string>
+    <string name="connect_plane_retry" translatable="false">Network error, please check the drone connection and try again</string>
+    <string name="please_open_4g" translatable="false">Network error, please open 4g network</string>
+    <string name="do_not_upgrade_flying" translatable="false">During the flight, you cannot upgrade!</string>
+    <string name="press_again_exit" translatable="false">Press again to exit</string>
+    <string name="fw_is_damaged" translatable="false">The firmware is damaged and cannot be upgraded!</string>
+    <string name="fw_uploaded_successfully" translatable="false">The firmware upload was successful!</string>
+    <string name="fw_uploaded_successfully_and_restart" translatable="false">The firmware is uploaded successfully.The drone is about to restart.</string>
+    <string name="fw_uploaded_successfully_and_restart_by_yourself" translatable="false">Firmware upload successfully, please restart the drone manually</string>
+    <string name="fw_uploaded_error_sd_error" translatable="false">Firmware update error, please check SD card!</string>
+    <string name="do_not_need_to_upgrade_fw" translatable="false">Already the latest firmware, no upgrade required</string>
+    <string name="do_not_need_to_upgrade_app" translatable="false">APP is up to date!</string>
+    <string name="transmission_is_newest" translatable="false">Picture transfer is the latest!</string>
+    <string name="install_yinyongbao_client_first" translatable="false">Please install AppBao client first!</string>
+    <string name="search_wifi" translatable="false">Search WIFI</string>
+    <string name="connect_flypie" translatable="false">Please connect an aerial drone</string>
+    <string name="plane_unconnect" translatable="false">Disconnected</string>
+    <string name="connect_flypie_hint" translatable="false">Please turn on the WiFi switch and connect to the WiFi hotspot\n that starts with FP. Password: 87654321</string>
+    <string name="searching_wifi" translatable="false">Search for WiFi connection</string>
+    <string name="wifi_connect_success" translatable="false">Connection succeeded</string>
+    <string name="wifi_connectting" translatable="false">Connecting</string>
+    <string name="into_camera" translatable="false">Enter camera</string>
+    <string name="plane_need_ack" translatable="false">Activate now</string>
+    <string name="ack" translatable="false">Activation</string>
+    <string name="have_real_name" translatable="false">Real name</string>
+    <string name="turn_on_gps_before_search_wifi" translatable="false">Please turn on GPS positioning first, otherwise you cannot search for wifi</string>
+    <string name="disclaimer" translatable="false">Disclaimer</string>
+    <string name="warranty_and_activation" translatable="false">Aerial Drone Activation Warranty</string>
+    <string name="plane_noob_mode" translatable="false">Drone Novice Mode</string>
+    <string name="new_model" translatable="false">Beginner Mode</string>
+    <string name="disclaimer_title" translatable="false">FlyPie Technology warranty service disclaimer</string>
+    <string name="disclaimer_content" translatable="false">
+The following situations do not belong to the free product warranty service of aerial photography drones: \n
+● Aircraft collision and burnout accidents caused by artificial non-product quality issues; \n
+● Damage caused by unauthorized modification, disassembly, opening, etc., guided by unofficial instructions; \n
+● Aircraft damage caused by improper installation, use, and operation not in accordance with the instructions; \n
+● Without official instructions, customers will repair the damage caused by aircraft installation accessories by themselves; \n
+● Damage caused by circuit modification or improper use of batteries and chargers as directed by unofficial instructions; \n
+● All damage caused by flight and shooting that is not in accordance with the product instructions; \n
+● Damage caused by manipulation in harsh environments, such as wind, rain, snow, sand, hail, etc. \n
+● Damage caused by manipulation in a complex electromagnetic environment or a strong interference source environment, such as mining areas, transmission towers, high-voltage lines, substations, etc. \n
+● Manoeuvring in dangerous areas such as water or cliffs leads to aircraft crash, crash, water damage, etc.; \n
+● Damage caused by manipulation with mutual interference with other wireless devices, such as transmitters, image transmission signals, WiFi signal interference, etc. \n
+● Damage caused by taking off when exceeding the safe takeoff weight or carrying other items; \n
+● Damage caused by forced flight in the event of aging or damage of components; \n
+● Damage caused by reliability and compatibility issues when used with non-flying certified third-party software; \n
+● Damage caused when the battery is low or using a battery with quality problems; \n
+● The machine serial number, factory label and other signs are torn or altered; \n
+● Unauthorized modification or removal of aircraft identification labels or parts. \n
+Special Tips \n
+Drone aerial photography is a professional technical act. Please ensure that you have mastered the essentials of flight technology before flying and strictly follow the "Flight Safety Precautions". If you do not master the flight technology essentials or do not follow the "Flight Safety Precautions" , The third party compensation caused by this has nothing to do with the company. If you continue to use any or all of the services provided by Flying Shot Technology, it means that you have fully understood and agreed to all the above terms. \n
+
+The final interpretation right belongs to Shenzhen FlyPie Technology Co., Ltd.
+       </string>
+    <string name="next_step" translatable="false">Next</string>
+    <string name="previous_step" translatable="false">Back</string>
+    <string name="disclaimer_content_time" translatable="false">Shenzhen FlyPie Technology company \n2019年4月1日</string>
+    <string name="warranty_and_activation_hint" translatable="false">
+       Connect drone for the first time, \n
+The machine hardware modules need to be activated. \n
+Once activated, you will have a one-year free warranty on the drone.
+    </string>
+    <string name="plane_noob_hint" translatable="false">For your flight safety, the factory default setting is novice mode,
+Take-off is not allowed without GPS information, and limits flight altitude and flight radius.
+    </string>
+    <string name="activation_successful" translatable="false">Activated successfully</string>
+    <string name="activation_success_hint" translatable="false">
+    Activated successfully! \n
+For the first time, we recommend you watch the video tutorial. \n
+I wish you a happy flight!
+    </string>
+    <string name="video_tutorial" translatable="false">Video Tutoral</string>
+    <string name="mobile_data_network_open" translatable="false">Please turn on the mobile data network and reconnect with the drone and try again!</string>
+    <string name="uav_wifi_is_normal" translatable="false">Please check if the drone WIFI is normal!</string>
+    <string name="acking" translatable="false">Activating</string>
+    <string name="specification" translatable="false">Manual</string>
+    <string name="upgrade_introduce" translatable="false">Upgrade introduction</string>
+    <string name="real_name_registration" translatable="false">Real name registration</string>
+    <string name="real_name_registration_teach" translatable="false">Real Name Registration Tutorial</string>
+    <string name="setting" translatable="false">Setting</string>
+    <string name="duration" translatable="false">Duration:</string>
+    <string name="size" translatable="false">Size:</string>
+    <string name="light_control_serial_number" translatable="false">Flight Control Serial Number</string>
+    <string name="drone_serial_number" translatable="false">Drone serial number</string>
+    <string name="register_plane_now" translatable="false">Register now</string>
+    <string name="clear_cache_data" translatable="false">Clear cached data</string>
+    <string name="reset_novice_boot" translatable="false">Reset Novice Boot</string>
+    <string name="feedback" translatable="false">Feedback</string>
+    <string name="reading" translatable="false">Reading ...</string>
+    <string name="unconnect_aircraft" translatable="false">No aircraft connected</string>
+    <string name="not_ack" translatable="false">Inactivated</string>
+    <string name="acked" translatable="false">Activated</string>
+    <string name="peace_time_end" translatable="false">Peace of mind plans to:</string>
+    <string name="peace_time_not_to_buy" translatable="false">Relief Plan: Not Purchased</string>
+    <string name="panorama_gallery" translatable="false">Panorama gallery</string>
+    <string name="move_time_delay" translatable="false">Time-lapse</string>
+    <string name="photo" translatable="false">Photo</string>
+    <string name="video" translatable="false">Video</string>
+    <string name="wide_photo" translatable="false">Wide angle photo</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="download" translatable="false">Download</string>
+    <string name="deleting" translatable="false">Deleting</string>
+    <string name="there_are_0_files" translatable="false">0 File</string>
+    <string name="the_latest" translatable="false">Latest</string>
+    <string name="total" translatable="false">Total</string>
+    <string name="selected" translatable="false">Selected</string>
+    <string name="file" translatable="false">file</string>
+    <string name="multi_select" translatable="false">Multi Select</string>
+    <string name="check_all" translatable="false">Select All</string>
+    <string name="empty" translatable="false">(Empty)</string>
+    <string name="unselect_all" translatable="false">Unselect all</string>
+    <string name="panoramic_library" translatable="false">Panoramic Album</string>
+    <string name="delay_time_library" translatable="false">Delay library</string>
+    <string name="panoramic" translatable="false">Panoramic</string>
+    <string name="delay_time" translatable="false">TL</string>
+    <string name="wide_angle" translatable="false">Wide Angle</string>
+    <string name="panorama_group_preview" translatable="false">Panorama group preview</string>
+    <string name="delay_group_preview" translatable="false">Time-lapse group preview</string>
+    <string name="wide_angle_group_preview" translatable="false">Wide Angle Photos Preview</string>
+    <string name="uncomposed_panorama_group" translatable="false">Uncomposited panorama group</string>
+    <string name="are_u_sure_delect_selected_file" translatable="false">Delete selected files?</string>
+    <string name="download_files_form_flypai" translatable="false">Download picture group from device</string>
+    <string name="download_file_form_flypai" translatable="false">Download this file from your device</string>
+    <string name="downloading_file_form_flypai" translatable="false">Downloading from device ...</string>
+    <string name="please_select_one_file_at_least" translatable="false">Please select at least one file</string>
+    <string name="select_undownloaded_file_at_least" translatable="false">Please select at least one undownloaded file</string>
+    <string name="download_file_form_flypai_prompt" translatable="false">
+        It takes time to download the group of pictures from the device and consume a lot of system resources,
+         Make sure the drone has landed and remains connected.</string>
+    <string name="editor" translatable="false">Edit</string>
+    <string name="return_back" translatable="false">Return</string>
+    <string name="file_details" translatable="false">File Details</string>
+    <string name="file_date" translatable="false">Date：</string>
+    <string name="file_size" translatable="false">Size：</string>
+    <string name="file_format" translatable="false">Format：</string>
+    <string name="photo_preview" translatable="false">Photo Preview</string>
+    <string name="synthetic_resolution" translatable="false">Synthetic definition</string>
+    <string name="synthetic" translatable="false">Synthesis</string>
+    <string name="very_clear" translatable="false">Extremely clear</string>
+    <string name="super_clear" translatable="false">Ultra-clear</string>
+    <string name="hd" translatable="false">HD</string>
+    <string name="hd_advice" translatable="false">Mobile phone memory (RAM) ≤ 2G is recommended to synthesize SD;</string>
+    <string name="super_clear_advice" translatable="false">Mobile phone memory (RAM) ≤ 4G is recommended to synthesize ultra-clear;</string>
+    <string name="very_clear_advice" translatable="false">Mobile phone memory (RAM) ≤ 6G is recommended to be extremely clear;</string>
+    <string name="synthetic_advice" translatable="false">The higher the resolution, the larger the memory is occupied, and insufficient memory will cause the APP to exit abnormally.</string>
+    <string name="enter_edit" translatable="false">Edit</string>
+    <string name="panorama_synthesis" translatable="false">Panorama synthesis</string>
+    <string name="syning_panor_hint" translatable="false">The panorama is being synthesized and requires a lot of computing resources. Do not quit the program halfway!</string>
+    <string name="syning_wide_photo_hint" translatable="false">Wide-angle photos are being synthesized, requiring a lot of computing resources, please do not quit the program halfway!</string>
+    <string name="syning_delay_time_video_hint" translatable="false">Time-lapse video is being synthesized, which requires a lot of computing resources, please wait about 3-4 minutes, do not quit the program halfway!</string>
+    <string name="synthesis_failure" translatable="false">Fail</string>
+    <string name="synthesis_success" translatable="false">Success</string>
+    <string name="deficiency_characteristic_points" translatable="false">Characteristic points are not obvious</string>
+    <string name="confirm_deletion" translatable="false">Delete</string>
+    <string name="confirm_download" translatable="false">Download</string>
+    <string name="confirm_synthetic" translatable="false">Photomontage</string>
+    <string name="confirm_share" translatable="false">Share</string>
+    <string name="synthetic_long_time_prompt" translatable="false">
+        Process is take some time，\n
+        ensure your drone is land off，Please don"t exit.</string>
+    <string name="plane_climb_to" translatable="false">Aircraft is rise to</string>
+    <string name="then_return_to_departure_point" translatable="false">m，and back to Take-off point</string>
+    <string name="quit_looking_for" translatable="false">Exit</string>
+    <string name="sky_type_sunny_day" translatable="false">Sunny</string>
+    <string name="sky_type_cloudy_day" translatable="false">Cloudy</string>
+    <string name="sky_type_twilight" translatable="false">Sunset</string>
+    <string name="sky_type_night" translatable="false">Night</string>
+    <string name="sky_type_special" translatable="false">Special</string>
+    <string name="brightness" translatable="false">Brightness</string>
+    <string name="contrast" translatable="false">C</string>
+    <string name="saturation" translatable="false">S</string>
+    <string name="exit" translatable="false">Exit</string>
+    <string name="syntheticing" translatable="false"> Process...</string>
+    <string name="preview" translatable="false">Preview</string>
+    <string name="loading" translatable="false">Loading...</string>
+    <string name="shearing" translatable="false">Cutting..</string>
+
+
+    // 相机界面
+    <string name="camra_set_record_hd" translatable="false">HD record</string>
+    <string name="camra_set_photo_take_method" translatable="false">Photo</string>
+    <string name="camra_set_photo_atio" translatable="false">Photo Size</string>
+    <string name="camra_set_photo_ruidu" translatable="false">Sharpness</string>
+    <string name="enhancement_effect" translatable="false">Effect enhancement</string>
+    <string name="camra_set_photo_raw" translatable="false">RAW Format</string>
+    <string name="camra_set_antikey" translatable="false">HZ</string>
+    <string name="camra_set_qianbideng" translatable="false">Forearm Light</string>
+    <string name="camra_set_houbideng" translatable="false">Backarm Light</string>
+    <string name="camra_set_yt_hori_set" translatable="false">Gimbal Calibration</string>
+    <string name="camra_set_grid" translatable="false">Grid</string>
+    <string name="camra_set_sd_cap" translatable="false">SD card space</string>
+    <string name="camra_set_sd_reset" translatable="false">Reset camera</string>
+    <string name="camra_set_sd_reset_ing" translatable="false">Setting</string>
+    <string name="camra_set_sd_format" translatable="false">Format SD Card</string>
+    <string name="camra_set_sd_move" translatable="false">File transfer</string>
+    <string name="camra_set_zoomslider" translatable="false">Zoom Speed</string>
+    <string name="camra_set_video_atio" translatable="false">Video Size</string>
+    <string name="camra_dimension" translatable="false">6K</string>
+    <string name="camra_sd_not_insert" translatable="false">SD card is not inserted</string>
+    <string name="camra_sd_move" translatable="false">Import photos and videos from camera built-in card to SD card?</string>
+    <string name="camra_sd_internal_use" translatable="false">Using built-in card</string>
+    <string name="camra_sd_move_photo" translatable="false">Exporting</string>
+    <string name="camra_sd_move_prepare" translatable="false">Preparing... </string>
+    <string name="camra_sd_move_ok" translatable="false">Success</string>
+    <string name="camra_sd_move_empty" translatable="false">Card is empty</string>
+    <string name="camra_set_head_video" translatable="false">Video set</string>
+    <string name="camra_set_head_photo" translatable="false">Photo set</string>
+    <string name="camra_set_head_general" translatable="false">Regualr Setting</string>
+    <string name="camra_set_busy" translatable="false">Error,try again</string>
+    <string name="shutter" translatable="false">EV</string>
+    <string name="yuntai_calibration" translatable="false">Adjust Gimbal</string>
+    <string name="waypoint" translatable="false">Flight Point</string>
+    <string name="distance" translatable="false">D</string>
+    <string name="the_number_of_waypoint_cannot_be_more_than_10" translatable="false">Waypoints cannot be greater than 10</string>
+    <string name="waypoint_max_limit" translatable="false">The waypoint cannot exceed the longest flight distance of the aircraft!</string>
+    <string name="waypoint_max_limit_300" translatable="false">The waypoint cannot be greater than 300m from the takeoff point!</string>
+    <string name="total_mileage_shall_not_exceed_2km" translatable="false">The total mileage does not exceed 2km!</string>
+    <string name="at_least_two_waypoints" translatable="false">Set at least 2 Flight Point...</string>
+    <string name="plane_not_positioned" translatable="false">The aircraft is not positioned</string>
+    <string name="pause" translatable="false">Pause</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="low_electricity_return" translatable="false">Low Battery Return</string>
+    <string name="immediately_return" translatable="false">Immediately Return</string>
+    <string name="forced_landing" translatable="false">Force Landing</string>
+    <string name="forced_landing_hint" translatable="false">Battery Low,Force Landing</string>
+    <string name="low_battery_must_return" translatable="false">Low Baterry,Immediately Return！</string>
+    <string name="battery_seriously_low_forcing_landing" translatable="false">Low Baterry,Force Landing！</string>
+    <string name="nose_and_tail_switched" translatable="false">The head has been changed</string>
+    <string name="long_press_return" translatable="false">Press and hold the remote control one-way home button to exit the home mode, otherwise the aircraft cannot be unlocked</string>
+    <string name="head_change_hint_text" translatable="false">The nose and tail of the aircraft are changed. This function is often used for selfies. Please pay attention to the direction of flight when pushing the joystick!</string>
+    <string name="indicate_head_change_hint_text" translatable="false">Note: The direction of the red light on the arm is the aircraft nose</string>
+    <string name="vr_mode" translatable="false">VR\n Pano</string>
+    <string name="plane_unlocked" translatable="false">The aircraft is not unlocked</string>
+    <string name="single_click_map_set_point" translatable="false">Click a point on the map to set it as a waypoint</string>
+    <string name="stop_return_back" translatable="false">Stop returning</string>
+    <string name="filpping" translatable="false">Flipping...</string>
+    <string name="arounding" translatable="false">Surrounding...</string>
+    <string name="phone_gps_of_follow" translatable="false">GPS Signal</string>
+    <string name="phone_gps_low_check_permissions" translatable="false">The phone is not positioned, please check if the phone has the positioning permission turned on</string>
+    <string name="no_phone_gps_for_follow" translatable="false">The phone is not positioned and cannot be followed, please check if the phone has the positioning permission turned on</string>
+    <string name="too_far_away_for_follow" translatable="false">Too Far Away to Follow</string>
+
+    <string name="wrap" translatable="false">Shooting Complete</string>
+    <string name="take_panorama_error" translatable="false">Error,please check SD card</string>
+    <string name="take_wide_error" translatable="false">Error,please check SD card</string>
+    <string name="take_delaytime_error" translatable="false">Error,please check SD card</string>
+
+    <string name="complete" translatable="false">Complete</string>
+    <string name="formatting" translatable="false">formatting</string>
+    <string name="format_successful" translatable="false">Format Successful！</string>
+    <string name="format_failure" translatable="false">Failed！</string>
+    <string name="sd_card_full" translatable="false">SD card is full</string>
+    <string name="sd_low_speed" translatable="false">Low speed card</string>
+    <string name="take_photo_failure" translatable="false">Take a picture error!</string>
+    <string name="sd_card_not_inserted" translatable="false">No SD Card</string>
+    <string name="reinsert_sd_card" translatable="false">Reinsert SD Card</string>
+    <string name="the_shutter" translatable="false">Shutter</string>
+    <string name="exposure" translatable="false">Exposure</string>
+    <string name="the_proportion" translatable="false">Proportion</string>
+    <string name="ensure_takeoff_environment" translatable="false">The aircraft will automatically take off to a height of 2.0M. \nPlease ensure that the aircraft is level and the flight environment is safe.</string>
+    <string name="key_to_take_off" translatable="false">Tap to take off</string>
+    <string name="key_to_take_off_for_gps" translatable="false">Tap to take off only can use under GPS Mode，\nPlease change to GPS Mode</string>
+    <string name="key_to_return" translatable="false">Tap to return</string>
+    <string name="confirm_take_off" translatable="false">Confirm Take Off</string>
+    <string name="plane_not_connected" translatable="false">Diconnected</string>
+    <string name="remote_control_not_connected" translatable="false">The remote is not connected</string>
+    <string name="being_shadowed" translatable="false">Returning</string>
+    <string name="cautious_flight_for_posture" translatable="false">Please fly carefully (attitude)</string>
+    <string name="wide_photo_mode" translatable="false">Wide Angle\n Mode</string>
+    <string name="panoramic_mode" translatable="false">Panoramic Mode</string>
+    <string name="delay_model" translatable="false">Time Lapsed Mode</string>
+    <string name="control_model" translatable="false">Smart mode</string>
+    <string name="safe_flight_for_gps" translatable="false">Safe flight</string>
+    <string name="dont_support_this_video_play" translatable="false">This video is not supported</string>
+    <string name="ready_to_play" translatable="false">Ready to play...</string>
+    <string name="around_flight" translatable="false">Flying around</string>
+    <string name="auto_falling" translatable="false">Auto Landing</string>
+    <string name="following" translatable="false">Fllowing</string>
+    <string name="smart_follow" translatable="false">Smart\n Tracking</string>
+    <string name="compass_not_calibrated" translatable="false">Compass is not calibrated</string>
+    <string name="beginner_mode" translatable="false">Beginner Mode</string>
+    <string name="return_mode" translatable="false">Home mode</string>
+    <string name="plane_not_activated" translatable="false">Product is not activated</string>
+    <string name="panorama_saved" translatable="false">720°Pano Saved！</string>
+    <string name="author" translatable="false">Author:</string>
+    <string name="panor_share_title" translatable="false">Title:</string>
+    <string name="works_describe" translatable="false">Description:</string>
+    <string name="title_cannot_be_empty" translatable="false">Share title cannot be empty, please re-enter!</string>
+    <string name="description_cannot_be_empty" translatable="false">Share description cannot be empty, please re-enter!</string>
+    <string name="author_cannot_be_empty" translatable="false">Share author cannot be empty, please re-enter!</string>
+    <string name="three_million_panorama_share_4k" translatable="false">The uav takes 4K "300 million pixel" VR panorama</string>
+    <string name="three_million_panorama_share_6k" translatable="false">The uav takes 6K "400 million pixel" VR panorama</string>
+    <string name="take_a_look_at_my_panorama" translatable="false">Take a look at the 720 ° VR panorama I shot with a FlyPie drone.</string>
+    <string name="wechat_friends" translatable="false">WeChat friends</string>
+    <string name="circle_friends" translatable="false">Circle of friends</string>
+    <string name="qq_friends" translatable="false">QQ friends</string>
+    <string name="qzone" translatable="false">Qzone</string>
+    <string name="weibo" translatable="false">Sina</string>
+    <string name="saving" translatable="false">Saving...</string>
+    <string name="uploads_require_around_10m_traffic" translatable="false">Tip: uploading requires about 10m traffic</string>
+    <string name="hint_upload_need" translatable="false">Tip: uploading required</string>
+    <string name="traffic" translatable="false">Left and right traffic</string>
+    <string name="please_choose_sharing_platform" translatable="false">Please choose a sharing platform!</string>
+    <string name="making_panorama" translatable="false">Making...</string>
+    <string name="uploading_panorama" translatable="false">Uploading...</string>
+    <string name="shared_success" translatable="false">Success！</string>
+    <string name="shared_failure" translatable="false">Failed！</string>
+    <string name="shared_cancel" translatable="false">Cancel！</string>
+    <string name="jumping_wait" translatable="false">Loading...</string>
+    <string name="crop_error" translatable="false">Error,try again...</string>
+    <string name="cropping" translatable="false">Cutting...</string>
+    <string name="already_synthesized_check_list" translatable="false">Already synthesized, please check in the list</string>
+    <string name="synthesis_success_check_in_media_list" translatable="false">The composition is successful, please check in the media library list</string>
+    <string name="cropped_panor_photo_saved" translatable="false">Cropped photos have been saved locally!</string>
+    <string name="flight_control" translatable="false">Flight Ctrl</string>
+    <string name="battery" translatable="false">Battery</string>
+
+    <string name="return_alt" translatable="false">Auto Return Height</string>
+    <string name="return_alt_details" translatable="false">The aircraft will climb to this altitude before returning straight to the takeoff point.\n Please set it according to the current flight environment. If the height is not sufficient,\n it may cause obstacles such as hitting buildings in the middle.</string>
+    <string name="return_point_reset" translatable="false">Reset Home point</string>
+    <string name="gps_normal_can_reset" translatable="false">When GPS Signal normal</string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="gps_dont_open_hint" translatable="false">The mobile phone positioning function is not turned on, it will affect the function use, go to settings!</string>
+    <string name="return_point_reset_details" translatable="false">When returning home automatically, the aircraft defaults to the starting point of the flight. Click Reset and the return home point will be changed to the current position of the mobile phone.</string>
+    <string name="confirm_reset_return_point_to_phone_position" translatable="false">Confirm resetting the aircraft home point to the current mobile phone position?</string>
+    <string name="flight_control_restricted" translatable="false">Aircraft restrictions</string>
+    <string name="highly_restricted_max" translatable="false">Max Height Setting（30-500）</string>
+    <string name="distance_limit_max2" translatable="false">Max Distance Setting（30-2000）</string>
+    <string name="distance_limit_max5" translatable="false">Max Distance Setting（30-5000）</string>
+    <string name="distance_limit_max4" translatable="false">Max Distance Setting（30-4000）</string>
+    <string name="return_hight_limit_max200" translatable="false">(30-200)</string>
+    <string name="return_hight_limit_max120" translatable="false">(30-120)</string>
+    <string name="safeguard" translatable="false">Safe Guard</string>
+    <string name="eight_down_outside" translatable="false">Outside eight downtime</string>
+    <string name="eight_down_outside_details" translatable="false">The dual remote sticks are pushed towards the outer bottom at the same time, and the motor will be shut down urgently, please use it with caution.</string>
+    <string name="safeguard_details" translatable="false">When the safety protection is activated, the GPS signal must be received before taking off.\n Turn off the protection to allow flight in attitude mode. Non-professionals should not turn off.</string>
+    <string name="gyroscope_calibration" translatable="false">Adujust Gyroscope</string>
+    <string name="abnormal" translatable="false">（Anomaly）</string>
+    <string name="normal" translatable="false">（Normal）</string>
+    <string name="gyroscope_need_calibration" translatable="false">The aircraft gyroscope needs to be calibrated. Please place the aircraft on a level ground for calibration.</string>
+    <string name="gyroscope_calibrationing" translatable="false">Gyroscope being calibrated</string>
+    <string name="start_gyroscope_calibration_dg_hint" translatable="false">Please place the aircraft on a level ground, away from interference sources such as metal and signal towers. During the calibration process, ensure that the aircraft remains horizontally stationary.</string>
+    <string name="gyroscope_calibrationing_dg_hint" translatable="false">During the calibration process, ensure that the aircraft remains horizontally stationary.</string>
+    <string name="gyroscope_calibration_details" translatable="false">Before performing gyroscope calibration, make sure the aircraft is level, and it will be calibrated\n automatically after pressing OK.</string>
+    <string name="yuntai_calibration_details" translatable="false">Make sure that the aircraft level, a few seconds after clicking calibration, automatic calibration\n will PTZ(PTZ period would be crooked, and issued bared bared sound, and finally back to the\n positive, the calibration is complete)</string>
+    <string name="max_speed_limit" translatable="false">Max Speed Setting</string>
+    <string name="rising" translatable="false">Rise</string>
+    <string name="falling" translatable="false">Landing</string>
+    <string name="standard" translatable="false">Level</string>
+    <string name="calibration" translatable="false">Adjust</string>
+    <string name="compass_alignment" translatable="false">Calibrate Compass</string>
+    <string name="figure_upgrade" translatable="false">Image transfer upgrade</string>
+    <string name="upgrade" translatable="false">Upgrade</string>
+    <string name="compass_need_alignment" translatable="false">The aircraft gyroscope needs to be calibrated, Please\nplace the aircraft on a level ground for calibration</string>
+    <string name="compass_alignmenting" translatable="false">Calibrating the Compass</string>
+    <string name="compass_alignment_details" translatable="false">Before Calibrate the Compass，ensure the aircraft away from metal and strong interference areas\n to prevent electromagnetic interference.</string>
+    <string name="start_compass_calibration_dg_hint" translatable="false">Please fly away from interference sources such as metal and signal towers. To avoid electromagnetic interference to the aircraft during the calibration process.</string>
+    <string name="compass_calibrationing_dg_hint" translatable="false">
+       The yellow light of the aircraft\'s navigation light is flashing, and calibration has started. Lift the aircraft horizontally about 1.5m off the ground, as shown in the animation, rotate it vertically until the yellow light goes out.</string>
+    <string name="find_plane" translatable="false">Looking for an aircraft</string>
+    <string name="find_the_plane" translatable="false">Look for a drone</string>
+    <string name="find_plane_details" translatable="false">The app has recorded the take-off point and end point. If the aircraft has been lost,\n you can try to find it according to the following ideas:
+     \n1. The aircraft may be lost on the way back, looking for a straight path between the\n takeoff point and the end point.
+     \n2. The aircraft may be lost near the end point and look for it near the end point. "</string>
+    <string name="intelligent_battery_info" translatable="false">Smart battery details</string>
+    <string name="voltage" translatable="false">Voltage (V)</string>
+    <string name="line" translatable="false">Line</string>
+    <string name="temperature" translatable="false">Temperature (℃)</string>
+    <string name="battery_capacity" translatable="false">Capacity (mAh)</string>
+    <string name="electricity" translatable="false">Current (mA)</string>
+    <string name="cycles" translatable="false">Battery cycle (times)</string>
+    <string name="highly" translatable="false">H</string>
+    <string name="lift" translatable="false">V.S</string>
+    <string name="start_calibration" translatable="false">Calibrating </string>
+    <string name="cancel_calibration" translatable="false">Calibrate Canceled</string>
+    <string name="compass_calibration_complete" translatable="false">Complete</string>
+    <string name="compass_calibration_failure" translatable="false">Failed</string>
+    <string name="gyroscope_calibration_complete" translatable="false">Complete</string>
+    <string name="move_plane_to_take_panor" translatable="false">Move the aircraft to the position where the panorama is taken</string>
+    <string name="total_shooting_time" translatable="false">Total shooting time</string>
+    <string name="minutes" translatable="false">Minutes</string>
+    <string name="make_sure_sufficient_power" translatable="false">* Please make sure the aircraft is fully charged.</string>
+    <string name="during_will_finish_shooting" translatable="false">* Controlling the aircraft during shooting will end shooting.</string>
+    <string name="return_to_synthesize" translatable="false">* If you need to synthesize VR panoramic photos, it is recommended to return home.</string>
+    <string name="interrupt" translatable="false">Interrupt</string>
+    <string name="vr_taking" translatable="false">VR pano Shooting...</string>
+    <string name="wide_angle_taking" translatable="false">Wide Angle photos Shooting...</string>
+    <string name="shooting" translatable="false">Shooting</string>
+    <string name="amount_of_sheets" translatable="false">pcs</string>
+    <string name="surrounded_by_arget" translatable="false">Target flying</string>
+    <string name="current_around_speed" translatable="false">Current surround speed</string>
+    <string name="around_height" translatable="false">height</string>
+    <string name="around_radius" translatable="false">radius</string>
+    <string name="m" translatable="false">m</string>
+    <string name="move_plane_over_canter_circle" translatable="false">Please move the aircraft above the center of the circle</string>
+    <string name="around_make_sure_sufficient_power" translatable="false">*Please make sure the height and radius of the encirclement is sufficient.</string>
+    <string name="flying_at_uniform_speed_direction_you_chosen" translatable="false">The aircraft is flying at an even speed in the direction you currently choose</string>
+    <string name="tagget_around" translatable="false">POI</string>
+    <string name="total_shooting_size" translatable="false">Total photos taken</string>
+    <string name="make_sure_sufficient_power_and_barrier_free" translatable="false">* Please ensure that the direction you choose is free of obstacles to ensure flight safety.</string>
+    <string name="fly_speed_and_distance_setting" translatable="false">Flight speed and distance settings</string>
+    <string name="fly_at_constant_speed" translatable="false">*The aircraft will shoot at a constant speed.</string>
+    <string name="camera_picture_as_front_fly" translatable="false">With the camera screen as the front, select the moving direction of the aircraft</string>
+    <string name="fly_speed" translatable="false">Flying speed</string>
+    <string name="fly_distance" translatable="false">Flight distance</string>
+    <string name="delay_time_shooting" translatable="false">During time-lapse shooting...</string>
+    <string name="front" translatable="false">Front</string>
+    <string name="back" translatable="false">Back</string>
+    <string name="left" translatable="false">Left</string>
+    <string name="right" translatable="false">Right</string>
+    <string name="navigation_point_set" translatable="false">Waypoint set</string>
+    <string name="total_distance" translatable="false">Total Distance</string>
+    <string name="pcs" translatable="false">pcs</string>
+    <string name="waypoint_speed" translatable="false">Cruising speed</string>
+    <string name="set_waypoint_speed" translatable="false">Set cruise speed</string>
+    <string name="waypoint_fly" translatable="false">Waypoint\n Mode</string>
+    <string name="waypoint_flying" translatable="false">Waypoint flight in progress...</string>
+    <string name="waypoint_flying_pasued" translatable="false">Waypoint flight has been suspended</string>
+    <string name="waypoint_make_sure_sufficient_power" translatable="false">*Please make sure the aircraft is fully charged.</string>
+    <string name="push_rocker_adjust_following_position" translatable="false">Please push the joystick to adjust the following position</string>
+    <string name="weak" translatable="false">Weak</string>
+    <string name="strong" translatable="false">Strong</string>
+    <string name="follow_must_10m_height_20m_distance" translatable="false">*Following height must be above 10 meters, and distance must be above 20 meters.</string>
+    <string name="intelligent_following" translatable="false">Following smartly...</string>
+    <string name="intelligent_follow_pause" translatable="false">Smart following has been suspended</string>
+    <string name="follow_height" translatable="false">Height</string>
+    <string name="follow_distance" translatable="false">Distance</string>
+    <string name="speed" translatable="false">H.S</string>
+    <string name="disconnected_and_returning" translatable="false">The aircraft is disconnected and is returning</string>
+    <string name="upgrading_plan" translatable="false">Upgrade plan</string>
+    <string name="officially_launch" translatable="false">Officially launched</string>
+    <string name="camera_set_cannot_meter" translatable="false">Metering is not supported in manual ISO mode</string>
+    <string name="camera_set_can_meter_a" translatable="false">Exposure locked for metering</string>
+    <string name="wifi_occupied" translatable="false">Aircraft WIFI is occupied</string>
+    <string name="open_available_net_hint" translatable="false">The network is unavailable, please turn on the mobile data network or available WiFi!</string>
+    <string name="wifi_occupied_disconnect_other_connections" translatable="false">WIFI of the aircraft has been preempted by other mobile phones, please disconnect the other mobile phones first and then click OK. We will try to reconnect, otherwise there may be abnormal communication.</string>
+    <string name="start_fly" translatable="false">Start</string>
+    <string name="adjust_stop_fly" translatable="false">Operating the remote control will automatically stop flying</string>
+    <string name="turn_left" translatable="false">Turn\nleft</string>
+    <string name="turn_right" translatable="false">Turn\nright</string>
+    <string name="front_fly" translatable="false">Fly\nforward</string>
+    <string name="behind_fly" translatable="false">Fly\nback</string>
+    <string name="left_fly" translatable="false">Left\nfly</string>
+    <string name="right_fly" translatable="false">Right\nfly</string>
+    <string name="prohibited_use" translatable="false">Prohibited for current combination</string>
+    <string name="disable_smart_mode" translatable="false">Flying height is less than 5 meters, smart mode cannot be used</string>
+    <string name="plane_not_positioned_auto" translatable="false">Not available in non-GPS mode</string>
+    <string name="mainland_china_code" translatable="false">（+86）China</string>
+    <string name="cancel_panor" translatable="false">Cancel panorama</string>
+    <string name="cancel_delay" translatable="false">Cancel delay</string>
+    <string name="smart_wide_photo_mode" translatable="false">Wide Angle Mode</string>
+    <string name="smart_waypoint_fly" translatable="false">Waypoint Mode</string>
+    <string name="user_agreement_title" translatable="false">User agreement</string>
+    <string name="privacy_policy_title" translatable="false">Privacy policy</string>
+    <string name="user_copyright" translatable="false">Copyright©2019 DUMS Tech All rights reserved.</string>
+    <string name="list" translatable="false">List</string>
+    <string name="set_region_name_hint">Enter name</string>
+    <string name="map_offline_dialog_title">Name new region</string>
+    <string name="map_offline_dialog_message">Downloads the map region you currently are viewing</string>
+    <string name="map_offline_dialog_toast">Region name cannot be empty.</string>
+    <string name="map_offline_cancel">CANCEL</string>
+    <string name="map_offline_download">DOWNLOAD</string>
+    <string name="map_offline_download_success">Region downloaded successfully.</string>
+    <string name="region_name">Region %1$d</string>
+    <string name="navigate_positive_button">Navigate to</string>
+    <string name="toast_region_deleted">Region deleted</string>
+    <string name="offline_map">Offline Map</string>
+    <string name="toast_no_regions_yet">You have no regions yet.</string>
+
+    <string name="update_panor_bg_music_success" translatable="false">Update background music successfully!</string>
+    <string name="update_panor_bg_music_failure" translatable="false">Failed to update background music!</string>
+    <string name="teach_first_flight" translatable="false">Flying for the first time</string>
+    <string name="teach_app_usage_tutorial" translatable="false">APP Usage Tutorial</string>
+    <string name="teach_flight_instruction" translatable="false">Flight instruction</string>
+    <string name="smart_down_height_shall_not_be_less_than5" translatable="false">If the height is less than 5m, the intelligent descent function is not available!</string>
+</resources>

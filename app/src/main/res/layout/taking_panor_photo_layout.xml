@@ -1,0 +1,135 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_transparent"
+    tools:context=".ui.activity.ActivationActivity">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="672px"
+        android:layout_height="417px"
+        android:background="@drawable/roundb8b8b890_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/taking_panor_photo_dg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="27px"
+            android:gravity="center"
+            android:text="@string/move_plane_to_take_panor"
+            android:textColor="@color/color_ffffff"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_marginTop="9px"
+            android:background="@color/color_333333_50"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/taking_panor_time_ly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="48px"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_shooting_time"
+                    android:textColor="@color/color_ffffff"
+                    android:textSize="30px" />
+
+                <TextView
+                    android:id="@+id/taking_panor_time_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textColor="@color/color_00cf00"
+                    android:textSize="50px"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/minutes"
+                    android:textColor="@color/color_ffffff"
+                    android:textSize="30px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/taking_panor_photo_dg_total_count_ly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/taking_panor_photo_total_count_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shooting"
+                    android:textColor="@color/color_ffffff"
+                    android:textSize="30px" />
+
+                <TextView
+                    android:id="@+id/taking_panor_photo_dg_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textColor="@color/color_00cf00"
+                    android:textSize="50px"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/taking_panor_photo_dg_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/15"
+                    android:textColor="@color/color_ffffff"
+                    android:textSize="50px"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/taking_panor_photo_dg_tv_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amount_of_sheets"
+                    android:textColor="@color/color_ffffff"
+                    android:textSize="30px" />
+            </LinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@+id/taking_panor_photo_dg_hint_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8px"
+            android:text="@string/make_sure_sufficient_power"
+            android:textColor="@color/color_ffffff_50"
+            android:textSize="30px" />
+
+        <TextView
+            android:id="@+id/taking_panor_photo_dg_btn"
+            android:layout_width="344px"
+            android:layout_height="88px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="9px"
+            android:background="@drawable/login_button_selcetor"
+            android:gravity="center"
+            android:text="@string/start"
+            android:textColor="@color/color_ffffff"
+            android:textStyle="bold" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

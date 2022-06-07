@@ -1,0 +1,7 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_panor_photo_item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="0px">
+
+</com.zhy.autolayout.AutoRelativeLayout>
+

@@ -1,0 +1,80 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_transparent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+
+    <com.feipai.flypai.ui.view.AutoScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="1140px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="@drawable/border_bg"
+        android:elevation="8px"
+        android:paddingTop="24px"
+        android:paddingBottom="24px"
+        android:scrollbars="none">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:orientation="vertical">
+
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/statement_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="60px"
+                    android:minHeight="36px"
+                    android:scrollbars="vertical"
+                    android:text="@string/disclaimer_title"
+                    android:textColor="@color/color_404040"
+                    android:textSize="30px"
+                    android:visibility="visible" />
+
+
+                <TextView
+                    android:id="@+id/content_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/statement_title"
+                    android:padding="24px"
+                    android:scrollbars="vertical"
+                    android:text="@string/disclaimer_content"
+                    android:textColor="@color/color_404040"
+                    android:textSize="30px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/content_tv"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="20px"
+                    android:gravity="center"
+                    android:maxLines="26"
+                    android:minHeight="36px"
+                    android:padding="24px"
+                    android:scrollbars="vertical"
+                    android:text="@string/disclaimer_content_time"
+                    android:textColor="@color/color_404040"
+                    android:textSize="30px"
+                    android:visibility="visible" />
+
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.feipai.flypai.ui.view.AutoScrollView>
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,53 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/flight_control_root_ly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <include
+                android:id="@+id/return_height_root_ly"
+                layout="@layout/flight_control_return_height_layout"
+                android:visibility="visible" />
+
+            <include
+                layout="@layout/flight_control_return_point_layout"
+                android:visibility="gone" />
+
+            <include
+                layout="@layout/flight_control_limit_layout"
+                android:visibility="visible" />
+
+            <include
+                layout="@layout/flight_control_safeguard_layout"
+                android:visibility="visible" />
+
+            <include
+                layout="@layout/flight_control_eight_down_outside_layout"
+                android:visibility="gone" />
+
+            <include
+                layout="@layout/flight_control_speed_limit_layout"
+                android:visibility="visible" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+
+    <com.feipai.flypai.ui.view.VirtualKeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

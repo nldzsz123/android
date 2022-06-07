@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+    <item
+        android:id="@+id/shape"
+        android:bottom="3px"
+        android:left="-10px"
+        android:right="-10px"
+        android:top="-30px">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="3px"
+                android:color="@color/color_00cf00" />
+        </shape>
+    </item>
+</layer-list>

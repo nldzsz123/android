@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/scroll_titleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dddd"
+        android:textColor="@color/color_5098e4"
+        android:textSize="50px" />
+
+
+    <com.feipai.flypai.ui.HoriScrollView
+        android:id="@+id/camera_set_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="108px"
+        android:layout_marginTop="24px"
+        android:background="@color/color_transparent"
+        app:layout_constraintBottom_toTopOf="@+id/kedu_view"
+        app:layout_constraintTop_toBottomOf="@id/scroll_titleview"
+        app:spv_alignment="center"
+        app:spv_disallow_intercept_touch="true"
+        app:spv_end_color="@color/color_b8b8b8"
+        app:spv_is_circulation="false"
+        app:spv_item_padding="20dp"
+        app:spv_max_line_width="600dp"
+        app:spv_max_text_size="26dp"
+        app:spv_min_text_size="13dp"
+        app:spv_orientation="horizontal"
+        app:spv_start_color="@color/color_ffffff"
+        app:spv_visible_item_count="5" />
+
+    <ImageView
+        android:id="@+id/kedu_view"
+        android:layout_width="50px"
+        android:layout_height="25px"
+        android:layout_marginBottom="3px"
+        android:src="@mipmap/camera_set_scroll_value" />
+</com.zhy.autolayout.AutoLinearLayout>

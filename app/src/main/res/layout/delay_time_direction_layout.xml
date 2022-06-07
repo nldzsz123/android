@@ -1,0 +1,64 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/delay_time_dg_direction_ly"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10px"
+    android:paddingBottom="10px"
+    android:background="@color/color_transparent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/delay_time_left"
+        android:layout_width="187px"
+        android:layout_height="86px"
+        android:background="@drawable/borderffffff_bg"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/color_ffffff"
+        android:textSize="35px" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/delay_time_front"
+            android:layout_width="186px"
+            android:layout_height="88px"
+            android:background="@drawable/round5098e4_bg"
+            android:gravity="center"
+            android:text="@string/front"
+            android:textColor="@color/color_ffffff"
+            android:textSize="35px" />
+
+        <TextView
+            android:id="@+id/delay_time_back"
+            android:layout_width="186px"
+            android:layout_height="88px"
+            android:layout_marginTop="24px"
+            android:background="@drawable/borderffffff_bg"
+            android:gravity="center"
+            android:text="@string/back"
+            android:textColor="@color/color_ffffff"
+            android:textSize="35px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:id="@+id/delay_time_right"
+        android:layout_width="186px"
+        android:layout_height="88px"
+        android:background="@drawable/borderffffff_bg"
+        android:gravity="center"
+        android:text="@string/right"
+        android:textColor="@color/color_ffffff"
+        android:textSize="35px" />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

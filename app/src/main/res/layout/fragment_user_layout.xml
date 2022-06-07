@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f3f3f3">
+
+    <com.zhy.autolayout.shadowlayout.ShadowRelativeLayout
+        android:id="@+id/user_info_head_ly"
+        android:layout_width="match_parent"
+        android:layout_height="465px"
+        android:background="@color/color_ffffff"
+        app:l_shadowAlpha="0.3"
+        app:l_shadowElevation="15px"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/user_info_head_img"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="54px"
+            android:background="@drawable/round_ring_b3b3b3"
+            android:scaleType="centerInside" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="54px"
+            android:layout_toRightOf="@+id/user_info_head_img"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/user_info_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flypai"
+                    android:textColor="@color/color_000000"
+                    android:textSize="60px" />
+
+                <ImageView
+                    android:id="@+id/user_info_peace_img"
+                    android:layout_width="44px"
+                    android:layout_height="54px"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="18px"
+                    android:layout_toRightOf="@+id/user_info_name"
+                    android:src="@mipmap/peace_img"
+                    android:visibility="gone" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:visibility="gone"
+                    android:textColor="@color/color_000000"
+                    android:textSize="30px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18px"
+                    android:text="@string/have_real_name"
+                    android:textColor="@color/color_38bcff"
+                    android:visibility="gone"
+                    android:textSize="30px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/user_info_peace_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="安心计划至：2020-12-01"
+                    android:textColor="@color/color_38bcff"
+                    android:textSize="30px"
+                    android:visibility="gone" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="75px"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone" />
+    </com.zhy.autolayout.shadowlayout.ShadowRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="51px"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_info_plane_ack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_b3b3b3"
+            android:textSize="30px" />
+
+        <TextView
+            android:id="@+id/user_info_app_version_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_b3b3b3"
+            android:visibility="gone"
+            android:textSize="30px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_copyright"
+            android:textColor="@color/color_b3b3b3"
+            android:visibility="gone"
+            android:textSize="30px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/user_info_rcy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/user_info_head_ly"
+        android:layout_marginTop="30px"></android.support.v7.widget.RecyclerView>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

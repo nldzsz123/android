@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="144px"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/buttons_indicator"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.feipai.flypai.ui.view.FPButton
+            android:id="@+id/buttons_first_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="50px"
+            app:textColor="#fff"
+            app:textColorPress="#5098E4" />
+
+        <com.feipai.flypai.ui.view.FPButton
+            android:id="@+id/buttons_second_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="50px"
+            app:textColor="#fff"
+            app:textColorPress="#5098E4" />
+
+        <com.feipai.flypai.ui.view.FPButton
+            android:id="@+id/buttons_third_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="50px"
+            app:textColor="#fff"
+            app:textColorPress="#5098E4" />
+
+        <com.feipai.flypai.ui.view.FPButton
+            android:id="@+id/buttons_fourth_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="50px"
+            app:textColor="#fff"
+            app:textColorPress="#5098E4" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:id="@+id/buttons_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#B8B8B8" />
+
+</com.zhy.autolayout.AutoLinearLayout>

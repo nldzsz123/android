@@ -1,0 +1,77 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="528px"
+    android:layout_marginLeft="24px"
+    android:layout_marginRight="24px"
+    android:background="@drawable/border_bg"
+    android:elevation="3px"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    tools:context=".ui.activity.ActivationActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/teach_item_img_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/teach_item_img"
+            android:layout_width="match_parent"
+            android:layout_height="421px"
+            android:scaleType="fitXY"
+            android:src="@mipmap/video_teach_cover_img" />
+
+        <ImageView
+            android:layout_width="72px"
+            android:layout_height="72px"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/play_img_def" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/teach_item_img_ly">
+
+        <TextView
+            android:id="@+id/teach_item_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40px"
+            android:text="【入门教程】飞拍APP操作教学"
+            android:textColor="@color/color_333333"
+            android:textSize="40px" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="64px">
+
+            <TextView
+                android:id="@+id/teach_item_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20px"
+                android:text="@string/duration"
+                android:textColor="@color/color_b8b8b8"
+                android:textSize="30px" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/teach_item_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/teach_item_duration"
+                android:text="@string/size"
+                android:textColor="@color/color_b8b8b8"
+                android:textSize="30px" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

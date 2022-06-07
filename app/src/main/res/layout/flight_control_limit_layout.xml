@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8px"
+    android:background="@drawable/wither_round_bg"
+    android:orientation="horizontal"
+    android:splitMotionEvents="false"
+    android:visibility="visible">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32px"
+        android:layout_marginTop="24px"
+        android:text="@string/flight_control_restricted"
+        android:textColor="@color/color_333333"
+        android:textSize="40px" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24px"
+        android:layout_marginBottom="25px"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/limit_height_root_ly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/hight_limit_eidtor"
+                android:text="@string/highly_restricted_max"
+                android:textColor="@color/color_333333"
+                android:textSize="30px" />
+
+            <EditText
+                android:id="@+id/hight_limit_eidtor"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8px"
+                android:layout_marginRight="8px"
+                android:layout_toLeftOf="@+id/distance_limit_tv"
+                android:background="@drawable/border333333_bg"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:digits="1234567890"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:imeActionLabel="完成"
+                android:inputType="number"
+                android:maxLength="5"
+                android:singleLine="true"
+                android:text="30"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/distance_limit_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16px"
+                android:text="M"
+                android:textColor="@color/color_333333"
+                android:textSize="30px" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/limit_distance_root_ly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24px"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <TextView
+                android:id="@+id/distance_limit_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/distance_limit_eidtor"
+                android:text="@string/distance_limit_max2"
+                android:textColor="@color/color_333333"
+                android:textSize="30px" />
+
+            <EditText
+                android:id="@+id/distance_limit_eidtor"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8px"
+                android:layout_marginRight="8px"
+                android:layout_toLeftOf="@+id/limit_hight_tv"
+                android:background="@drawable/border333333_bg"
+                android:clickable="true"
+                android:cursorVisible="true"
+                android:digits="1234567890"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:imeActionLabel="完成"
+                android:inputType="number"
+                android:maxLength="5"
+                android:singleLine="true"
+                android:text="30"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/limit_hight_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16px"
+                android:text="M"
+                android:textColor="@color/color_333333"
+                android:textSize="30px" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>
+
+
+
+

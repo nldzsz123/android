@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/music_group"
+        android:layout_width="130px"
+        android:layout_height="516px"
+        android:background="@drawable/music_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/music_original"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="原声"
+            android:textColor="@color/media_muice_tv_selcetor" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="#4dcfcfcf"></View>
+
+        <RadioButton
+            android:id="@+id/music_classic"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="经典"
+            android:textColor="@color/media_muice_tv_selcetor" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="#4dcfcfcf"></View>
+
+        <RadioButton
+            android:id="@+id/music_light"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="轻快"
+            android:textColor="@color/media_muice_tv_selcetor" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="#4dcfcfcf"></View>
+
+        <RadioButton
+            android:id="@+id/music_scenery"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="风景"
+            android:textColor="@color/media_muice_tv_selcetor" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="#4dcfcfcf"></View>
+
+        <RadioButton
+            android:id="@+id/music_shock"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="震撼"
+            android:textColor="@color/media_muice_tv_selcetor" />
+
+        <RadioButton
+            android:id="@+id/music_relieve"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="舒缓"
+            android:textColor="@color/media_muice_tv_selcetor"
+            android:visibility="gone" />
+
+
+    </RadioGroup>
+
+</LinearLayout>

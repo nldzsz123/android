@@ -1,0 +1,56 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="144px"
+    android:layout_margin="24px"
+    android:background="@drawable/border_b8b8b8_bg"
+    android:elevation="6px"
+    android:transformPivotX="0dp"
+    android:transformPivotY="6px"
+    android:translationZ="6px">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/media_composed_ly"
+        android:layout_width="match_parent"
+        android:layout_height="144px">
+
+        <ImageView
+            android:id="@+id/media_composed_title_img"
+            android:layout_width="72px"
+            android:layout_height="72px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="64px"
+            android:src="@mipmap/group_folder_img" />
+
+        <TextView
+            android:id="@+id/media_recy_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24px"
+            android:layout_toRightOf="@+id/media_composed_title_img"
+            android:text="@string/uncomposed_panorama_group"
+            android:textColor="@color/color_333333"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/media_recy_header_count_value_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24px"
+            android:layout_toLeftOf="@+id/media_composed_img"
+            android:text="@string/empty"
+            android:textColor="@color/color_333333_50"
+            android:textSize="40px" />
+
+        <ImageView
+            android:id="@+id/media_composed_img"
+            android:layout_width="72px"
+            android:layout_height="72px"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24px"
+            android:src="@mipmap/composed_img" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

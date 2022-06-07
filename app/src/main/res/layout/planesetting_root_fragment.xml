@@ -1,0 +1,78 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_333333"
+    android:orientation="horizontal"
+    tools:context=".ui.activity.ActivationActivity">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="240px"
+        android:layout_height="match_parent"
+        android:background="@color/color_000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoRadioGroup
+            android:id="@+id/plane_setting_root_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/flight_control_tab"
+                android:layout_width="192px"
+                android:layout_height="88px"
+                android:layout_marginTop="88px"
+                android:background="@drawable/radiobutton_background_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/flight_control"
+                android:textColor="@color/color_ffffff"
+                android:textSize="40px" />
+
+            <RadioButton
+                android:id="@+id/calibration_tab"
+                android:layout_width="192px"
+                android:layout_height="88px"
+                android:layout_marginTop="88px"
+                android:background="@drawable/radiobutton_background_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/calibration"
+                android:textColor="@color/color_ffffff"
+                android:textSize="40px" />
+
+            <RadioButton
+                android:id="@+id/battery_tab"
+                android:layout_width="192px"
+                android:layout_height="88px"
+                android:layout_marginTop="88px"
+                android:background="@drawable/radiobutton_background_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/battery"
+                android:textColor="@color/color_ffffff"
+                android:textSize="40px" />
+
+            <RadioButton
+                android:id="@+id/find_plane_tab"
+                android:layout_width="192px"
+                android:layout_height="88px"
+                android:layout_marginTop="88px"
+                android:background="@drawable/radiobutton_background_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/find_the_plane"
+                android:textColor="@color/color_ffffff"
+                android:textSize="40px" />
+        </com.zhy.autolayout.AutoRadioGroup>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:id="@+id/plane_setting_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.zhy.autolayout.AutoFrameLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

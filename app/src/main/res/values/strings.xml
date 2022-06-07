@@ -1,0 +1,772 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">飞拍无人机</string>
+    <string name="login_photo_def" translatable="false">输入手机号</string>
+    <string name="click_login_botton_means_you_agree" translatable="false">点击登录按钮，即代表你同意</string>
+    <string name="agreed" translatable="false">已同意</string>
+    <string name="and" translatable="false">和</string>
+    <string name="user_agreement" translatable="false">用户协议</string>
+    <string name="privacy_policy" translatable="false">隐私条款</string>
+    <string name="understood_and_agreed" translatable="false">我已了解并同意</string>
+    <string name="user_agreement_content" translatable="false">
+        《用户协议》（以下简称“本协议”）是您（或称“用户”，指注册、登录、使用、浏览本服务的个人或组织）
+        与深圳市飞拍科技有限公司（以下简称“飞拍”或“飞拍科技”）关于飞拍无人机APP移动应用服务（以下简称
+        “飞拍APP”)以及与飞拍APP关联的产品、程序及服务（包括但不限于飞拍APP）（以下合称“飞拍服务”）所
+        订立的协议。 飞拍科技在此特别提醒用户认真阅读、充分理解---本协议中各条款，包括免除或者限制飞拍科
+        技责任的免责条款及对用户的权利限制条款。请您审慎阅读并选择接受或不接受本协议(未成年人应在法定监护
+        人陪同下阅读），如果您对本协议的任何条款表示异议，您可以选择不使用飞拍服务。您的注册、登录、使用、
+        发布等行为将视为对本协议的接受，并同意接受本协议项下全部条款的约束。
+        您对本协议的接受即自愿接受全部条款的约束，包括接飞拍科技对任一条款随时所做的任何修改。本协议可由
+        飞拍科技随时更新，更新后的条款一旦公布即代替原本的条款，恕不再另行通知，用户可在飞拍APP查阅最新版
+        条款。在飞拍科技修改本协议相关条款之后，如果用户不接受修改后的条款，请立即停止使用飞拍服务，用户
+        继续使用飞拍服务将被视为已接受了修改后的协议。\n
+        一、 飞拍无人机APP及飞拍服务\n
+        1、 飞拍无人机APP功能及飞拍服务概述： 您可以使用飞拍无人机APP在飞行中控制飞拍无人机摄影摄像、计划
+        飞行路线以模拟飞行，也可以使用飞拍无人机APP将由飞拍无人机中的照相机所拍摄的照片或录像的影片，上传
+        至任意平台，包括“720云”（https://720yun.com/）、“微信”、“微博”等第三方平台。\n
+        2、 您必须知悉并确认：\n
+        1) 我们因业务发展需要，可能单方面对飞拍服务的全部或部分内容在任何时候不经任何通知的情况下变更、暂
+        停、限制、终止或撤销，用户需承担此风险； \n
+        2) 飞拍服务中可能包括广告等活动，用户同意在使用过程中显示我们及关联方与第三方供应商、合作伙伴提供的广告以
+        及其他活动； \n
+        3) 我们有权自行全权决定以任何理由，依法停止传输任何违反有关法律法规或本协议约定，或侵犯、妨害、威胁
+        任何人权利或安全的内容，并有权依其自行判断对违反本协议的任何人士采取适当的法律行动，包括但不限于，
+        从飞拍服务中删除具有违法性、侵权性、不当性等内容，终止违反者的登录资格，阻止其使用我们全部或部分飞拍
+        服务，并且依据法律法规保存有关信息并应有关部门的要求提供报告等。  \n
+        二、 用户注册与账户 \n
+        1、 注册：  您必须注册用户帐户方可浏览飞拍无人机APP。根据《移动互联网应用程序信息服务管理规定》的
+        相关规定，那您必须绑定基于实名登记的移动电话号码才可成功注册用户帐户。同时，您可能将会需要于注册页
+        面上提供相关的个人信息，包括但不限于您的姓名、电子邮件、联系电话等。您可以按照飞拍无人机APP说明随时
+        终止使用您的帐户，飞拍无人机APP将会依据本协议规定保留或终止您的帐户。  \n
+        2、 您必须承诺和保证： \n
+        1)您了解并同意，飞拍无人机APP是一个应用服务产品，用户须对注册信息的真实性、合法性、有效性承担全部责任
+        ；用户不得冒充他人，不得利用他人的名义使用飞拍服务、发布任何信息和/或使用飞拍无人机APP在飞行中控制飞
+        拍无人机；不得恶意使用注册帐户导致其他用户误认；否则我们有权立即停止提供包括飞拍服务在内的任何服务，您
+        独自承担由此而产生的一切法律责任；  \n
+        2) 您使用飞拍无人机APP与飞拍服务的行为必须合法，您必须为自己注册帐户下的一切行为负责，包括您通过飞拍无
+        人机APP所发表的任何内容、控制飞拍无人机进行的任何操控以及由此产生的任何结果。用户应对其中的内容和功能使
+        用自行加以判断，并承担因使用而引起的所有风险，包括因对内容和功能的正确性、完整性或实用性的依赖而产生的风
+        险。飞拍科技无法且不会对因用户行为而导致的任何损失或损害承担责任；  \n
+        3)您对您的登录信息保密、不被其他人获取并使用，并且对您在飞拍无人机APP账户下的所有行为负责。您必须将任何有可
+        能触犯法律的，未授权使用或怀疑为未授权使用的行为在第一时间通知我们，我们不对您因未能遵守上述要求而造成的损
+        失承担责任。  \n
+        4) 您通过飞拍无人机APP发表的信息为公开的信息，其他第三方均可以通过本平台获取用户发表的信息
+        ，用户对任何信息的发表即认可该信息为公开的信息，并单独对此行为承担法律责任；任何用户不愿被其他第三人获知
+        的信息都不应在该平台上进行发表。  \n
+        三、用户内容\n
+        1、 用户内容：  用户内容是指该用户下载、发布或以其他方式使用飞拍无人机APP与飞拍服务时产生的所有内容，您是
+        您的用户内容唯一的责任人，您将承担因您的用户内容披露而导致的您或任何第三方被识别的风险。 \n
+        2、 许可：  您通过上传、发布、发行或其他方式使用您在飞拍无人机APP与飞拍服务的用户内容时，即视为自动授权且
+        承诺和保证您有权授予我们不可撤销的、非独家的、免版税的且足额缴纳的全球许可。  \n
+        3、第三方内容：  飞拍无人机APP可向第三方平台发布用户主动分享的内容。您作为飞拍无人机APP用户所进行的拍摄、发布等
+        行为，飞拍科技不控制且不对该等用户所发布的内容承担法律责任，也没有检查、监控、审批、核准该等用户内容的义务。您
+        对自主发布的内容以及产生的风险承担全部法律责任，飞拍科技对此类行为及相关情况不承担任何法律责任。\n
+        四、 用户权利及义务 \n
+        1、 合法使用飞拍无人机APP及飞拍服务的权利； \n
+        2、 在您合法所有的设备上下载、安装、使用飞拍服务的权利； \n
+        3、 用户帐号的所有权归飞拍科技所有，基于帐号安全性的考虑，禁止使用他人的手机号、邮箱地址、注册飞拍帐号。您完成申请注
+        册手续后，获得飞拍帐号的使用权，该使用权仅属于初始申请注册人，禁止赠与、借用、租用、转让或售卖。飞拍科技因经营需
+        要，有权回收用户的帐号； \n
+        4、 您有权更改、删除在飞拍无人机APP上的个人资料、注册信息及发布内容等，但需注意，删除有关信息的同时可能也会删除任何您
+        储存在系统中的文字和图片。用户需承担该风险； \n
+        5、 您有责任妥善保管注册帐户信息及帐户密码的安全，您需要对注册帐户以及密码下的行为承担法律责任。用户同意在任何情况下不
+        使用其他成员的帐户或密码。在您怀疑他人在使用您的帐户或密码时，您同意立即通知飞拍科技；\n
+        6、 权利限制： \n
+        1) 您不得对飞拍无人机APP内容或飞拍服务进行任何形式的许可、出售、租赁、转让、发行或做其他商业用途； \n
+        2) 您不得以创建相同或竞争服务为目的访问飞拍无人机APP或使用飞拍服务； \n
+        3) 除非法律明文规定，否则您不得对飞拍无人机APP或飞拍服务（包括但不限于内容或产品中的广告或赞助内容） 的任何部分以任何形
+        式或方法进行复制、发行、再版、下载、显示、张贴、修改、翻译、合并、利用、分解或反向编译等； \n
+        4) 您需对您使用第三方网站和广告产生的风险承担法律责任。当您访问第三方网站和广告时，适用第三方的条款和 政策；\n
+        5) 您已同意通过上传、发布或以其他方式使用飞拍无人机APP或飞拍服务，在使用过程中，您将承担因下述行为所造成的风险
+        而产生的全部法律责任：\n
+        ① 破坏宪法所确定的基本原则的；\n
+        ② 危害国家安全、泄露国家秘密、颠覆国家政权、破坏国家统一的;损害国家荣誉和利益的；煽动民族仇恨、民族歧视，破坏民族
+        团结的；破坏国家宗教政策，宣扬邪教和封建迷信的；  \n
+        ③散布谣言，扰乱社会秩序，破坏社会稳定的；散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；侮辱或者诽谤
+        他人，侵害他人合法权益的；含有法律法规、行政规章所禁止的其他内容的；  \n
+        ④违反国家关于无人机空域管理的相关规定； ⑤其他违反国家法律规定或对社会产生不良影响的行为。 \n
+        6) 您已同意不在飞拍无人机APP或利用飞拍服务从事下列行为：\n
+        ①上传或发布电脑病毒、蠕虫、恶意代码、故意破坏或改变计算机系统或数据的软件；未授权的情况下，收集其他用户的信息或
+        数据，例如移动电话号码等；  \n
+        ②禁用飞拍无人机APP的网络连接，给本飞拍无人机APP造成过度的负担或以其他方式干扰或损害网站服务器和网络链接；
+        ③干扰、破坏其它用户正常使用飞拍无人机APP或飞拍服务。 \n
+        五、 损害赔偿 \n
+        1、 您必须根据法律、法规以及本协议的规定使用飞拍无人机APP和飞拍服务，避免飞拍因下述行为或相关行为遭受来自第三
+        方的任何投诉和/或诉讼，并承担由此带来的任何损失、损害、责任、成本和费用（包括但不限于律师费）：  \n
+        1) 您使用飞拍无人机APP和飞拍服务的行为；\n
+        2) 您通过飞拍无人机APP 控制飞拍无人机的行为；\n
+        3) 您的用户内容；\n
+        4) 您违反本协议的行为。 \n
+        2、 您已同意，除非获得飞拍科技书面同意，您不得在您与飞拍科技共同对第三方提起的诉讼中单方和解。 \n
+        3、 在任何情况下，飞拍都不对您或任何第三方因本协议产生的任何间接性、后果性、惩戒性的、偶然的、特殊或惩罚性的损害
+        赔偿承担责任。为免疑义，访问、使用飞拍无人机APP和飞拍服务所产生的损坏计算机系统或移动通讯设备数据库的风险将由您个人
+        承担。 \n
+        六、免责声明 \n
+        1、 如发生下述情形，飞拍科技不承担任何法律责任： \n
+        1) 依据法律规定、或相关政府部门的要求、或国家空域安全监管的要求，监控、收集并提供您个人信息（包括但不限于用户在使用飞
+        拍服务过程中产生的飞行数据，例如飞行高度、飞行速度、方位等）； \n
+        2) 由于您的使用不当或其他自身原因而导致任何个人信息的泄露； \n
+        3) 任何由于黑客攻击，电脑病毒的侵入，非法内容信息、骚扰信息的屏蔽，政府管制以及其他任何网络、技术、通信线路、信息安全
+        管理措施等原因造成的服务中断、受阻等不能满足用户要求的情形；  \n
+        4) 用户违反法律法规的规定在包括中国大陆在内的禁飞区域使用飞拍服务而遭受各类处罚和损失；\n
+        5) 用户因第三方如运营商的通讯线路故障、技术问题、网络、电脑故障、系统不稳定及其他因不可抗力造成的损失的情形；\n
+        6) 使用飞拍服务可能存在的来自他人匿名或冒名的含有威胁、诽谤、令人反感或非法内容的信息而招致的风险；\n
+        7) 用户之间通过飞拍无人机APP和飞拍服务与其他用户交往，因受误导或欺骗而导致或可能导致的任何心理、生理上的伤害以及经济上的损失。\n
+        2、 用户在飞拍无人机APP所发布的任何内容，或通过飞拍无人机APP对飞拍无人机进行的任何操控，并不代表和反映飞拍科技的任何观点
+        或政策，飞拍科技对此不承担任何责任。 \n
+        3、 在任何情况下，飞拍科技均不对任何间接性、后果性、惩罚性、偶然性、特殊性或刑罚性的损害，包括因用户使用飞拍服务而遭受的利润损失，承担责任。尽管本协议中可能含有相悖的规定，我们对您承担的全部责任
+        ，无论因何原因或何种行为方式，始终不超过您在注册期内因使用飞拍服务而支付给飞拍科技的费用(如有)。\n
+        七、 知识产权\n
+        1、用户在使用飞拍无人机APP以及飞拍服务过程中所发布的信息不得侵犯任何第三人的知识产权，未经具有相关所有权所有者之事先书面
+        同意，用户不得以任何方式上传、发布、修改、传播或复制任何受著作权保护的材料、商标或属于其他人的专有信息。如果收到任何
+        著作权人或其合法代表发给飞拍科技的适当通知后，我们将可能协助、提供、审查或移除该等侵犯他人著作权的内容或证据。 \n
+        2、用户在使用飞拍无人机APP以及飞拍服务过程中所发布的原创内容，著作权归用户本人所有，用户可授权第三方任何方式使用。多人参
+        与编辑的内容，包括但不限于问题及补充说明、答案总结、话题描述、话题结构，所有参与者均同意，相关知识产权归飞拍所有。\n
+        3、 用户在使用飞拍无人机APP以及飞拍服务过程中所发布的全部内容，授予飞拍科技免费的、不可撤销的、非独家使用许可，飞拍科
+        技有权将该内容以各种形式用于飞拍科技各种形态的产品和服务上，包括但不限于网站、应用、媒体或其他。  \n
+        4、 飞拍无人机APP以及飞拍服务中所涉及的飞拍标志及产品、服务名称、图片、图形等，均受著作权、商标及其他法律保护。未经飞拍科技事先书面同
+        意，用户不得将上述内容以任何方式展示或使用或作其他处理，任何单位及个人不得以任何方式或理由对该商标的任何部分进行使用
+        、复制、修改、传播、抄录或与其它产品捆绑使用销售。 \n
+        5、 除前述规定以外，如果您认为有人复制并在飞拍无人机APP以及飞拍服务上发布您的作品，并已构成对您著作权的侵犯，请及时与我
+        们联系，并提供包含如下信息的书面通知：  \n
+        1) 证明您作为涉嫌侵权内容所有者的权属证明； \n
+        2) 明确的身份证明、住址、联系方式； \n
+        3) 涉嫌侵权内容在飞拍服务上的位置；\n
+        4) 您声称遭受侵犯的著作权作品的描述； \n
+        5) 您著作权遭受侵犯的相关证明；\n
+        6) 在同意承担伪证处罚之后果的前提下，出具书面陈述以声明您在通知中所述内容是准确和真实的。 \n
+        八、 修改与终止 \n
+        1、 修改： \n
+        1) 本协议容许变更。如果本协议有变更，我们将在飞拍无人机APP上公布更新后的协议。之后，继续使用飞拍无人机APP和飞
+        拍服务则视为您已知晓此类变更并同意受条款其约束；  \n
+        2) 飞拍科技保留在任何时候无需通知而修改、保留或关闭飞拍无人机APP和飞拍服务之权利； 3) 您已同意飞拍科技无需因修改
+        、保留或关闭飞拍无人机APP和飞拍服务的行为对您或第三方承担责任。 \n
+        2、 终止：\n
+        1) 本协议自您接受之日起生效，在您使用飞拍无人机APP和飞拍服务的过程中持续有效，直至依据本协议终止；\n
+        2) 尽管有上述规定，如果您使用飞拍无人机APP和飞拍服务的时间早于您接受本协议的时间，若您在此知晓或应当知晓并同
+        意本协议，那么本协议于您第一次使用飞拍无人机APP和飞拍服务时生效，除非依据本协议提前终止。\n
+        3、如果用户侵犯第三人的版权且飞拍科技接到版权所有人或版权所有人的合法代理人的通知后，飞拍科技保留终止本协议的权利。\n
+        4、一旦本协议终止，您的飞拍账户和使用飞拍无人机APP和飞拍服务的权利即告终止。您应当知晓您的飞拍账户终止意味着您的用户内容
+        将从我们的活动数据库中删除。飞拍科技不因终止本协议对您承担任何责任，包括终止您的用户账户和删除您的用户内容。\n
+        5、 任何飞拍无人机APP的更新版本或飞拍服务的未来版本、更新或者其他变更将受到本协议约束。 \n
+        九、其他\n
+        1、 反馈您对飞拍提出建议（或称“反馈”），即视为您向飞拍转让“反馈”的全部权利并同意飞拍有权利以任何合理方式使用
+        此反馈及其相关信息。我们将视此类反馈信息视为非保密且非专有。 \n
+        2、 隐私政策 \n
+        1) 请查阅我们的 《隐私条款》， 《隐私条款》为与本协议效力等同且不可分割的一部分。在任何时候，您的信息均依照
+        《隐私条款》处理。  \n
+        2) 飞拍科技将充分保护用户的个人隐私信息，飞拍科技保证不对外公开或向第三方透露用户个人隐私信息，或用户在使用服
+        务时存储的非公开内容，除非根据法律或有法律赋予权限的政府部门要求或事先得到用户明确授权等原因，飞拍科技需要披露
+        用户的个人隐私信息，包括但不限于用户在使用飞拍服务过程中产生的飞行数据。 \n
+        3、 通知  您必须提供您最近经常使用的有效的电子邮件地址。您所提供的电子邮件地址无法使用或者因任何原因我们无法将通知送达给您而
+        产生的风险，飞拍不承担责任。飞拍无人机APP发布的公告通知及向您所发送的包含此类通知的电子邮件（如有）毫无疑问构成有效通
+        知。  \n
+        4、 适用法律  本协议适用中华人民共和国法律。如果双方发生纠纷，应本着友好的原则协商解决；如协商不成，应向飞拍所
+        在地的法院提起诉讼。\n
+        5、 独立性  若本协议中的某些条款因故无法适用，则本协议的其他条款继续适用且无法适用的条款将会被修
+        改，以便其能够依法适用。 \n
+        6、 完整性  本协议（包括隐私政策）是您和飞拍之间关于飞拍无人机APP以及飞拍服务相关事项的最终
+        的、完整的、排他的协议，且取代和合并之前当事人关于此类事项（包括之前的最终用户许可、服务条款）的讨论和协议。 \n
+        7、 标题每部分的题目只为阅读之便而无任何法律或合同义务。\n
+        8、 转让  除非飞拍科技书面同意，您不得转让本协议所规定的权利义务。任
+        何违反上述规定企图转让的行为均无效。\n
+    </string>
+
+    <string name="privacy_agreement_content" translatable="false">
+        说明\n
+        深圳市飞拍科技有限公司是依据中华人民共和国法律成立的有限责任公司（以下简称“飞拍”、“飞拍科技”或“我们”）。
+        我们重视维护和保护用户的个人信息。您在使用飞拍科技的产品、服务时，我们可能会收集和使用您的个人信息。本《隐私权
+        政策》旨在向您说明我们如何收集、储存、使用或分享您的个人信息。希望您仔细阅读本《隐私权政策》，以便在需要的时候
+        ，能让您作出合适的选择。\n
+        您使用或继续使用飞拍科技的产品或服务，即意味着您同意我们按照本《隐私权政策》收集、储存
+        、使用和分享您的个人信息。\n
+        我们可能收集您的何种个人信息？ \n
+        1）通过使用飞拍科技的产品或服务的过程中提供给飞拍科技
+        的信息，如姓名、电话号码、电子邮箱等。
+        2）您使用我们的产品或服务时系统读取或储存的信息，如您的位置、产品使用的日志记录、您的电子设备的配置信息、接入
+        我们产品或服务的IP地址、时间信息、位置信息、分享的文字或图片等。
+        3）您的个人信息中可能含有敏感信息，例如您的种族、宗教信仰、个人健康状况、性别取向等，您在使用我们产品或服务时
+        ，您可能会在公开渠道上传或发布这类敏感信息。请您谨慎地处理这类敏感信息。 \n
+        我们为何收集您的个人信息？\n
+        我们收集您的个人信息以实现如下目的：\n
+        认证您的身份以防止欺诈； \n
+        明确您的技术服务需求；\n
+        确认适合您的产品及服务； \n
+        根据您的要求提供产品及服务；\n
+        遵守法律法规的要求。 \n
+        我们可能如何储存您的个人信息？\n
+        无论您的个人信息以何种方式提供给飞拍科技，都将受到飞拍科技的储存和保护。我们建立了信息安全控制体系，防止您的个人
+        信息被他人使用、接触、修改、复制、破坏、泄露、损失或盗取。\n
+        为储存和保护您的个人信息，飞拍科技采用有形的或电子的等各种保密手段及严格的保密程序。例如，严格限制人员进出信息处
+        理和保管区域，限制解除信息保密的人员编制，采用密码、识别码、备用密码、防火墙及信息传输加密，文件柜及文件室使用密码
+        锁等。\n
+        我们委托第三方提供服务而向其提供您的必要的个人信息时，会与其签署相关保密协议，以确保您的个人信息获得保护并仅用于其
+        向您提供服务。 我们可能如何使用您的个人信息？  我们收集到的您的个人信息将可能被我们用于实现如下目的：\n
+        向您提供服务。\n
+        帮助我们设计新产品或新服务，改善我们现有的产品或服务。\n
+        用于身份识别、客户服务、安全防范、存档或备份等。\n
+        向您提供与您更加密切相关的广告。\n
+        让您参与我们的产品或服务调查。\n
+        我们可能委托其他第三方代表飞拍科技提供服务，比如数据处理、账目管理及市场营销。我们仅向这些第三方提供其完成服务所必须
+        的信息，并且我们以飞拍科技遵循的同等保密标准与这些第三方签署保密协议。这些第三方可能来自境外，根据其所在地的法律，这些
+        境外第三方可能负有一定的信息披露义务。 我们如何分享您的个人信息  我们不会与飞拍科技以外的任何第三方分享您的个人信息，
+        但以下情况除外：\n
+        在得到您同意的情况下。\n
+        为实现“我们可能如何使用您的个人信息？”章节中的目的而向飞拍科技授权的产品或服务提供商分享您的信息。\n
+        在飞拍科技内部分享您的个人信息以便实现“我们可能如何使用您的个人信息？”章节中的目的。\n
+        今后我们可能更替、出售、拓展、转移飞拍科技业务或并购新业务，在此情况下，您的个人信息及相关账目、您购买的产品及服务等，
+        将随着业务一并转移。\n
+        您的个人信息在如下情况下可能会被强制要求披露：\n
+        1）在涉嫌犯罪活动时，向司法或执法机构披露以侦查预防犯罪；\n
+        2）根据法律（或法院）的强制要求披露；\n
+        3）根据政府的强制要求披露；\n
+        4）为保护飞拍科技的资产（例如清偿逾期账款）等。\n
+        在上述情况下，我们将记录信息披露的内容、时间、原因及对象。 您的权限\n
+        如果您想查阅或验证您的个人信息，以及查看我们的披露记录时，请联络我们的市场部门或经销商。若在某些情况下我们无法提供相
+        关资料，我们将及时告知您原因。\n
+        在某些情况下您有权选择拒绝向我们提供某些信息，但我们可能因此无法向您提供某些产品、服务或信息。为保护双方利益，例如为
+        确保您的要求被执行、为证明我们向您提供了所需信息，我们可能监控您与飞拍科技的电话或邮件往来，以保证我们的服务质量。\n
+        如果您不希望接收到我们关于直接营销的沟通，请告知我们，我们将会在直接营销名单中删除您的个人信息。\n
+        如果您不希望我们在飞拍成员中分享您的个人信息，请通知我们。在此情况下，我们由于信息缺失而有可能无法向您提供特
+        定的产品或服务。\n
+        如果您未满十八岁，您应该获得父母或监护人的同意和指导以确保正确使用我们的产品和服务。\n
+        根据您所处的地域的法律规定，本《隐私权政策》的某些条款可能并不适用于您。本《隐私权政策》不排除或限制您根据本地法律规定
+        所享有的任何权利。 变更  我们可能适时修订本《隐私权政策》的条款，该等修订构成本《隐私权政策》的一部分。如该等修订造成您
+        在本《隐私权政策》下权利的实质减少，我们将在修订生效前通过在主页上显著位置提示、于更新日志中提及、向您发送电子邮件或以其
+        他方式通知您。在以上提及的通知方式中任何之一、部分或全部方式确实执行的情况下，若您继续使用我们的服务，即表示同意受经修订
+        的本《隐私权政策》的约束。 \n
+        我们的承诺\n
+        飞拍科技非常感谢能有机会为您提供产品和服务。自飞拍科技成立至今，赢得并保持您的信任始终是我们的服务宗旨。我们承诺尊重及保
+        护您提供的隐私及个人信息，也希望您能了解我们的隐私保护政策，包括如何采集、使用及披露您的个人信息。\n
+        我们指定专门的团队负责管理您的个人信息保护，包括制度、纠纷解决、培训、联络等各方面，并直接向董事长、总经理及市场部总监汇
+        报隐私保护相关事项。\n
+        我们将确保在您申请任何产品或服务时，获知上述信息采集目的。如果我们希望将您的个人信息用于其他目的，我们将向您提出申请。\n
+    </string>
+    <string name="login_verification_def" translatable="false">验证码</string>
+    <string name="getting_verification" translatable="false">获取中...</string>
+    <string name="resend" translatable="false">重新发送</string>
+    <string name="login_get_verification" translatable="false">获取验证码</string>
+    <string name="enter_your_phone_number" translatable="false">请输入您的电话号码!</string>
+    <string name="phone_number_does_not_meet_the_requirements" translatable="false">手机号码不符合要求!</string>
+    <string name="verification_code_does_not_meet_the_requirements" translatable="false">验证码不符合要求!</string>
+    <string name="login" translatable="false">登录</string>
+    <string name="modify_nickname" translatable="false">修改昵称</string>
+    <string name="login_back" translatable="false">返回登录</string>
+    <string name="reposition" translatable="false">重新定位</string>
+    <string name="region" translatable="false">地&#160;&#160;区</string>
+    <string name="main_network_exception" translatable="false">网络异常，请检查网络连接</string>
+    <string name="search" translatable="false">搜索</string>
+    <string name="select_country" translatable="false">选择国家</string>
+    <string name="prompt" translatable="false">提示</string>
+    <string name="go_to_settings" translatable="false">去设置</string>
+    <string name="permission_not_open" translatable="false">有权限未启动，应用无法正常使用，\n请去设置界面启动吧!</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="end" translatable="false">结束</string>
+    <string name="continues" translatable="false">继续</string>
+    <string name="confirm" translatable="false">确定</string>
+    <string name="skip" translatable="false">跳过</string>
+    <string name="save" translatable="false">保存</string>
+    <string name="take_photo" translatable="false">拍照</string>
+    <string name="photo_album" translatable="false">相册</string>
+    <string name="flypai" translatable="false">飞&#160;拍</string>
+    <string name="uav" translatable="false">无人机</string>
+    <string name="media" translatable="false">媒体库</string>
+    <string name="can_installed_fw" translatable="false">可升级新固件</string>
+    <string name="found_update" translatable="false">发现更新</string>
+    <string name="updating_image_transfer" translatable="false">正在更新图传...</string>
+    <string name="detecting" translatable="false">正在检测...</string>
+    <string name="updating_plane_fw" translatable="false">正在上传飞控固件</string>
+    <string name="updating_camera_fw" translatable="false">正在上传相机固件</string>
+    <string name="updating_yuntai_fw" translatable="false">正在上传云台固件</string>
+    <string name="confirm_updating_plane_fw" translatable="false">确认更新飞控固件</string>
+    <string name="confirm_updating_camera_fw" translatable="false">确认更新相机固件</string>
+    <string name="confirm_updating_yuntai_fw" translatable="false">确认更新云台固件</string>
+    <string name="cont_updating" translatable="false">无法升级</string>
+    <string name="updating_failed" translatable="false">升级失败</string>
+    <string name="updating_success" translatable="false">升级成功</string>
+    <string name="check_sd_or_connection_retry" translatable="false">请检查SD卡状态或无人机连接后重试</string>
+    <string name="insert_external_card_and_retry" translatable="false">请插入外置卡后重试</string>
+    <string name="updated_complete" translatable="false">上传完成</string>
+    <string name="unpacking_zip" translatable="false">解压固件</string>
+    <string name="unpacking_zip_and_dont_close_app" translatable="false">固件解压中，请勿关闭APP</string>
+    <string name="unpack_zip_failed" translatable="false">固件解压失败！</string>
+    <string name="dont_close_or_disconnect" translatable="false">请勿关闭APP或断开无人机连接</string>
+    <string name="connect_plane_retry" translatable="false">网络出错，请检查无人机连接后重试</string>
+    <string name="please_open_4g" translatable="false">网络出错，请打开4g网络</string>
+    <string name="do_not_upgrade_flying" translatable="false">飞行过程中,不可升级!</string>
+    <string name="press_again_exit" translatable="false">再按一次退出</string>
+    <string name="fw_is_damaged" translatable="false">固件已损坏，无法升级!</string>
+    <string name="fw_uploaded_successfully" translatable="false">固件上传成功!</string>
+    <string name="fw_uploaded_successfully_and_restart" translatable="false">固件上传成功\n无人机即将重新启动</string>
+    <string name="fw_uploaded_successfully_and_restart_by_yourself" translatable="false">固件上传成功\n请手动重启无人机</string>
+    <string name="fw_uploaded_error_sd_error" translatable="false">固件更新出错,请检查SD卡!</string>
+    <string name="do_not_need_to_upgrade_fw" translatable="false">已是最新固件，无需升级</string>
+    <string name="do_not_need_to_upgrade_app" translatable="false">APP已是最新！</string>
+    <string name="transmission_is_newest" translatable="false">图传已是最新！</string>
+    <string name="install_yinyongbao_client_first" translatable="false">请先安装应用宝客户端！</string>
+    <string name="search_wifi" translatable="false">搜索WIFI</string>
+    <string name="connect_flypie" translatable="false">请连接飞拍无人机</string>
+    <string name="plane_unconnect" translatable="false">设备未连接</string>
+    <string name="connect_flypie_hint" translatable="false">请打开WiFi开关，连接以FP开头的WiFi热点\n连接密码：87654321</string>
+    <string name="searching_wifi" translatable="false">搜索WiFi连接</string>
+    <string name="wifi_connect_success" translatable="false">连接成功</string>
+    <string name="wifi_connectting" translatable="false">正在连接</string>
+    <string name="into_camera" translatable="false">进入相机</string>
+    <string name="plane_need_ack" translatable="false">立即激活</string>
+    <string name="ack" translatable="false">激活</string>
+    <string name="have_real_name" translatable="false">已实名</string>
+    <string name="turn_on_gps_before_search_wifi" translatable="false">请先打开GPS定位,否则\n无法搜索wifi</string>
+    <string name="disclaimer" translatable="false">免责申明</string>
+    <string name="warranty_and_activation" translatable="false">飞拍无人机激活保修</string>
+    <string name="plane_noob_mode" translatable="false">飞拍无人机新手模式</string>
+    <string name="new_model" translatable="false">新手模式</string>
+    <string name="disclaimer_title" translatable="false">飞拍科技保修服务免责声明</string>
+    <string name="disclaimer_content" translatable="false">
+以下情况不属于飞拍无人机免费产品保修服务的情形：\n
+● 发生人为的非产品本身质量问题导致飞机的碰撞、烧毁事故；\n
+● 发生非官方说明书指导的私自改装、拆解、开壳等行为而造成的损坏；\n
+● 未按说明书指导的不正确安装、使用及操作所造成的飞机损坏；\n
+● 在无官方说明指导的情况下，客户自行维修飞机安装配件导致的损坏；\n
+● 因非官方说明书指导的电路改造、或电池、充电器的匹配使用不当导致的损坏；\n
+● 未按产品说明书操作的一切飞行和拍摄导致的损坏；\n
+● 在恶劣的环境下操控导致的损坏，如大风、雨雪、沙尘、冰雹等；\n
+● 在电磁环境复杂或强干扰源环境下操控导致的损坏，如矿区、发射塔、高压线、变电站等；\n
+● 在有水面或者悬崖峭壁等地势险峻的区域操控导致飞机失事、坠毁、进水等造成的损坏；\n
+● 与其他无线设备相互干扰的情况下操控导致的损坏，如发射机、图传信号、WiFi信号干扰等；\n
+● 在超过安全起飞重量下或者搭载别的物品等起飞造成的损坏；\n
+● 在零部件发生老化或损坏的情况下强制飞行造成的损坏；\n
+● 与非飞拍认证的第三方软件同时使用时发生可靠性及兼容性问题导致的损坏；\n
+● 在电量不足时、或使用存在质量问题的电池导致而产生的损坏；\n
+● 机器序列号、出厂标签及其他标示撕毁、涂改迹象；\n
+● 私自改动或撕下飞机的识别标签或部件。\n
+特别提示\n
+无人机航拍飞行属于专业技术行为，请确保飞行前已熟练掌握飞行技术要领，并严格按照《飞行安全注意事项》进行操作，如因未掌握飞行技术要领或没有按照《飞行安全注意事项》操作，由此造成的第三方赔偿与本公司无关。若您继续使用飞拍科技所提供的任意或全部服务，即代表您已详细知悉并同意以上全部条款内容。\n
+
+以上最终解释权归深圳市飞拍科技有限公司所有。
+       </string>
+    <string name="next_step" translatable="false">下一步</string>
+    <string name="previous_step" translatable="false">上一步</string>
+    <string name="disclaimer_content_time" translatable="false">深圳市飞拍科技有限公司\n2019年4月1日</string>
+    <string name="warranty_and_activation_hint" translatable="false">
+        首次连接无人机,\n
+需要对机器硬件模块进行激活。\n
+激活后，您将拥有该无人机一年的免费保修服务。
+    </string>
+    <string name="plane_noob_hint" translatable="false">为了您的飞行安全，出厂默认设置为新手模式，\n
+无GPS信息不允许起飞，并且限制飞行高度及飞行半径。
+    </string>
+    <string name="activation_successful" translatable="false">激活成功</string>
+    <string name="activation_success_hint" translatable="false">
+      已成功激活！\n
+首次使用，建议您观看视频教程。\n
+祝您飞行愉快！
+    </string>
+    <string name="video_tutorial" translatable="false">视频教程</string>
+    <string name="mobile_data_network_open" translatable="false">请开启移动数据网络,并与无人机重新连接后重试！</string>
+    <string name="uav_wifi_is_normal" translatable="false">请检查无人机WIFI是否正常！</string>
+    <string name="acking" translatable="false">激活中</string>
+    <string name="specification" translatable="false">说明书</string>
+    <string name="upgrade_introduce" translatable="false">升级介绍</string>
+    <string name="real_name_registration" translatable="false">实名登记</string>
+    <string name="real_name_registration_teach" translatable="false">实名登记教程</string>
+    <string name="setting" translatable="false">设置</string>
+    <string name="duration" translatable="false">时长：</string>
+    <string name="size" translatable="false">大小：</string>
+    <string name="light_control_serial_number" translatable="false">飞控序列号</string>
+    <string name="drone_serial_number" translatable="false">无人机序列号</string>
+    <string name="register_plane_now" translatable="false">立即登记</string>
+    <string name="clear_cache_data" translatable="false">清除缓存数据</string>
+    <string name="reset_novice_boot" translatable="false">重置新手引导</string>
+    <string name="feedback" translatable="false">反馈意见</string>
+    <string name="reading" translatable="false">正在读取...</string>
+    <string name="unconnect_aircraft" translatable="false">未连接飞行器</string>
+    <string name="not_ack" translatable="false">未激活</string>
+    <string name="acked" translatable="false">已激活</string>
+    <string name="peace_time_end" translatable="false">安心计划至：</string>
+    <string name="peace_time_not_to_buy" translatable="false">安心计划：未购买</string>
+    <string name="panorama_gallery" translatable="false">全景图库</string>
+    <string name="move_time_delay" translatable="false">移动延时</string>
+    <string name="photo" translatable="false">照&#160;&#160;片</string>
+    <string name="video" translatable="false">视&#160;&#160;频</string>
+    <string name="wide_photo" translatable="false">广角照片</string>
+    <string name="share" translatable="false">分享</string>
+    <string name="delete" translatable="false">删除</string>
+    <string name="download" translatable="false">下载</string>
+    <string name="deleting" translatable="false">删除中</string>
+    <string name="there_are_0_files" translatable="false">共0个文件</string>
+    <string name="the_latest" translatable="false">最新</string>
+    <string name="total" translatable="false">共</string>
+    <string name="selected" translatable="false">已选择</string>
+    <string name="file" translatable="false">个文件</string>
+    <string name="multi_select" translatable="false">多选</string>
+    <string name="check_all" translatable="false">全选</string>
+    <string name="empty" translatable="false">(空)</string>
+    <string name="unselect_all" translatable="false">全不选</string>
+    <string name="panoramic_library" translatable="false">全景库</string>
+    <string name="delay_time_library" translatable="false">延时库</string>
+    <string name="panoramic" translatable="false">全景</string>
+    <string name="delay_time" translatable="false">延时</string>
+    <string name="wide_angle" translatable="false">广角</string>
+    <string name="panorama_group_preview" translatable="false">全景图组预览</string>
+    <string name="delay_group_preview" translatable="false">延时图组预览</string>
+    <string name="wide_angle_group_preview" translatable="false">广角图组预览</string>
+    <string name="uncomposed_panorama_group" translatable="false">未合成全景图组</string>
+    <string name="are_u_sure_delect_selected_file" translatable="false">是否删除所选文件？</string>
+    <string name="download_files_form_flypai" translatable="false">从设备中下载图组</string>
+    <string name="download_file_form_flypai" translatable="false">从设备中下载此文件</string>
+    <string name="downloading_file_form_flypai" translatable="false">正在从设备中下载...</string>
+    <string name="please_select_one_file_at_least" translatable="false">请至少选择一个文件</string>
+    <string name="select_undownloaded_file_at_least" translatable="false">请至少选择一个未下载过的文件</string>
+    <string name="download_file_form_flypai_prompt" translatable="false">
+        从设备中下载图组需要一定时间\n
+        并耗用大量系统资源，\n
+        请确保无人机已返着陆并保持连接。</string>
+    <string name="editor" translatable="false">编辑</string>
+    <string name="return_back" translatable="false">返回</string>
+    <string name="file_details" translatable="false">文件详情</string>
+    <string name="file_date" translatable="false">日期：</string>
+    <string name="file_size" translatable="false">尺寸：</string>
+    <string name="file_format" translatable="false">格式：</string>
+    <string name="photo_preview" translatable="false">照片预览</string>
+    <string name="synthetic_resolution" translatable="false">合成清晰度</string>
+    <string name="synthetic" translatable="false">合成</string>
+    <string name="very_clear" translatable="false">极清</string>
+    <string name="super_clear" translatable="false">超清</string>
+    <string name="hd" translatable="false">高清</string>
+    <string name="hd_advice" translatable="false">手机内存（RAM）≤2G建议合成标清；</string>
+    <string name="super_clear_advice" translatable="false">手机内存（RAM）≤4G建议合成超清；</string>
+    <string name="very_clear_advice" translatable="false">手机内存（RAM）≤6G建议合成极清；</string>
+    <string name="synthetic_advice" translatable="false">清晰度越高占用内存越大，内存不足将会导致APP异常退出。</string>
+    <string name="enter_edit" translatable="false">进入编辑</string>
+    <string name="panorama_synthesis" translatable="false">全景图合成</string>
+    <string name="syning_panor_hint" translatable="false">正在合成全景图，需大量计算资源，\n请勿中途退出程序！</string>
+    <string name="syning_wide_photo_hint" translatable="false">正在合成广角照片，需大量计算资源，\n请勿中途退出程序！</string>
+    <string name="syning_delay_time_video_hint" translatable="false">正在合成延时视频，需大量计算资源，\n请等待大约3-4分钟，勿中途退出程序！</string>
+    <string name="synthesis_failure" translatable="false">合成失败</string>
+    <string name="synthesis_success" translatable="false">合成成功</string>
+    <string name="deficiency_characteristic_points" translatable="false">特征点不足</string>
+    <string name="confirm_deletion" translatable="false">确认删除</string>
+    <string name="confirm_download" translatable="false">确认下载</string>
+    <string name="confirm_synthetic" translatable="false">确认合成</string>
+    <string name="confirm_share" translatable="false">确认分享</string>
+    <string name="synthetic_long_time_prompt" translatable="false">
+        合成过程耗用时间较长，\n
+        请确保无人机已返着陆，请勿中途退出程序。</string>
+    <string name="plane_climb_to" translatable="false">飞行器将爬升至</string>
+    <string name="then_return_to_departure_point" translatable="false">米，然后返航至起飞点。</string>
+    <string name="quit_looking_for" translatable="false">退出寻找</string>
+    <string name="sky_type_sunny_day" translatable="false">晴天</string>
+    <string name="sky_type_cloudy_day" translatable="false">阴天</string>
+    <string name="sky_type_twilight" translatable="false">霞光</string>
+    <string name="sky_type_night" translatable="false">夜晚</string>
+    <string name="sky_type_special" translatable="false">特殊</string>
+    <string name="brightness" translatable="false">亮度</string>
+    <string name="contrast" translatable="false">对比度</string>
+    <string name="saturation" translatable="false">饱和度</string>
+    <string name="exit" translatable="false">退出</string>
+    <string name="syntheticing" translatable="false">合成中...</string>
+    <string name="preview" translatable="false">预览</string>
+    <string name="loading" translatable="false">加载中...</string>
+    <string name="shearing" translatable="false">剪切中..</string>
+
+
+    // 相机界面
+    <string name="camra_set_record_hd" translatable="false">高清录制</string>
+    <string name="camra_set_photo_take_method" translatable="false">拍照模式</string>
+    <string name="camra_set_photo_atio" translatable="false">照片尺寸</string>
+    <string name="camra_set_photo_ruidu" translatable="false">锐度</string>
+    <string name="enhancement_effect" translatable="false">效果增强</string>
+    <string name="camra_set_photo_raw" translatable="false">RAW格式</string>
+    <string name="camra_set_antikey" translatable="false">抗闪烁</string>
+    <string name="camra_set_qianbideng" translatable="false">前臂灯</string>
+    <string name="camra_set_houbideng" translatable="false">后臂灯</string>
+    <string name="camra_set_yt_hori_set" translatable="false">云台水平微调</string>
+    <string name="camra_set_grid" translatable="false">网格线</string>
+    <string name="camra_set_sd_cap" translatable="false">SD卡容量</string>
+    <string name="camra_set_sd_reset" translatable="false">重置相机参数</string>
+    <string name="camra_set_sd_reset_ing" translatable="false">正在重置</string>
+    <string name="camra_set_sd_format" translatable="false">格式化SD卡</string>
+    <string name="camra_set_sd_move" translatable="false">文件转移</string>
+    <string name="camra_set_zoomslider" translatable="false">变焦速度</string>
+    <string name="camra_set_video_atio" translatable="false">视频尺寸</string>
+    <string name="camra_dimension" translatable="false">6K</string>
+    <string name="camra_sd_not_insert" translatable="false">SD卡未插入</string>
+    <string name="camra_sd_move" translatable="false">将相机内置卡中照片和视频导入到SD卡?</string>
+    <string name="camra_sd_internal_use" translatable="false">正使用内置卡</string>
+    <string name="camra_sd_move_photo" translatable="false">正在导出 </string>
+    <string name="camra_sd_move_prepare" translatable="false">准备中... </string>
+    <string name="camra_sd_move_ok" translatable="false">导出成功</string>
+    <string name="camra_sd_move_empty" translatable="false">内置卡是空的</string>
+    <string name="camra_set_head_video" translatable="false">视频设置</string>
+    <string name="camra_set_head_photo" translatable="false">照片设置</string>
+    <string name="camra_set_head_general" translatable="false">常规设置</string>
+    <string name="camra_set_busy" translatable="false">出错,请重试</string>
+    <string name="shutter" translatable="false">EV</string>
+    <string name="yuntai_calibration" translatable="false">云台校准</string>
+    <string name="waypoint" translatable="false">航点</string>
+    <string name="distance" translatable="false">距离</string>
+    <string name="the_number_of_waypoint_cannot_be_more_than_10" translatable="false">航点数不能大于10个</string>
+    <string name="waypoint_max_limit" translatable="false">航点不能超过飞行器最远飞行距离！</string>
+    <string name="waypoint_max_limit_300" translatable="false">航点距起飞点不能大于300m！</string>
+    <string name="total_mileage_shall_not_exceed_2km" translatable="false">总里程数不超过2km！</string>
+    <string name="at_least_two_waypoints" translatable="false">请设置至少两个航点...</string>
+    <string name="plane_not_positioned" translatable="false">飞行器未定位</string>
+    <string name="pause" translatable="false">暂停</string>
+    <string name="start" translatable="false">开始</string>
+    <string name="low_electricity_return" translatable="false">低电返航</string>
+    <string name="immediately_return" translatable="false">立即返航</string>
+    <string name="forced_landing" translatable="false">强制降落</string>
+    <string name="forced_landing_hint" translatable="false">电量严重不足，将强制降落</string>
+    <string name="low_battery_must_return" translatable="false">电量不足，请点击立即返航！</string>
+    <string name="battery_seriously_low_forcing_landing" translatable="false">电量严重不足，正在强制降落！</string>
+    <string name="nose_and_tail_switched" translatable="false">机头已调换</string>
+    <string name="long_press_return" translatable="false">长按遥控一键返航键退出返航模式，否则无法解锁飞机</string>
+    <string name="head_change_hint_text" translatable="false">飞行器机头机尾朝向调换，此功能常用\n于自拍，请注意推动摇杆时的飞行方向！</string>
+    <string name="indicate_head_change_hint_text" translatable="false">注：机臂红灯方向为飞行器机头</string>
+    <string name="vr_mode" translatable="false">VR全景</string>
+    <string name="plane_unlocked" translatable="false">飞行器未解锁</string>
+    <string name="single_click_map_set_point" translatable="false">单击地图上的点即可设置为航点</string>
+    <string name="stop_return_back" translatable="false">停止返航</string>
+    <string name="filpping" translatable="false">正在翻转...</string>
+    <string name="arounding" translatable="false">正在环绕...</string>
+    <string name="phone_gps_of_follow" translatable="false">手机GPS信号</string>
+    <string name="phone_gps_low_check_permissions" translatable="false">手机未定位，请检查手机是否开启定位权限</string>
+    <string name="no_phone_gps_for_follow" translatable="false">手机未定位，无法跟随，请检查手机是否开启定位权限</string>
+    <string name="too_far_away_for_follow" translatable="false">距离太远，无法跟随</string>
+
+    <string name="wrap" translatable="false">拍摄完成</string>
+    <string name="take_panorama_error" translatable="false">全景拍摄出错,请检查SD卡</string>
+    <string name="take_wide_error" translatable="false">广角拍摄出错,请检查SD卡</string>
+    <string name="take_delaytime_error" translatable="false">延时拍摄出错,请检查SD卡</string>
+
+    <string name="complete" translatable="false">完成</string>
+    <string name="formatting" translatable="false">正在格式化</string>
+    <string name="format_successful" translatable="false">格式化成功！</string>
+    <string name="format_failure" translatable="false">格式化失败！</string>
+    <string name="sd_card_full" translatable="false">SD卡已满</string>
+    <!--    <string name="sd_low_speed" translatable="false">低速卡</string>-->
+    <string name="take_photo_failure" translatable="false">拍照出错！</string>
+    <string name="sd_card_not_inserted" translatable="false">SD卡未插入</string>
+    <string name="reinsert_sd_card" translatable="false">请重插SD卡</string>
+    <string name="the_shutter" translatable="false">快门</string>
+    <string name="exposure" translatable="false">曝光</string>
+    <string name="the_proportion" translatable="false">比例</string>
+    <string name="ensure_takeoff_environment" translatable="false">飞行器将自动起飞到2.0M高度，请确保\n飞行器摆放水平，飞行环境安全。</string>
+    <string name="key_to_take_off" translatable="false">一键起飞</string>
+    <string name="key_to_take_off_for_gps" translatable="false">一键起飞只能在GPS模式下使用，\n请先切换到GPS模式</string>
+    <string name="key_to_return" translatable="false">一键返航</string>
+    <string name="confirm_take_off" translatable="false">确定起飞</string>
+    <string name="plane_not_connected" translatable="false">飞行器未连接</string>
+    <string name="remote_control_not_connected" translatable="false">遥控器未连接</string>
+    <string name="being_shadowed" translatable="false">返航中</string>
+    <string name="cautious_flight_for_posture" translatable="false">请谨慎飞行(姿态)</string>
+    <string name="wide_photo_mode" translatable="false">广角模式</string>
+    <string name="panoramic_mode" translatable="false">全景模式</string>
+    <string name="delay_model" translatable="false">延时模式</string>
+    <string name="control_model" translatable="false">智能模式</string>
+    <string name="safe_flight_for_gps" translatable="false">可安全飞行</string>
+    <string name="dont_support_this_video_play" translatable="false">暂不支持播放该视频</string>
+    <string name="ready_to_play" translatable="false">准备播放...</string>
+    <string name="around_flight" translatable="false">环绕飞行中</string>
+    <string name="auto_falling" translatable="false">自动下降中</string>
+    <string name="following" translatable="false">智能跟随中</string>
+    <string name="smart_follow" translatable="false">智能跟随</string>
+    <string name="compass_not_calibrated" translatable="false">指南针未校准</string>
+    <string name="beginner_mode" translatable="false">新手模式</string>
+    <string name="return_mode" translatable="false">返航模式</string>
+    <string name="plane_not_activated" translatable="false">产品未激活</string>
+    <string name="panorama_saved" translatable="false">720°全景已保存本地！</string>
+    <string name="author" translatable="false">作者:</string>
+    <string name="panor_share_title" translatable="false">标题:</string>
+    <string name="works_describe" translatable="false">作品描述:</string>
+    <string name="title_cannot_be_empty" translatable="false">分享标题不能为空,请重新输入！</string>
+    <string name="description_cannot_be_empty" translatable="false">分享描述不能为空,请重新输入！</string>
+    <string name="author_cannot_be_empty" translatable="false">分享作者不能为空,请重新输入！</string>
+    <string name="three_million_panorama_share_4k" translatable="false">飞拍无人机4K“3亿像素”VR全景图</string>
+    <string name="three_million_panorama_share_6k" translatable="false">飞拍无人机6K“4亿像素”VR全景图</string>
+    <string name="take_a_look_at_my_panorama" translatable="false">来看看我用飞拍无人机拍摄的720°VR全景图，惊艳到无法容忍！</string>
+    <string name="wechat_friends" translatable="false">微信好友</string>
+    <string name="circle_friends" translatable="false">朋友圈</string>
+    <string name="qq_friends" translatable="false">QQ好友</string>
+    <string name="qzone" translatable="false">QQ空间</string>
+    <string name="weibo" translatable="false">微博</string>
+    <string name="saving" translatable="false">保存中...</string>
+    <string name="uploads_require_around_10m_traffic" translatable="false">提示:上传需要10m左右流量</string>
+    <string name="hint_upload_need" translatable="false">提示:上传需要</string>
+    <string name="traffic" translatable="false">左右流量</string>
+    <string name="please_choose_sharing_platform" translatable="false">请选择一个分享平台！</string>
+    <string name="making_panorama" translatable="false">制作中...</string>
+    <string name="uploading_panorama" translatable="false">上传中...</string>
+    <string name="shared_success" translatable="false">分享成功啦！</string>
+    <string name="shared_failure" translatable="false">分享失败啦！</string>
+    <string name="shared_cancel" translatable="false">分享取消了！</string>
+    <string name="jumping_wait" translatable="false">正在跳转...</string>
+    <string name="crop_error" translatable="false">裁剪出错,请重试...</string>
+    <string name="cropping" translatable="false">裁剪中...</string>
+    <string name="already_synthesized_check_list" translatable="false">已经合成过，请在列表中查看</string>
+    <string name="synthesis_success_check_in_media_list" translatable="false">合成成功，请在媒体库列表中查看</string>
+    <string name="cropped_panor_photo_saved" translatable="false">裁剪照片已经保存本地！</string>
+    <string name="flight_control" translatable="false">飞控</string>
+    <string name="battery" translatable="false">电池</string>
+
+    <string name="return_alt" translatable="false">自动返航高度</string>
+    <string name="return_alt_details" translatable="false">飞行器将先爬升到此高度再直线返回起飞点，请根据当前飞行环境进行设置。\n如果高度不够，有可能造成中途撞击建筑物等障碍物。</string>
+    <string name="return_point_reset" translatable="false">返航点重置</string>
+    <string name="gps_normal_can_reset" translatable="false">手机GPS信号正常时</string>
+    <string name="reset" translatable="false">重置</string>
+    <string name="gps_dont_open_hint" translatable="false">手机定位功能未开启,\n将影响功能使用，去设置！</string>
+    <string name="return_point_reset_details" translatable="false">自动返航时，飞行器默认回到飞行起点，点击重置，返航点将更改为手机当前位置。</string>
+    <string name="confirm_reset_return_point_to_phone_position" translatable="false">确认重置飞行器返航点为当前手机位置?</string>
+    <string name="flight_control_restricted" translatable="false">飞行器限制</string>
+    <string name="highly_restricted_max" translatable="false">最大高度限制（30-500）</string>
+    <string name="distance_limit_max2" translatable="false">最远距离限制（30-9999）</string>
+    <string name="distance_limit_max5" translatable="false">最远距离限制（30-9999）</string>
+    <string name="distance_limit_max4" translatable="false">最远距离限制（30-9999）</string>
+    <string name="return_hight_limit_max200" translatable="false">(30-200)</string>
+    <string name="return_hight_limit_max120" translatable="false">(30-120)</string>
+    <string name="safeguard" translatable="false">安全保护</string>
+    <string name="eight_down_outside" translatable="false">外八停机</string>
+    <string name="eight_down_outside_details" translatable="false">双遥杆同时推向外侧底部，电机将紧急关闭，请谨慎使用。</string>
+    <string name="safeguard_details" translatable="false">安全保护启动时，必须接收到GPS信号才可起飞，关闭保护即允许姿态模式飞行，非专业人员请勿关闭。</string>
+    <string name="gyroscope_calibration" translatable="false">陀螺仪校准</string>
+    <string name="gyroscope_calibration_offset" translatable="false">陀螺仪偏移校准</string>
+    <string name="abnormal" translatable="false">（异常）</string>
+    <string name="normal" translatable="false">（正常）</string>
+    <string name="gyroscope_need_calibration" translatable="false">飞行器陀螺仪需要校准,\n请将飞行器置于水平地面进行校准</string>
+    <string name="gyroscope_calibrationing" translatable="false">正在校准陀螺仪</string>
+    <string name="start_gyroscope_calibration_dg_hint" translatable="false">请将飞行器置于水平地面，远离金属、信号塔等干扰源。\n 校准过程中确保飞行器始终保持水平静止状态。</string>
+    <string name="gyroscope_calibrationing_dg_hint" translatable="false">校准过程中确保飞行器始终保持水平静止状态。</string>
+    <string name="gyroscope_calibration_details" translatable="false">进行陀螺仪校准前，确保飞行器处于水平状态，按确认后将自动校准。</string>
+    <string name="gyroscope_calibration_offset_details" translatable="false">进行陀螺仪偏移校准前，确保飞行器处于水平状态，按确认后将自动校准。</string>
+    <string name="yuntai_calibration_details" translatable="false">请确保飞行器水平，点击校准数秒后，云台将自动校准(期间云台会歪,并发出呲呲声音,最后回正，校准完成)</string>
+    <string name="max_speed_limit" translatable="false">最大速度限制</string>
+    <string name="rising" translatable="false">上升</string>
+    <string name="falling" translatable="false">下降</string>
+    <string name="standard" translatable="false">水平</string>
+    <string name="calibration" translatable="false">校准</string>
+    <string name="compass_alignment" translatable="false">指南针校准</string>
+    <string name="figure_upgrade" translatable="false">图传升级</string>
+    <string name="upgrade" translatable="false">升级</string>
+    <string name="compass_need_alignment" translatable="false">飞行器指南针需要校准,\n请将飞行器置于水平地面进行校准</string>
+    <string name="compass_alignmenting" translatable="false">正在校准指南针</string>
+    <string name="compass_alignment_details" translatable="false">进行指南针校准前，确保飞行器远离金属和强干扰区域，防止电磁干扰。</string>
+    <string name="start_compass_calibration_dg_hint" translatable="false">请将飞行，远离金属、信号塔等干扰源。\n以避免在校准过程电磁对波飞行器的干扰。</string>
+    <string name="compass_calibrationing_dg_hint" translatable="false">
+       飞行器航灯黄灯亮起闪烁，即已开始校准。\n将飞行器水平拿起离地1.5m左右，如动画所示，垂直旋转直至黄灯熄灭。</string>
+    <string name="find_plane" translatable="false">寻找飞行器</string>
+    <string name="find_the_plane" translatable="false">寻飞机</string>
+    <string name="find_plane_details" translatable="false">app已记录起飞点和终点，如果飞行器已丢失，可按照如下思路尝试寻找：
+    \n1、飞行器可能遗失在返航途中，沿着起飞点和终点之间直线路径寻找。
+    \n2、飞行器可能遗失在终点附近，在终点附近寻找。"</string>
+    <string name="intelligent_battery_info" translatable="false">智能电池详细信息</string>
+    <string name="voltage" translatable="false">电压（V）</string>
+    <string name="line" translatable="false">线路</string>
+    <string name="temperature" translatable="false">温度（℃）</string>
+    <string name="battery_capacity" translatable="false">容量（mAh）</string>
+    <string name="electricity" translatable="false">电流（mA）</string>
+    <string name="cycles" translatable="false">充放电循环数（次）</string>
+    <string name="highly" translatable="false">高度</string>
+    <string name="lift" translatable="false">升降</string>
+    <string name="start_calibration" translatable="false">开始校准</string>
+    <string name="cancel_calibration" translatable="false">取消校准</string>
+    <string name="compass_calibration_complete" translatable="false">指南针校准完成</string>
+    <string name="compass_calibration_failure" translatable="false">指南针校准失败</string>
+    <string name="gyroscope_calibration_complete" translatable="false">陀螺仪校准完成</string>
+    <string name="move_plane_to_take_panor" translatable="false">将飞行器移动至拍摄全景的位置</string>
+    <string name="total_shooting_time" translatable="false">拍摄总时长</string>
+    <string name="minutes" translatable="false">分钟</string>
+    <string name="make_sure_sufficient_power" translatable="false">*请确保飞行器电量充足。</string>
+    <string name="during_will_finish_shooting" translatable="false">*拍摄过程中操控飞行器将结束拍摄。</string>
+    <string name="return_to_synthesize" translatable="false">*如需合成VR全景照片建议返航。</string>
+    <string name="interrupt" translatable="false">中断</string>
+    <string name="vr_taking" translatable="false">VR全景拍摄中...</string>
+    <string name="wide_angle_taking" translatable="false">广角拍摄中...</string>
+    <string name="shooting" translatable="false">正在拍摄</string>
+    <string name="amount_of_sheets" translatable="false">张</string>
+    <string name="surrounded_by_arget" translatable="false">目标环绕飞行</string>
+    <string name="current_around_speed" translatable="false">当前环绕速度</string>
+    <string name="around_height" translatable="false">环绕高度</string>
+    <string name="around_radius" translatable="false">环绕半径</string>
+    <string name="m" translatable="false">米</string>
+    <string name="move_plane_over_canter_circle" translatable="false">请将飞行器移动至环绕中心上方</string>
+    <string name="around_make_sure_sufficient_power" translatable="false">*请确保环绕的高度和半径，并电量充足。</string>
+    <string name="flying_at_uniform_speed_direction_you_chosen" translatable="false">飞行器朝你当前选择的方向均速飞行</string>
+    <string name="tagget_around" translatable="false">目标环绕</string>
+    <string name="total_shooting_size" translatable="false">拍摄照片总数</string>
+    <string name="make_sure_sufficient_power_and_barrier_free" translatable="false">*请确保选择的方向无障碍物保证飞行安全。</string>
+    <string name="fly_speed_and_distance_setting" translatable="false">飞行速度与距离设置</string>
+    <string name="fly_at_constant_speed" translatable="false">*飞行器将匀速飞行拍摄。</string>
+    <string name="camera_picture_as_front_fly" translatable="false">以相机画面为前方，选择飞行器的移动方向</string>
+    <string name="fly_speed" translatable="false">飞行速度</string>
+    <string name="fly_distance" translatable="false">飞行距离</string>
+    <string name="delay_time_shooting" translatable="false">移动延时拍摄中...</string>
+    <string name="front" translatable="false">前</string>
+    <string name="back" translatable="false">后</string>
+    <string name="left" translatable="false">左</string>
+    <string name="right" translatable="false">右</string>
+    <string name="navigation_point_set" translatable="false">已设置航点</string>
+    <string name="total_distance" translatable="false">总里程</string>
+    <string name="pcs" translatable="false">个</string>
+    <string name="waypoint_speed" translatable="false">巡航速度</string>
+    <string name="set_waypoint_speed" translatable="false">设置巡航速度</string>
+    <string name="waypoint_fly" translatable="false">航点飞行</string>
+    <string name="waypoint_flying" translatable="false">航点飞行进行中...</string>
+    <string name="waypoint_flying_pasued" translatable="false">航点飞行已暂停</string>
+    <string name="waypoint_make_sure_sufficient_power" translatable="false">*请确保飞行器电量充足。</string>
+    <string name="push_rocker_adjust_following_position" translatable="false">请推动摇杆调整跟随位置</string>
+    <string name="weak" translatable="false">弱</string>
+    <string name="strong" translatable="false">强</string>
+    <string name="follow_must_10m_height_20m_distance" translatable="false">*跟随高度需在10米以上，距离需在20米以上。</string>
+    <string name="intelligent_following" translatable="false">正在智能跟随...</string>
+    <string name="intelligent_follow_pause" translatable="false">智能跟随已暂停</string>
+    <string name="follow_height" translatable="false">跟随高度</string>
+    <string name="follow_distance" translatable="false">跟随距离</string>
+    <string name="speed" translatable="false">速度</string>
+    <string name="disconnected_and_returning" translatable="false">飞行器断开连接，正在返航</string>
+    <string name="upgrading_plan" translatable="false">升级计划</string>
+    <string name="officially_launch" translatable="false">正式启动</string>
+    <string name="camera_set_cannot_meter" translatable="false">手动ISO模式下不支持测光</string>
+    <string name="camera_set_can_meter_a" translatable="false">曝光锁定，无法测光</string>
+    <string name="wifi_occupied" translatable="false">飞行器WIFI被占用</string>
+    <string name="open_available_net_hint" translatable="false">网络不可用,请打开移动数据网络或可用WiFi！</string>
+    <string name="wifi_occupied_disconnect_other_connections" translatable="false">飞行器WIFI已被其它手机抢占,请先断开其\n它手机的连接然后点击确定我们将尝试重连,\n否则有可能通讯异常</string>
+    <string name="start_fly" translatable="false">开始飞行</string>
+    <string name="stop_fly" translatable="false">停止飞行</string>
+    <string name="adjust_stop_fly" translatable="false">操作遥控器将自动停止飞行</string>
+    <string name="turn_left" translatable="false">左转</string>
+    <string name="turn_right" translatable="false">右转</string>
+    <string name="front_fly" translatable="false">前飞</string>
+    <string name="behind_fly" translatable="false">后飞</string>
+    <string name="left_fly" translatable="false">左飞</string>
+    <string name="right_fly" translatable="false">右飞</string>
+    <string name="prohibited_use" translatable="false">当前组合禁止使用</string>
+    <string name="disable_smart_mode" translatable="false">飞行高度小于5米，无法使用智能模式</string>
+    <string name="plane_not_positioned_auto" translatable="false">非GPS模式无法使用</string>
+    <string name="mainland_china_code" translatable="false">（+86）中国大陆</string>
+    <string name="cancel_panor" translatable="false">取消全景</string>
+    <string name="cancel_delay" translatable="false">取消延时</string>
+    <string name="smart_wide_photo_mode" translatable="false">广角模式</string>
+    <string name="smart_waypoint_fly" translatable="false">航点飞行</string>
+    <string name="user_agreement_title" translatable="false">用户协议</string>
+    <string name="privacy_policy_title" translatable="false">隐私条款</string>
+    <string name="user_copyright" translatable="false">Copyright©2019 Flypie Tech All rights reserved.</string>
+    <string name="mapbox_access_token" translatable="false">pk.eyJ1IjoiZmx5cGFpIiwiYSI6ImNqbHJ6YmE4cjA4ejkzcG83NDdtZjZqYW8ifQ.X7ulvCJQe-wnLUHmyS0ebg</string>
+    <string name="list" translatable="false">列表</string>
+    <string name="set_region_name_hint">Enter name</string>
+    <string name="map_offline_dialog_message" translatable="false">区域名称</string>
+    <string name="map_offline_dialog_title">Downloads the map region you currently are viewing</string>
+    <string name="map_offline_dialog_toast">Region name cannot be empty.</string>
+    <string name="map_offline_cancel">取消</string>
+    <string name="map_offline_download">下载</string>
+    <string name="map_offline_download_success">Region downloaded successfully.</string>
+    <string name="region_name">Region %1$d</string>
+    <string name="navigate_positive_button">Navigate to</string>
+    <string name="toast_region_deleted">Region deleted</string>
+    <string name="offline_map">Offline Map</string>
+    <string name="toast_no_regions_yet">You have no regions yet.</string>
+    <string name="update_panor_bg_music_success" translatable="false">更新背景音乐成功！</string>
+    <string name="update_panor_bg_music_failure" translatable="false">更新背景音乐失败！</string>
+    <string name="teach_first_flight" translatable="false">首次飞行</string>
+    <string name="teach_app_usage_tutorial" translatable="false">APP使用教程</string>
+    <string name="teach_flight_instruction" translatable="false">飞行操作教程</string>
+    <string name="smart_down_height_shall_not_be_less_than5" translatable="false">高度低于5m,智能下降功能不可用!</string>
+</resources>

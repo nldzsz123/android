@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+    <!-- This is the line -->
+    <item>
+        <shape>
+            <padding
+                android:bottom="3px"
+                android:left="3px"
+                android:right="3px"
+                android:top="0px" />
+            <stroke
+                android:width="3px"
+                android:color="@color/color_cfcfcf70" />
+        </shape>
+    </item>
+    <!-- This is the main color -->
+    <item>
+        <shape>
+            <gradient
+                android:centerX="0.5"
+                android:centerY="0.5" />
+            <solid android:color="@color/color_ffffff" />
+        </shape>
+    </item>
+</layer-list>

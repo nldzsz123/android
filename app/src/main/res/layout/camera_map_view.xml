@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true">
+
+    <com.feipai.flypai.ui.view.Camera.GaoDeMapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="visible"/>
+
+    <com.feipai.flypai.ui.view.Camera.MyMapBoxMap
+        android:id="@+id/mapbox_view"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mapbox_renderTextureMode="true"
+        app:mapbox_renderTextureTranslucentSurface="true"
+        app:mapbox_cameraTargetLat="12.948991"
+        app:mapbox_cameraTargetLng="80.141849"
+        app:mapbox_cameraZoom="15"
+        app:mapbox_cameraTilt="0"
+        app:mapbox_uiRotateGestures="true"
+        android:layout_centerInParent="true" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/camera_change_ly_id"
+        android:layout_alignRight="@id/mapbox_view"
+        android:layout_marginRight="400px"
+        android:layout_marginTop="150px"
+        android:layout_width="100px"
+        android:background="@drawable/back_round_all"
+        android:layout_height="100px"
+        android:orientation="vertical">
+        <com.feipai.flypai.ui.view.FPImageButton
+            android:id="@+id/map_type_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/map_satellite"
+            android:layout_gravity="center"
+            />
+    </com.zhy.autolayout.AutoLinearLayout>
+</RelativeLayout>

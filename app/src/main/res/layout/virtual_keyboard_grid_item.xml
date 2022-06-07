@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    tools:ignore="ResourceName">
+
+    <TextView
+        android:id="@+id/btn_keys"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/keyboard_item_selcetor"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#333333"
+        android:textSize="63px" />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/imgDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="58px"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/keyboard_delete_img" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

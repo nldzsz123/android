@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/camera_back_grand"
+    android:clickable="true"
+    android:keepScreenOn="true"
+    android:splitMotionEvents="false"
+    tools:context="com.feipai.flypai.ui.activity.CameraActivity">
+
+
+    <com.feipai.flypai.ui.view.Camera.VideoView
+        android:id="@+id/camera_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_transparent" />
+
+    <com.feipai.flypai.ui.view.Camera.MapViewLayout
+        android:id="@+id/camera_mapview"
+        android:layout_width="136dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:polyline_dotted_color="@color/color_f34235"
+        app:polyline_dotted_width="15"
+        app:polyline_find_plane_takeoff_color="@color/color_4097e1"
+        app:polyline_solid_color="@color/color_4097e1"
+        app:polyline_solid_width="5" />
+
+    <com.feipai.flypai.ui.view.Camera.TopbarInfoView
+        android:id="@+id/camera_top_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.feipai.flypai.ui.view.Camera.OperateView
+        android:id="@+id/camera_operate"
+        android:layout_width="180px"
+        android:layout_height="522px"
+        android:background="@drawable/camera_set_right_round"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <com.feipai.flypai.ui.view.Camera.CameraSetView
+        android:id="@+id/camera_camerasetview"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/camera_set_right_round"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/camera_operate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.feipai.flypai.ui.view.Camera.SmartView
+        android:id="@+id/camera_smart_view"
+        android:layout_width="0dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="98dp"
+        android:background="@color/color_transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.feipai.flypai.ui.view.Camera.BottomInfoView
+        android:id="@+id/camera_bottomInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/camera_plaback_btn" />
+
+    <ImageButton
+        android:clickable="true"
+        android:id="@+id/camera_plaback_btn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="#0fff"
+        android:src="@mipmap/camera_play_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/camera_operate"
+        app:layout_constraintRight_toRightOf="@id/camera_operate" />
+
+    <FrameLayout
+        android:id="@+id/planesetting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera_top_info">
+
+    </FrameLayout>
+
+    <com.feipai.flypai.ui.view.Camera.AdjustLayout
+        android:id="@+id/adjust_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_transparent"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.feipai.flypai.ui.view.Camera.ReturnBackLayout
+        android:id="@+id/retureback_ly"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.feipai.flypai.ui.view.Camera.HintLayout
+        android:id="@+id/hint_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="start"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera_top_info">
+
+    </com.feipai.flypai.ui.view.Camera.HintLayout>
+
+    <Button
+        android:id="@+id/contorl_cancel_find_plane_btn"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/find_plane_but_selcetor"
+        android:text="@string/quit_looking_for"
+        android:textColor="@color/color_ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

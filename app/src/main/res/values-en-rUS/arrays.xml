@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--FUNCTION-->
+    <string-array name="_FUNCTION_ITEM">
+        <item>Tutorial/Manual</item>
+<!--        <item>Upgrade</item>-->
+<!--        <item>Flypie Store</item>-->
+        <item>Offline Map</item>
+<!--        <item>Setting</item>-->
+    </string-array>
+    <string-array name="_FUNCTION_ITEM_DEBUG">
+        <item>Dhaksha Academy</item>
+<!--        <item>Upgrade</item>-->
+<!--        <item>Flypie Store</item>-->
+        <item>Offline Map</item>
+<!--        <item>Setting</item>-->
+<!--        <item>天空端</item>-->
+<!--        <item>地面端</item>-->
+    </string-array>
+    <string-array name="_FUNCTION_FLYPIE_COLLEGE_ITEM">
+        <item>Video Tutorials</item>
+        <item>User Manual</item>
+       <!-- <item>4K Air User Manual</item>
+        <item>6K User Manual</item>
+        <item>Name Authentication Tutorial</item>-->
+    </string-array>
+    <string-array name="_FUNCTION_PLANE_FW_ITEM">
+        <item>APP Version</item>
+        <item>Flight Ctrl Firmware update</item>
+        <item>Camera Firmware update</item>
+        <item>Gimbal Firmware update </item>
+    </string-array>
+    <string-array name="JSCH_SETTING_DEBUG">
+        <item>Setting</item>
+        <item>Submit</item>
+        <item>Reading</item>
+        <item>Save</item>
+    </string-array>
+
+    <string-array name="_PHOTO_SHUTTER">
+        <item>1/8000s</item>
+        <item>1/6400s</item>
+        <item>1/5000s</item>
+        <item>1/4000s</item>
+        <item>1/3200s</item>
+        <item>1/2500s</item>
+        <item>1/2000s</item>
+        <item>1/1600s</item>
+        <item>1/1250s</item>
+        <item>1/1000s</item>
+        <item>1/800s</item>
+        <item>1/640s</item>
+        <item>1/500s</item>
+        <item>1/400s</item>
+        <item>1/320s</item>
+        <item>1/240s</item>
+        <item>1/200s</item>
+        <item>1/160s</item>
+        <item>1/120s</item>
+        <item>1/100s</item>
+        <item>1/80s</item>
+        <item>1/60s</item>
+        <item>1/50s</item>
+        <item>1/40s</item>
+        <item>1/30s</item>
+        <item>1/24s</item>
+        <item>1/20s</item>
+        <item>1/15s</item>
+        <item>1/12.5s</item>
+        <item>1/10s</item>
+        <item>1/8s</item>
+        <item>1/6.25s</item>
+        <item>1/5s</item>
+        <item>1/4s</item>
+        <item>1/3s</item>
+        <item>1/2s</item>
+        <item>1/1.67s</item>
+        <item>1/1.25s</item>
+        <item>1s</item>
+        <item>1.3s</item>
+        <item>1.6s</item>
+        <item>2s</item>
+    </string-array>
+    <string-array name="_PHOTO_SHUTTER_6K">
+        <item>1/8000s</item>
+        <item>1/6400s</item>
+        <item>1/5000s</item>
+        <item>1/4000s</item>
+        <item>1/3200s</item>
+        <item>1/2500s</item>
+        <item>1/2000s</item>
+        <item>1/1600s</item>
+        <item>1/1250s</item>
+        <item>1/1000s</item>
+        <item>1/800s</item>
+        <item>1/640s</item>
+        <item>1/500s</item>
+        <item>1/400s</item>
+        <item>1/320s</item>
+        <item>1/240s</item>
+        <item>1/200s</item>
+        <item>1/160s</item>
+        <item>1/120s</item>
+        <item>1/100s</item>
+        <item>1/80s</item>
+        <item>1/60s</item>
+        <item>1/50s</item>
+        <item>1/40s</item>
+        <item>1/30s</item>
+        <item>1/24s</item>
+        <item>1/20s</item>
+        <item>1/15s</item>
+        <item>1/12.5s</item>
+        <item>1/10s</item>
+        <item>1/8s</item>
+        <item>1/6.25s</item>
+        <item>1/5s</item>
+        <item>1/4s</item>
+        <item>1/3s</item>
+        <item>1/2s</item>
+        <item>1/1.67s</item>
+        <item>1/1.25s</item>
+        <item>1s</item>
+        <item>1.3s</item>
+        <item>1.6s</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>4s</item>
+        <item>5s</item>
+        <item>6s</item>
+        <item>7s</item>
+        <item>8s</item>
+    </string-array>
+
+    <string-array name="_PHOTO_SHUTTER_DISPLAY">
+        <item>1/8000</item>
+        <item>1/6400</item>
+        <item>1/5000</item>
+        <item>1/4000</item>
+        <item>1/3200</item>
+        <item>1/2500</item>
+        <item>1/2000</item>
+        <item>1/1600</item>
+        <item>1/1250</item>
+        <item>1/1000</item>
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+        <item>1/40</item>
+        <item>1/30</item>
+        <item>1/20</item>
+        <item>1/15</item>
+        <item>1/12.5</item>
+        <item>1/10</item>
+        <item>1/8</item>
+        <item>1/6.25</item>
+        <item>1/5</item>
+        <item>1/4</item>
+        <item>1/3</item>
+        <item>1/2</item>
+        <item>1/1.67</item>
+        <item>1/1.25</item>
+        <item>1</item>
+        <item>1.3</item>
+        <item>1.6</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="_24VIDEO_SHUTTER">
+        <item>1/8000s</item>
+        <item>1/6400s</item>
+        <item>1/5000s</item>
+        <item>1/4000s</item>
+        <item>1/3200s</item>
+        <item>1/2500s</item>
+        <item>1/2000s</item>
+        <item>1/1600s</item>
+        <item>1/1250s</item>
+        <item>1/1000s</item>
+        <item>1/800s</item>
+        <item>1/640s</item>
+        <item>1/500s</item>
+        <item>1/400s</item>
+        <item>1/320s</item>
+        <item>1/240s</item>
+        <item>1/200s</item>
+        <item>1/160s</item>
+        <item>1/120s</item>
+        <item>1/100s</item>
+        <item>1/80s</item>
+        <item>1/60s</item>
+        <item>1/50s</item>
+        <item>1/40s</item>
+        <item>1/30s</item>
+        <item>1/24s</item>
+    </string-array>
+    <string-array name="_120VIDEO_SHUTTER">
+        <item>1/8000s</item>
+        <item>1/6400s</item>
+        <item>1/5000s</item>
+        <item>1/4000s</item>
+        <item>1/3200s</item>
+        <item>1/2500s</item>
+        <item>1/2000s</item>
+        <item>1/1600s</item>
+        <item>1/1250s</item>
+        <item>1/1000s</item>
+        <item>1/800s</item>
+        <item>1/640s</item>
+        <item>1/500s</item>
+        <item>1/400s</item>
+        <item>1/320s</item>
+        <item>1/240s</item>
+        <item>1/200s</item>
+        <item>1/160s</item>
+        <item>1/120s</item>
+    </string-array>
+    <string-array name="_60VIDEO_SHUTTER">
+        <item>1/8000s</item>
+        <item>1/6400s</item>
+        <item>1/5000s</item>
+        <item>1/4000s</item>
+        <item>1/3200s</item>
+        <item>1/2500s</item>
+        <item>1/2000s</item>
+        <item>1/1600s</item>
+        <item>1/1250s</item>
+        <item>1/1000s</item>
+        <item>1/800s</item>
+        <item>1/640s</item>
+        <item>1/500s</item>
+        <item>1/400s</item>
+        <item>1/320s</item>
+        <item>1/240s</item>
+        <item>1/200s</item>
+        <item>1/160s</item>
+        <item>1/120s</item>
+        <item>1/100s</item>
+        <item>1/80s</item>
+        <item>1/60s</item>
+    </string-array>
+    <string-array name="_30VIDEO_SHUTTER">
+        <item>1/8000s</item>
+        <item>1/6400s</item>
+        <item>1/5000s</item>
+        <item>1/4000s</item>
+        <item>1/3200s</item>
+        <item>1/2500s</item>
+        <item>1/2000s</item>
+        <item>1/1600s</item>
+        <item>1/1250s</item>
+        <item>1/1000s</item>
+        <item>1/800s</item>
+        <item>1/640s</item>
+        <item>1/500s</item>
+        <item>1/400s</item>
+        <item>1/320s</item>
+        <item>1/240s</item>
+        <item>1/200s</item>
+        <item>1/160s</item>
+        <item>1/120s</item>
+        <item>1/100s</item>
+        <item>1/80s</item>
+        <item>1/60s</item>
+        <item>1/50s</item>
+        <item>1/40s</item>
+        <item>1/30s</item>
+    </string-array>
+
+    <string-array name="_30VIDEO_SHUTTER_DISPLAY">
+        <item>1/8000</item>
+        <item>1/6400</item>
+        <item>1/5000</item>
+        <item>1/4000</item>
+        <item>1/3200</item>
+        <item>1/2500</item>
+        <item>1/2000</item>
+        <item>1/1600</item>
+        <item>1/1250</item>
+        <item>1/1000</item>
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+        <item>1/40</item>
+        <item>1/30</item>
+    </string-array>
+
+
+    <string-array name="AB_VIDEO_RESOLUTION_4K">
+        <item>3840x2160 30P 16:9</item>
+        <item>2560x1440 30P 16:9</item>
+        <item>2560x1440 60P 16:9</item>
+        <item>1920x1080 30P 16:9</item>
+        <item>1920x1080 60P 16:9</item>
+    </string-array>
+    <string-array name="AB_VIDEO_RESOLUTION_2K">
+        <item>2560x1440 30P 16:9</item>
+        <item>2560x1440 60P 16:9</item>
+        <item>1920x1080 30P 16:9</item>
+        <item>1920x1080 60P 16:9</item>
+    </string-array>
+    <string-array name="AB_VIDEO_ITEM_RESOLUTION_4K">
+        <item>3840×2160</item>
+        <item>2560×1440</item>
+        <item>1920×1080</item>
+    </string-array>
+    <string-array name="AB_VIDEO_ITEM_RESOLUTION_2K">
+        <item>2560×1440</item>
+        <item>1920×1080</item>
+    </string-array>
+
+    <string-array name="AB_VIDEO_RESOLUTION_DISPLAY_4K">
+        <item>4K 30</item>
+        <item>2.5K 30</item>
+        <item>2.5K 60</item>
+        <item>1080P 30</item>
+        <item>1080P 60</item>
+    </string-array>
+
+    <string-array name="AB_VIDEO_RESOLUTION_DISPLAY_2K">
+        <item>2.5K 30</item>
+        <item>2.5K 60</item>
+        <item>1080P 30</item>
+        <item>1080P 60</item>
+    </string-array>
+
+    <string-array name="UNLOCK">
+        <item>Locating</item>
+        <item>Flight Mode Anomaly</item>
+        <item>Lock</item>
+        <item>Restarting</item>
+        <item>Horizontal Anomaly</item>
+        <item>Gyroscope Anomaly</item>
+        <item>Calibrating the Compass</item>
+        <item>Restarting</item>
+        <item>Please calibrate the compass</item>
+        <item>Please calibrate the compass</item>
+        <item>Please calibrate the compass</item>
+        <item>Accelerator anomaly</item>
+        <item>Gyroscope Anomaly</item>
+        <item>IMU Anomaly</item>
+        <item>Compass Anomaly</item>
+        <item>GPS Not Located</item>
+        <item>Emergency Protection</item>
+        <item>Barometer Anomaly</item>
+        <item>Height Estimation Anomaly</item>
+        <item>Low Battery,Landing</item>
+        <item>Do Not Use in No-fly Zone.</item>
+        <item>GPS Interference</item>
+    </string-array>
+
+    <string-array name="photo_take_method">
+        <item>Single</item>
+        <item>Delay</item>
+    </string-array>
+    <string-array name="contrast">
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+    </string-array>
+    <string-array name="saturation">
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+    </string-array>
+    <string-array name="ruidu">
+        <item>Standard</item>
+        <item>Strength</item>
+    </string-array>
+    <string-array name="photo_ruidu">
+        <item>std</item>
+        <item>high</item>
+    </string-array>
+    <string-array name="on_off">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="iosshutter_auto_manual">
+        <item>Auto</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="iosshutter_auto_manual_method">
+        <item>auto</item>
+        <item>manual</item>
+    </string-array>
+    <string-array name="baoguang_values">
+        <item>+2.0</item>
+        <item>+1.7</item>
+        <item>+1.3</item>
+        <item>+1.0</item>
+        <item>+0.7</item>
+        <item>+0.3</item>
+        <item>0</item>
+        <item>-0.3</item>
+        <item>-0.7</item>
+        <item>-1.0</item>
+        <item>-1.3</item>
+        <item>-1.7</item>
+        <item>-2.0</item>
+    </string-array>
+    <string-array name="camera_set_anti_values">
+        <item>AUTO</item>
+        <item>50HZ</item>
+        <item>60HZ</item>
+    </string-array>
+    <string-array name="camera_set_anti_comds">
+        <item>auto</item>
+        <item>50hz</item>
+        <item>60hz</item>
+    </string-array>
+    <string-array name="camera_set_grid_values">
+        <item>Off</item>
+        <item>""</item>
+        <item>""</item>
+    </string-array>
+
+
+    <!--for video-->
+    <string-array name="video_record_method">
+        <item>H.264</item>
+        <item>H.265</item>
+    </string-array>
+    <string-array name="camera_set_fps">
+        <item>Turn Off</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+    </string-array>
+    <string-array name="zoom_speed">
+        <item>Quick</item>
+        <item>Slow</item>
+    </string-array>
+
+    <!--for 6k-->
+    <string-array name="record_encode_type">
+        <item>AH</item> <!-- H264 -->
+        <item>HH</item> <!-- H265 -->
+    </string-array>
+    <string-array name="photoAitios_6k">
+        <item>20M (5472x3648) 3:2</item>
+        <item>16M (5472x3078) 16:9</item>
+    </string-array>
+    <string-array name="PHOTO_ISO_VALUES">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="VIDEO_ISO_VALUES">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+        <item>6400</item>
+        <item>12800</item>
+    </string-array>
+    <string-array name="photo_take_atio_6k">
+        <item>3:2</item>
+        <item>16:9</item>
+    </string-array>
+    <!--for 6k-->
+
+    <!--4K-->
+    <string-array name="PHOTO_SIZE_4K">
+        <item>16M (4608x3456 4:3)</item>
+        <item>12M (4608x2592 16:9)</item>
+    </string-array>
+    <string-array name="PHOTO_SIZE_4KAir">
+        <item>12M (4000x3000 4:3)</item>
+        <item>8M (3840x2160 16:9)</item>
+    </string-array>
+    <string-array name="photo_take_atio_4k">
+        <item>4:3</item>
+        <item>16:9</item>
+    </string-array>
+
+    <string-array name="SWITHC">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+
+    <string-array name="METER_STATUS">
+        <item>center</item>
+        <item>average</item>
+        <item>spot</item>
+    </string-array>
+
+</resources>

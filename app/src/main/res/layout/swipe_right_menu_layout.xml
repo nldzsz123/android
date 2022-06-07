@@ -1,0 +1,52 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400px"
+    android:layout_height="344px"
+    android:layout_marginBottom="24px"
+    android:background="@color/color_ffffff"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+    <TextView
+        android:id="@+id/right_menu_confirm_deletion_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ff3b30"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/confirm_deletion"
+        android:textColor="@color/color_ffffff"
+        android:textSize="40px"
+        android:visibility="visible" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/swipe_right_menu_delect_ly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/right_menu_share_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_4097e1"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/share"
+            android:textColor="@color/color_ffffff"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/right_menu_delect_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_ff3b30"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="@color/color_ffffff"
+            android:textSize="40px" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

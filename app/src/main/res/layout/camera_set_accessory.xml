@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="144px"
+    android:background="#ff333333">
+
+    <TextView
+        android:id="@+id/accessory_left_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32px"
+        android:textColor="#fff"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/accessory_right_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8px"
+        android:layout_toLeftOf="@+id/accessory_button"
+        android:textColor="#fff"
+        android:textSize="50px" />
+
+    <ImageView
+        android:id="@+id/accessory_button"
+        android:layout_width="72px"
+        android:layout_height="72px"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="32px"
+        android:src="@mipmap/white_uncomposed_img" />
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

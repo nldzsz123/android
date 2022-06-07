@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_login_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ffffff">
+
+    <TextView
+        android:id="@+id/panor_editor_min_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="17px"
+        android:layout_toLeftOf="@+id/media_seekbar"
+        android:text="-25"
+        android:textColor="@color/color_333333"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+    <com.feipai.flypai.ui.view.CenterPointSeekBar
+        android:id="@+id/media_seekbar"
+        android:layout_width="777px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="9px"
+        android:progressDrawable="@android:color/transparent"
+        android:theme="@style/SeekBarThem"
+        app:backgroundDrawable="@drawable/seekbar_editor_progress_border"
+        app:defaultBackgroundColor="@color/color_transparent"
+        app:defaultBackgroundRangeColor="@color/color_transparent"
+        app:linHeight="16"
+        app:maxValue="25"
+        app:minValue="-25"
+        app:progressDrawable="@drawable/seekbar_editor_progress_gradient" />
+
+    <TextView
+        android:id="@+id/panor_editor_current_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/media_seekbar"
+        android:layout_centerHorizontal="true"
+        android:text="-25"
+        android:textColor="@color/color_333333"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/panor_editor_max_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="17px"
+        android:layout_toRightOf="@+id/media_seekbar"
+        android:text="-25"
+        android:textColor="@color/color_333333"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

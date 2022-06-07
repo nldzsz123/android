@@ -1,0 +1,225 @@
+apply plugin: rootProject.ext.plugins.application
+apply from: 'and_res_guard.gradle'
+//apply plugin: 'bugly'
+//bugly {
+//    appId = "b8b9e74569"
+//    appKey = "cc90a3d9-1218-425c-8932-5c9af669e787"
+//}
+android {
+    compileSdkVersion rootProject.ext.android.targetSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        multiDexEnabled true
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi-v7a', 'arm64-v8a'//, 'arm64-v8a', 'x86_64'
+        }
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11", "-frtti", "-fexceptions", "-ljnigraphics"
+                arguments "-DANDROID_TOOLCHAIN=clang",'-DANDROID_STL=gnustl_static'
+            }
+        }
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: name,
+                                qqappid            : "1106338778"]
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    publishNonDefault true
+    packagingOptions {
+        pickFirst 'lib/armeabi-v7a/libavcodec.so'
+        pickFirst 'lib/armeabi-v7a/libswscale.so'
+        pickFirst 'lib/armeabi-v7a/libavutil.so'
+        pickFirst 'lib/armeabi-v7a/libavformat.so'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'assets/ap1.data'
+    }
+
+    signingConfigs {
+        Properties properties = new Properties()
+        // local.properties file in the root director
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        FlyPieConfig {
+            keyAlias properties.getProperty("keystore.alias")
+            keyPassword properties.getProperty("keystore.password")
+            storeFile file(properties.getProperty("keystore.path"))
+            storePassword properties.getProperty("keystore.alias_password")
+        }
+        lintOptions {
+            abortOnError false//lint时候终止错误上报,防止编译的时候莫名的失败
+        }
+    }
+    buildTypes {
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            //开启代码混淆
+            minifyEnabled true
+            // 移除无用的resource文件
+            shrinkResources true
+            zipAlignEnabled true //zipalign优化
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.FlyPieConfig  //使用上述签名信息
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "${variant.productFlavors[0].name}_v${variant.versionName}.apk"
+                }
+            }
+        }
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled true //zipalign优化
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.FlyPieConfig  //使用上述签名信息
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "${variant.productFlavors[0].name}_v${variant.versionName}.apk"
+                }
+            }
+        }
+    }
+    // 删除META-INF信息
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+        exclude 'META-INF/maven/com.squareup.okhttp3/okhttp/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okhttp3/okhttp/pom.properties'
+        exclude 'META-INF/maven/com.squareup.okio/okio/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okio/okio/pom.properties'
+        exclude 'META-INF/maven/com.google.code.gson/gson/pom.xml'
+        exclude 'META-INF/maven/com.google.code.gson/gson/pom.properties'
+    }
+    flavorDimensions "device"
+    // 用于多渠道打包
+    productFlavors {
+        yingyongbao {
+            dimension "device"
+            signingConfig signingConfigs.FlyPieConfig
+        }
+        xiaomi {
+            dimension "device"
+            signingConfig signingConfigs.FlyPieConfig
+        }
+        qh360 {
+            dimension "device"
+            signingConfig signingConfigs.FlyPieConfig
+        }
+        wandoujia {
+            dimension "device"
+            signingConfig signingConfigs.FlyPieConfig
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+    // manifest渠道名替换
+    productFlavors.all {
+        flavor ->
+            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name,
+                                           QQ_APPID           : "1106338778"]
+    }
+
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+        maven {
+            url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2'
+        }
+    }
+
+}
+
+dependencies {
+    implementation rootProject.ext.dependencies.appcompatV7
+    implementation rootProject.ext.dependencies.design
+    implementation rootProject.ext.dependencies.constraintLayout
+    implementation rootProject.ext.dependencies.litepal
+    implementation rootProject.ext.dependencies.umengAnalytics
+    implementation rootProject.ext.dependencies.umengCommon
+    implementation rootProject.ext.dependencies.umengqqShare
+    implementation rootProject.ext.dependencies.umengwxShare
+    implementation rootProject.ext.dependencies.umengsnShare
+    implementation rootProject.ext.dependencies.sina_sdk
+    implementation rootProject.ext.dependencies.umengShareCore
+    implementation rootProject.ext.dependencies.umengShareBoard
+    implementation rootProject.ext.dependencies.rxandroid
+    implementation rootProject.ext.dependencies.rxjava
+    implementation rootProject.ext.dependencies.rxbinding
+    implementation rootProject.ext.dependencies.rxlifecycle
+    implementation rootProject.ext.dependencies.rxlifecycleComponents
+    implementation rootProject.ext.dependencies.rxpermissions
+    implementation rootProject.ext.dependencies.rxbus
+    implementation rootProject.ext.dependencies.logger
+    implementation rootProject.ext.dependencies.gson
+    implementation rootProject.ext.dependencies.crashreport_upgrade
+    implementation rootProject.ext.dependencies.nativecrashreport
+    implementation rootProject.ext.dependencies.api
+    implementation rootProject.ext.dependencies.glide
+    //    implementation rootProject.ext.dependencies.BaseRecyclerViewAdapterHelper
+    implementation rootProject.ext.dependencies.recyclerviewV7
+    implementation rootProject.ext.dependencies.fragmentation
+    implementation rootProject.ext.dependencies.multidex
+    implementation rootProject.ext.dependencies.api
+    implementation rootProject.ext.dependencies.retrofit
+    implementation rootProject.ext.dependencies.retrofitConverterGson
+    implementation rootProject.ext.dependencies.retrofitConverterScalars
+    implementation rootProject.ext.dependencies.retrofitAdapterRxjava
+    implementation rootProject.ext.dependencies.okhttp
+    implementation rootProject.ext.dependencies.okhttp3Integration
+    implementation rootProject.ext.dependencies.dagger
+    implementation rootProject.ext.dependencies.javaxAnnotation
+    implementation rootProject.ext.dependencies.butterknife
+    implementation rootProject.ext.dependencies.immersionbar
+    implementation rootProject.ext.dependencies.immersionbar_components
+    implementation rootProject.ext.dependencies.ormlite
+    implementation rootProject.ext.dependencies.subsampling
+    implementation rootProject.ext.dependencies.swiperecyclerview
+    implementation rootProject.ext.dependencies.smartrefreshlayout
+    implementation rootProject.ext.dependencies.constraintLayout
+    implementation rootProject.ext.dependencies.qiniu
+    implementation rootProject.ext.dependencies.luban
+    implementation rootProject.ext.dependencies.map3d
+    implementation rootProject.ext.dependencies.maplocation
+    implementation rootProject.ext.dependencies.mapbox
+    implementation rootProject.ext.dependencies.mapbox_annotation
+    implementation rootProject.ext.dependencies.mapbox_offline
+    implementation rootProject.ext.dependencies.mapbox_marker
+    implementation rootProject.ext.dependencies.mapbox_turf
+    debugImplementation rootProject.ext.dependencies.leakcanary_debug
+//    implementation rootProject.ext.dependencies.leakcanary_release
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    annotationProcessor rootProject.ext.dependencies.daggerCompiler
+    annotationProcessor rootProject.ext.dependencies.butterknifeCompiler
+    annotationProcessor rootProject.ext.dependencies.glideCompiler
+    implementation project(':kprogresshud')
+    implementation files('libs/MobCommons-2018.0523.1925.jar')
+    implementation files('libs/MobTools-2018.0523.1923.jar')
+    implementation files('libs/SMSSDK-3.2.1.jar')
+    //    implementation files('libs/AMap_Location_V3.7.0_20171218.jar')
+    //    implementation files('libs/Android_Map3D_SDK_V5.7.0_20171229.jar')
+    implementation project(':expandablerecycleradapter')
+    implementation project(':mavlinklib')
+    implementation project(':videoplayer')
+    implementation project(':videostab')
+    implementation project(':autolayout')
+    implementation project(':jjdxm-ijkplayer')
+    implementation project(':library')
+    implementation project(':vrlib')
+    implementation project(':ucrop')
+    implementation project(':ffmpaeglib')
+    implementation files('libs/jsch-0.1.54.jar')
+}

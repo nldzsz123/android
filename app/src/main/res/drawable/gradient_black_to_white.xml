@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 主体背景颜色值 -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="0"
+                android:centerX="1"
+                android:centerY="1"
+                android:endColor="@color/color_transparent"
+                android:startColor="@color/color_black_80"
+                android:type="linear" />
+            <corners android:radius="8px" />
+        </shape>
+    </item>
+</layer-list>

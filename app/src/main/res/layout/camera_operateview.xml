@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="match_parent">
+
+    <com.feipai.flypai.ui.view.FPButton
+        android:id="@+id/camera_mode_exchange_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/function_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="54px"
+        app:backGroundImage="@mipmap/camera_mode_exchange_to_photo" />
+
+    <ProgressBar
+        android:id="@+id/taking_photo_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/taking_photo_drawable"
+        android:indeterminateDuration="1000"
+        android:visibility="gone" />
+
+    <com.feipai.flypai.ui.view.FPButton
+        android:id="@+id/function_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/color_ffffff"
+        android:textSize="60px"
+        app:backGroundImage="@mipmap/camera_photo_take" />
+
+    <TextView
+        android:id="@+id/record_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/function_btn"
+        android:layout_alignStart="@+id/function_btn"
+        android:layout_alignEnd="@+id/function_btn"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="30px" />
+
+    <com.feipai.flypai.ui.view.FPButton
+        android:id="@+id/camera_set_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/function_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="54px"
+        app:backGroundImage="@mipmap/camera_set_btn" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

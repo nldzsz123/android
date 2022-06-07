@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_fragment_parent_bg_ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MainActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/main_frag_bg_ly"
+        android:background="@mipmap/main_page_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:visibility="invisible"
+            android:id="@+id/advertising_space_ly"
+            android:layout_width="668px"
+            android:layout_height="88px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="112px"
+            android:background="@drawable/advertising_space_btn_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="59px"
+                android:text="@string/upgrading_plan"
+                android:textColor="@color/color_ffffff"
+                android:textSize="47px" />
+
+
+            <ImageView
+                android:layout_width="81px"
+                android:layout_height="81px"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/advertising_img" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="59px"
+                android:text="@string/officially_launch"
+                android:textColor="@color/color_ffffff"
+                android:textSize="47px" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/swich_flypie_type_ly"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/advertising_space_ly"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="102px"
+                android:layout_height="102px"
+                android:src="@mipmap/right_img_def"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/color_333333"
+                android:textSize="57px"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24px">
+
+                <ImageView
+                    android:id="@+id/plane_icon_4k"
+                    android:layout_width="94px"
+                    android:layout_height="60px"
+                    android:src="@mipmap/flypie_type_4k" />
+
+                <ImageView
+                    android:id="@+id/plane_icon_air"
+                    android:layout_width="160px"
+                    android:layout_height="60px"
+                    android:src="@mipmap/air6k_icon"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="102px"
+                android:layout_height="102px"
+                android:src="@mipmap/lefe_img_def"
+                android:visibility="gone" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="344px"
+            android:layout_height="88px"
+            android:layout_below="@+id/swich_flypie_type_ly"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="88px"
+            android:background="@drawable/search_button_bg_def"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:text="@string/search_wifi"
+            android:textColor="@color/color_ffffff"
+            android:textSize="39px"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/connect_plane_logo"
+            android:layout_width="720px"
+            android:layout_height="720px"
+            android:layout_below="@+id/search_button"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/plane_img_def"
+            android:visibility="gone" />
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/connect_plane_hint_ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/connect_plane_button"
+            android:layout_marginBottom="120px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connect_flypie"
+                android:textColor="@color/color_333333"
+                android:textSize="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/connect_flypie_hint"
+                android:textColor="@color/color_b8b8b8"
+                android:textSize="30px" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <Button
+            android:id="@+id/connect_plane_button"
+            android:layout_width="840px"
+            android:layout_height="144px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="120px"
+            android:background="@drawable/connect_plane_button_bg_def"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:text="@string/plane_unconnect"
+            android:textColor="@color/color_4097e1"
+            android:textStyle="bold" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adjust_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_transparent">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/adjust_left_ly"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="161px"
+        android:clickable="true"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:visibility="visible">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/yuntai_adjust_ly"
+            android:layout_width="66px"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/yuntai_adjust_up"
+                android:layout_width="66px"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/yuntai_up" />
+
+            <com.feipai.flypai.ui.view.VerticalSeekBar
+                android:id="@+id/yuntai_adjust_seekbar"
+                android:layout_width="66px"
+                android:layout_height="368px"
+                android:layout_gravity="center"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:clickable="true"
+                app:drag_able="false"
+                app:progress_future_color="@color/color_ffffff"
+                app:progress_past_color="@color/color_ffffff"
+                app:progress_size="9px"
+                app:seek_max_count="300"
+                app:seek_min_count="0"
+                app:seek_orientation="vertical"
+                app:thumb_color="@color/color_ffffff"
+                app:thumb_text_color="@color/color_060606"
+                app:thumb_text_size="30px" />
+
+
+            <ImageView
+                android:id="@+id/yuntai_adjust_down"
+                android:layout_width="71px"
+                android:layout_height="71px"
+                android:src="@mipmap/yuntai_down" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/adjust_right_ly"
+        android:layout_toRightOf="@+id/adjust_left_ly">
+
+        <include
+            android:id="@+id/adjust_direction_layout"
+            layout="@layout/plane_control_layout"
+            android:visibility="gone">
+
+        </include>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/adjust_right_ly"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="194px"
+        android:clickable="true"
+        android:paddingTop="20px"
+        android:paddingBottom="20px">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/zoom_adjust_ly"
+            android:layout_width="66px"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/zoom_adjust_add_img"
+                android:layout_width="66px"
+                android:layout_height="66px"
+                android:src="@mipmap/zoom_out_img" />
+
+            <com.feipai.flypai.ui.view.VerticalSeekBar
+                android:id="@+id/zoom_adjust_seekbar"
+                android:layout_width="66px"
+                android:layout_height="592px"
+                android:layout_gravity="center"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:clickable="true"
+                app:drag_able="true"
+                app:progress_future_color="@color/color_ffffff"
+                app:progress_past_color="@color/color_ffffff"
+                app:progress_size="9px"
+                app:seek_max_count="300"
+                app:seek_min_count="0"
+                app:seek_orientation="vertical"
+                app:seek_progress="200"
+                app:thumb_color="@color/color_ffffff"
+                app:thumb_text_color="@color/color_060606"
+                app:thumb_text_size="24px" />
+
+
+            <ImageView
+                android:id="@+id/zoom_adjust_minus_img"
+                android:layout_width="66px"
+                android:layout_height="66px"
+                android:src="@mipmap/zoom_in_img" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

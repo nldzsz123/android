@@ -1,0 +1,165 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_transparent"
+    tools:context=".ui.activity.ActivationActivity">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="672px"
+        android:layout_height="417px"
+        android:background="@drawable/roundb8b8b890_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/follow_dg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="17px"
+            android:text="@string/push_rocker_adjust_following_position"
+            android:textColor="@color/color_ffffff"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="140px"
+            android:layout_marginTop="16px"
+            android:background="@color/color_333333_50"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_gps_of_follow"
+                    android:textColor="@color/color_ffffff"
+                    android:textSize="30px" />
+
+                <TextView
+                    android:id="@+id/follow_dg_gps_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16px"
+                    android:text="@string/weak"
+                    android:textColor="@color/color_f34235"
+                    android:textSize="40px"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/follow_height"
+                            android:textColor="@color/color_ffffff"
+                            android:textSize="30px" />
+
+                        <TextView
+                            android:id="@+id/follow_dg_height_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textColor="@color/color_f34235"
+                            android:textSize="50px"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m"
+                            android:textColor="@color/color_ffffff"
+                            android:textSize="30px" />
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20px"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/follow_distance"
+                            android:textColor="@color/color_ffffff"
+                            android:textSize="30px" />
+
+                        <TextView
+                            android:id="@+id/follow_distance_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textColor="@color/color_f34235"
+                            android:textSize="50px"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/m"
+                            android:textColor="@color/color_ffffff"
+                            android:textSize="30px" />
+                    </com.zhy.autolayout.AutoLinearLayout>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@+id/follow_dg_hint_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8px"
+            android:text="@string/follow_must_10m_height_20m_distance"
+            android:textColor="@color/color_ffffff_50"
+            android:textSize="28px"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/follow_dg_comfirm_bnt"
+            android:layout_width="344px"
+            android:layout_height="88px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="9px"
+            android:layout_marginBottom="24px"
+            android:background="@drawable/login_button_selcetor"
+            android:gravity="center"
+            android:text="@string/start"
+            android:textColor="@color/color_ffffff"
+            android:textStyle="bold" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,414 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:splitMotionEvents="false"
+    android:visibility="visible">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8px"
+        android:background="@drawable/wither_round_bg"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32px"
+            android:layout_marginTop="24px"
+            android:layout_marginBottom="25px"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/gyroscope_calibration"
+                    android:textColor="@color/color_333333"
+                    android:textSize="40px" />
+
+                <TextView
+                    android:id="@+id/gyroscope_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/normal"
+                    android:textColor="@color/color_00cf00"
+                    android:textSize="40px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:text="@string/gyroscope_calibration_details"
+                android:textColor="@color/color_555555"
+                android:textSize="30px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true">
+
+
+            <TextView
+                android:id="@+id/calib_gryo"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/gps_reset_end_view"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="@string/calibration"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8px"
+        android:background="@drawable/wither_round_bg"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32px"
+            android:layout_marginTop="24px"
+            android:layout_marginBottom="25px"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/compass_alignment"
+                    android:textColor="@color/color_333333"
+                    android:textSize="40px" />
+
+                <TextView
+                    android:id="@+id/compass_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/normal"
+                    android:textColor="@color/color_00cf00"
+                    android:textSize="40px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:text="@string/compass_alignment_details"
+                android:textColor="@color/color_555555"
+                android:textSize="30px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <TextView
+                android:id="@+id/calib_compass"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="@string/calibration"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/yuntai_cal_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8px"
+        android:background="@drawable/wither_round_bg"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32px"
+            android:layout_marginTop="24px"
+            android:layout_marginBottom="25px"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/yuntai_calibration"
+                android:textColor="@color/color_333333"
+                android:textSize="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:text="@string/yuntai_calibration_details"
+                android:textColor="@color/color_555555"
+                android:textSize="30px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true">
+
+
+            <TextView
+                android:id="@+id/calib_yuntai"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/gps_reset_end_view"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="@string/calibration"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/yuntai_cal_ly_for_4k"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8px"
+        android:background="@drawable/wither_round_bg"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32px"
+            android:layout_marginTop="24px"
+            android:layout_marginBottom="25px"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/yuntai_calibration"
+                android:textColor="@color/color_333333"
+                android:textSize="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:text="@string/yuntai_calibration_details"
+                android:textColor="@color/color_555555"
+                android:textSize="30px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true">
+
+
+            <TextView
+                android:id="@+id/cali_yt_for4k01"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/cali_yt_for4k02"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="@string/start"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/cali_yt_for4k02"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/cali_yt_for4k03"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="R"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/cali_yt_for4k03"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/cali_yt_for4k04"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="P"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/cali_yt_for4k04"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/cali_yt_for4k05"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="Y"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/cali_yt_for4k05"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/cali_yt_for4k06"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="@string/calibration"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/cali_yt_for4k06"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/gps_reset_end_view"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="@string/end"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/calib_gryo_offset_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8px"
+        android:background="@drawable/wither_round_bg"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32px"
+            android:layout_marginTop="24px"
+            android:layout_marginBottom="25px"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/gyroscope_calibration_offset"
+                    android:textColor="@color/color_333333"
+                    android:textSize="40px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1px"
+                android:text="@string/gyroscope_calibration_offset_details"
+                android:textColor="@color/color_555555"
+                android:textSize="30px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true">
+
+
+            <TextView
+                android:id="@+id/calib_gryo_offset"
+                android:layout_width="200px"
+                android:layout_height="88px"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48px"
+                android:layout_toLeftOf="@+id/gps_reset_end_view"
+                android:background="@drawable/border5098e4_bg_def"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="@string/calibration"
+                android:textColor="@color/color_5098e4"
+                android:textSize="36px" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

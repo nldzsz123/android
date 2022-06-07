@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/camera_glsurfface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@color/color_transparent" />
+
+
+    <ImageView
+        android:id="@+id/spot_metering_img"
+        android:layout_width="177px"
+        android:layout_height="180px"
+        android:src="@mipmap/spot_metering"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="2px"
+        android:layout_height="match_parent"
+        android:background="@color/color_ff3b30"
+        android:visibility="invisible"></ImageView>
+
+    <ImageView
+        android:id="@+id/matrix_img"
+        android:layout_width="250px"
+        android:layout_height="185px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/matrix_metering"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This is the line -->
+    <item>
+        <shape>
+            <corners
+                android:bottomLeftRadius="12px"
+                android:bottomRightRadius="12px"
+                android:topLeftRadius="12px"
+                android:topRightRadius="12px" />
+
+            <padding
+                android:bottom="3px"
+                android:left="3px"
+                android:right="3px"
+                android:top="3px" />
+            <stroke
+                android:width="3px" android:color="@color/color_000000" />
+        </shape>
+    </item>
+    <!-- This is the main color -->
+    <item>
+        <shape>
+            <corners
+                android:bottomLeftRadius="12px"
+                android:bottomRightRadius="12px"
+                android:topLeftRadius="12px"
+                android:topRightRadius="12px" />
+            <solid android:color="@color/color_ffffff" />
+        </shape>
+    </item>
+</layer-list>

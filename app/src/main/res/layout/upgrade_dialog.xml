@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mian_container"
+    android:layout_width="672px"
+    android:layout_height="408px">
+
+    <TextView
+        android:id="@+id/base_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40px"
+        android:text="@string/updating_plane_fw"
+        android:textColor="@color/color_000000"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/base_dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="141px"
+        android:layout_below="@+id/base_dialog_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33px"
+        android:gravity="center"
+        android:text="@string/dont_close_or_disconnect"
+        android:textColor="@color/color_333333"
+        android:textSize="30px"
+        android:visibility="visible" />
+
+
+    <com.feipai.flypai.ui.view.CircleProgressBar
+        android:id="@+id/circle_progress"
+        android:layout_width="105px"
+        android:layout_height="105px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54px"
+        android:visibility="visible"
+        app:line_count="30"
+        app:line_width="0dp"
+        app:progress_background_color="@color/color_ffffff"
+        app:progress_end_color="@color/color_38bcff"
+        app:progress_shader="sweep"
+        app:progress_start_color="@color/color_38bcff"
+        app:progress_stroke_cap="round"
+        app:progress_stroke_width="12px"
+        app:progress_text_color="@color/color_38bcff"
+        app:progress_text_size="24px"
+        app:style="solid_line" />
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/confirm_upgrade_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_b8b8b8" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/button_ly"
+            android:layout_width="match_parent"
+            android:layout_height="138px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/confirm_upgrade_tv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/confirm"
+                android:textColor="@color/color_38bcff"
+                android:textSize="40px"
+                android:textStyle="bold" />
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

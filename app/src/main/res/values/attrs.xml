@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="line_count" format="integer|reference" />
+        <attr name="line_width" format="dimension|reference" />
+        <attr name="progress_start_color" format="color|reference" />
+        <attr name="progress_end_color" format="color|reference" />
+        <attr name="progress_text_color" format="color|reference" />
+        <attr name="progress_text_size" format="dimension|reference" />
+        <attr name="progress_stroke_width" format="dimension|reference" />
+        <attr name="progress_background_color" format="color|reference" />
+        <attr name="progress_start_degree" format="integer|reference" />
+        <attr name="drawBackgroundOutsideProgress" format="boolean|reference" />
+
+        <attr name="style">
+            <enum name="line" value="0" />
+            <enum name="solid" value="1" />
+            <enum name="solid_line" value="2" />
+        </attr>
+
+        <attr name="progress_shader">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+            <enum name="sweep" value="2" />
+        </attr>
+        <!--text显示-->
+        <attr name="progress_text_visibility">
+            <enum name="visible" value="0" />
+            <enum name="gone" value="1" />
+            <enum name="invisible" value="2" />
+        </attr>
+
+        <attr name="progress_stroke_cap">
+            <enum name="butt" value="0" />
+            <enum name="round" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean" />
+        <attr name="primaryColor" format="color" />
+        <attr name="primaryColorDark" format="color" />
+        <attr name="offColor" format="color" />
+        <attr name="offColorDark" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="ratioAspect" format="float" />
+        <attr name="isOpened" format="boolean" />
+    </declare-styleable>
+
+    <!-- *公共属性* -->
+    <!--圆形-->
+    <attr name="round_as_circle" format="boolean" />
+    <!--全部圆角半径-->
+    <attr name="round_corner" format="integer|dimension" />
+    <!--针对各个角的半径-->
+    <attr name="round_corner_top_left" format="integer|dimension" />
+    <attr name="round_corner_top_right" format="integer|dimension" />
+    <attr name="round_corner_bottom_left" format="integer|dimension" />
+    <attr name="round_corner_bottom_right" format="integer|dimension" />
+
+    <!--描边颜色／半径-->
+    <attr name="stroke_color" format="color|reference" />
+    <attr name="stroke_width" format="integer|dimension" />
+
+    <!-- 是否剪裁 RCLayout 的背景 -->
+    <attr name="clip_background" format="boolean" />
+
+    <!--真正用于解析的属性-->
+    <declare-styleable name="RCAttrs">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+    <!--假体：用于提示-->
+    <declare-styleable name="RCRelativeLayout">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+    <!--假体：用于提示-->
+    <declare-styleable name="RCImageView">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+
+    <!--自定义按钮-->
+    <declare-styleable name="FPButton">
+        <attr name="backColor" />
+        <attr name="backColorPress" />
+        <attr name="backGroundImage" />
+        <attr name="backGroundImagePress" />
+        <attr name="imageNormal" />
+        <attr name="imagePress" />
+        <attr name="textColor" />
+        <attr name="textColorPress" />
+        <attr name="fillet" format="boolean" />
+        <attr name="radius" format="float" />
+        <attr name="shape">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <!--侧滑菜单-->
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="leftMenuView" format="reference" />
+        <attr name="rightMenuView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="canRightSwipe" format="boolean" />
+        <attr name="canLeftSwipe" format="boolean" />
+        <attr name="fraction" format="float" />
+    </declare-styleable>
+
+    <!--中间为起始点的seekbar-->
+    <declare-styleable name="StartPointSeekBar">
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="linHeight" format="integer" />
+        <attr name="thumbsHeight" format="integer" />
+        <attr name="thumbsWidth" format="integer" />
+        <attr name="backgroundDrawable" format="reference" />
+        <attr name="progressDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="thumbPressedDrawable" format="reference" />
+        <attr name="defaultBackgroundColor" format="color" />
+        <attr name="defaultBackgroundRangeColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ucrop_UCropView">
+        <!--Crop image view-->
+        <attr name="ucrop_aspect_ratio_x" format="float" />
+        <attr name="ucrop_aspect_ratio_y" format="float" />
+
+        <!--Overlay view-->
+        <attr name="ucrop_show_oval_crop_frame" format="boolean" />
+        <attr name="ucrop_circle_dimmed_layer" format="boolean" />
+        <attr name="ucrop_dimmed_color" format="color" />
+
+        <attr name="ucrop_grid_stroke_size" format="dimension" />
+        <attr name="ucrop_grid_color" format="color" />
+        <attr name="ucrop_grid_row_count" format="integer" />
+        <attr name="ucrop_grid_column_count" format="integer" />
+        <attr name="ucrop_show_grid" format="boolean" />
+
+        <attr name="ucrop_frame_stroke_size" format="dimension" />
+        <attr name="ucrop_frame_color" format="color" />
+        <attr name="ucrop_show_frame" format="boolean" />
+
+    </declare-styleable>
+
+
+    <!--RadioButton-->
+    <declare-styleable name="RadioButton">
+        <attr name="drawable_height" format="dimension"></attr>
+        <attr name="drawable_width" format="dimension" />
+        <attr name="drawable_marginTop" format="dimension"></attr>
+        <attr name="drawable_marginBottom" format="dimension"></attr>
+        <attr name="drawable_marginLeft" format="dimension"></attr>
+        <attr name="drawable_marginRight" format="dimension"></attr>
+    </declare-styleable>
+
+    <!--RadioButton-->
+    <declare-styleable name="MapViewLy">
+        <attr name="polyline_solid_width" format="integer"></attr>
+        <attr name="polyline_dotted_width" format="integer"></attr>
+        <attr name="polyline_dotted_color" format="color|reference"></attr>
+        <attr name="polyline_find_plane_takeoff_color" format="color|reference"></attr>
+        <attr name="polyline_solid_color" format="color|reference"></attr>
+        <!--<attr name="location_marker_drawable" format="integer"></attr>-->
+        <!--<attr name="take_off_marker_drawable" format="integer"></attr>-->
+    </declare-styleable>
+    <declare-styleable name="VerticalSeekBar">
+        <attr name="seek_progress" format="integer" /><!--滑块的位置（默认区间0-100）-->
+        <attr name="seek_max_count" format="integer" /><!--最小值（默认0）-->
+        <attr name="seek_min_count" format="integer" /><!--最大值（默认100）-->
+        <attr name="seek_bar_progress" format="integer" /><!--滑块的位置（默认0-100）-->
+        <attr name="progress_color" format="color" /><!--滑竿的颜色-->
+        <attr name="progress_past_color" format="color" /><!--滑竿已滑过的颜色-->
+        <attr name="progress_future_color" format="color" /><!--滑竿未滑过的颜色-->
+        <attr name="thumb_text_color" format="color" /><!--thumb文字颜色-->
+        <attr name="thumb_text_size" format="dimension" /><!--thumb文字大小-->
+        <attr name="progress_size" format="dimension" /><!--滑竿的大小（宽度或者高度）-->
+        <attr name="thumb_color" format="color" /><!--滑块的颜色-->
+        <attr name="thumb_image" format="reference" /><!--滑块的图片-->
+        <attr name="drag_able" format="boolean" /><!--可拖动的-->
+        <attr name="seek_orientation" format="enum"> <!--方向 默认横屏-->
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="HoriScrollView">
+        <!--可见数目-->
+        <attr name="HorizontalselectedViewSeesize" format="integer"></attr>
+        <!--被选择文字的大小和颜色-->
+        <attr name="HorizontalselectedViewSelectedTextSize" format="float"></attr>
+        <attr name="HorizontalselectedViewSelectedTextColor" format="color|reference"></attr>
+
+
+        <!--未被被选择文字的大小和颜色-->
+        <attr name="HorizontalselectedViewTextSize" format="float"></attr>
+        <attr name="HorizontalselectedViewTextColor" format="color|reference"></attr>
+
+    </declare-styleable>
+
+
+</resources>

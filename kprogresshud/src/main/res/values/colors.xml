@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kprogresshud_default_color">#29000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+    <color name="kprogresshud_wither_color">#ffffff</color>
+</resources>
