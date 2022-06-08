@@ -145,9 +145,7 @@ android {
 
 dependencies {
     implementation rootProject.ext.dependencies.appcompatV7
-    implementation rootProject.ext.dependencies.design
     implementation rootProject.ext.dependencies.constraintLayout
-    implementation rootProject.ext.dependencies.litepal
     implementation rootProject.ext.dependencies.rxandroid
     implementation rootProject.ext.dependencies.rxjava
     implementation rootProject.ext.dependencies.rxbinding
@@ -156,12 +154,10 @@ dependencies {
     implementation rootProject.ext.dependencies.rxpermissions
     implementation rootProject.ext.dependencies.rxbus
     implementation rootProject.ext.dependencies.logger
-    implementation rootProject.ext.dependencies.gson
     implementation rootProject.ext.dependencies.api
     implementation rootProject.ext.dependencies.glide
     implementation rootProject.ext.dependencies.recyclerviewV7
     implementation rootProject.ext.dependencies.fragmentation
-    implementation rootProject.ext.dependencies.multidex
     implementation rootProject.ext.dependencies.retrofit
     implementation rootProject.ext.dependencies.retrofitConverterGson
     implementation rootProject.ext.dependencies.retrofitConverterScalars
@@ -174,10 +170,7 @@ dependencies {
     implementation rootProject.ext.dependencies.immersionbar
     implementation rootProject.ext.dependencies.immersionbar_components
     implementation rootProject.ext.dependencies.ormlite
-    implementation rootProject.ext.dependencies.swiperecyclerview
-    implementation rootProject.ext.dependencies.smartrefreshlayout
     implementation rootProject.ext.dependencies.constraintLayout
-    implementation rootProject.ext.dependencies.luban
     implementation rootProject.ext.dependencies.map3d
     implementation rootProject.ext.dependencies.maplocation
     implementation rootProject.ext.dependencies.mapbox
@@ -186,7 +179,7 @@ dependencies {
     implementation rootProject.ext.dependencies.mapbox_marker
     implementation rootProject.ext.dependencies.mapbox_turf
     implementation rootProject.ext.dependencies.KProgressHUD
-    implementation rootProject.ext.dependencies.library
+    implementation rootProject.ext.dependencies.BaseRecyclerView
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     annotationProcessor rootProject.ext.dependencies.daggerCompiler
     annotationProcessor rootProject.ext.dependencies.butterknifeCompiler
