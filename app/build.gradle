@@ -154,16 +154,12 @@ dependencies {
     implementation rootProject.ext.dependencies.rxpermissions
     implementation rootProject.ext.dependencies.rxbus
     implementation rootProject.ext.dependencies.logger
-    implementation rootProject.ext.dependencies.api
     implementation rootProject.ext.dependencies.glide
-    implementation rootProject.ext.dependencies.recyclerviewV7
     implementation rootProject.ext.dependencies.fragmentation
     implementation rootProject.ext.dependencies.retrofit
     implementation rootProject.ext.dependencies.retrofitConverterGson
     implementation rootProject.ext.dependencies.retrofitConverterScalars
     implementation rootProject.ext.dependencies.retrofitAdapterRxjava
-    implementation rootProject.ext.dependencies.okhttp
-    implementation rootProject.ext.dependencies.okhttp3Integration
     implementation rootProject.ext.dependencies.dagger
     implementation rootProject.ext.dependencies.javaxAnnotation
     implementation rootProject.ext.dependencies.butterknife
