@@ -190,7 +190,6 @@ dependencies {
     annotationProcessor rootProject.ext.dependencies.daggerCompiler
     annotationProcessor rootProject.ext.dependencies.butterknifeCompiler
     annotationProcessor rootProject.ext.dependencies.glideCompiler
-    implementation project(':expandablerecycleradapter')
     implementation project(':mavlinklib')
     implementation project(':videoplayer')
     implementation project(':autolayout')

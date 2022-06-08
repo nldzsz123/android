@@ -1,13 +1,6 @@
 package com.feipai.flypai.mvp.presenters.fragmentpresenters;
 
 import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.net.Uri;
-import android.text.TextUtils;
-import android.view.View;
-import android.widget.TextView;
 
 import com.feipai.flypai.R;
 import com.feipai.flypai.api.CameraCommandCallback;
@@ -15,10 +8,7 @@ import com.feipai.flypai.api.DataSocketReadCallback;
 import com.feipai.flypai.api.RxLoopObserver;
 import com.feipai.flypai.api.RxLoopSchedulers;
 import com.feipai.flypai.app.ConstantFields;
-import com.feipai.flypai.app.FlyPieApplication;
 import com.feipai.flypai.beans.ABCmdValue;
-import com.feipai.flypai.beans.FunctionBean;
-import com.feipai.flypai.beans.FunctionChildBean;
 import com.feipai.flypai.beans.PlaneInfo;
 import com.feipai.flypai.beans.PlaneVersionBean;
 import com.feipai.flypai.beans.RxbusBean;
@@ -26,22 +16,14 @@ import com.feipai.flypai.beans.UserBean;
 import com.feipai.flypai.connect.ConnectManager;
 import com.feipai.flypai.mvp.BasePresenter;
 import com.feipai.flypai.mvp.contract.fragcontract.UserFragContract;
-import com.feipai.flypai.ui.activity.CameraActivity;
-import com.feipai.flypai.updatafirmware.UpdateFirmware;
-import com.feipai.flypai.utils.CameraCommand;
-import com.feipai.flypai.utils.cache.CacheManager;
 import com.feipai.flypai.utils.daoutils.DBClient;
-import com.feipai.flypai.utils.global.IntentUtils;
 import com.feipai.flypai.utils.global.LogUtils;
 import com.feipai.flypai.utils.global.RegexUtils;
 import com.feipai.flypai.utils.global.RemoteJschUtils;
 import com.feipai.flypai.utils.global.ResourceUtils;
 import com.feipai.flypai.utils.global.RxBusUtils;
 import com.feipai.flypai.utils.global.StringUtils;
-import com.feipai.flypai.utils.global.TimeUtils;
 import com.feipai.flypai.utils.global.ToastUtils;
-import com.feipai.flypai.utils.global.Utils;
-import com.zaihuishou.expandablerecycleradapter.model.ExpandableListItem;
 
 import java.util.List;
 
@@ -51,11 +33,7 @@ import io.reactivex.functions.Function;
 
 import static com.feipai.flypai.app.ConstantFields.BusEventType.*;
 import static com.feipai.flypai.app.ConstantFields.CAMERA_CONFIG.SD_INTERNAL;
-import static com.feipai.flypai.app.ConstantFields.CAMERA_CONFIG.START_SEND_FILE;
-import static com.feipai.flypai.app.ConstantFields.INTENT_PARAM.*;
 import static com.feipai.flypai.app.ConstantFields.ProductType_4k;
-import static com.feipai.flypai.app.ConstantFields.ProductType_4kAir;
-import static com.feipai.flypai.app.ConstantFields.ProductType_6kAir;
 import static com.feipai.flypai.app.ConstantFields.UPGRADE_FW.*;
 
 public class UserFragPresenter implements UserFragContract.Presenter, BasePresenter<UserFragContract.View> {
@@ -83,24 +61,7 @@ public class UserFragPresenter implements UserFragContract.Presenter, BasePresen
     @Override
     public void refreshVersion(PlaneVersionBean planeVersionBean) {//, List<FunctionBean> functionBeans
         mView.initVersionBean(planeVersionBean);
-        if (mView.getFunctionBeans().size() < 1 || !(mView.getFunctionBeans().get(1) instanceof FunctionBean))
-            return;
-        FunctionBean functionBean = mView.getFunctionBeans().get(1);
-        List<FunctionChildBean> versionChilds = functionBean.mChild;
-        if (planeVersionBean.isAppNeedUpgrade() || (ConnectManager.getInstance().isConneted() && (planeVersionBean.isCamereNeedUpgrade() || planeVersionBean.isPlaneNeedUpgrade() || planeVersionBean.isYuntaiNeedUpgrade()))) {
-            functionBean.isHintImgShow = true;
-        } else {
-            functionBean.isHintImgShow = false;
-        }
-        if (versionChilds != null) {
-            versionChilds.get(0).isNeedUpgrade = planeVersionBean.isAppNeedUpgrade();
-            versionChilds.get(1).isNeedUpgrade = planeVersionBean.isPlaneNeedUpgrade();
-            versionChilds.get(1).setVersion(planeVersionBean.getLocalPlaneVersion());
-            versionChilds.get(2).isNeedUpgrade = planeVersionBean.isCamereNeedUpgrade();
-            versionChilds.get(2).setVersion(planeVersionBean.getLocalCameraVersion());
-            versionChilds.get(3).isNeedUpgrade = planeVersionBean.isYuntaiNeedUpgrade();
-            versionChilds.get(3).setVersion(planeVersionBean.getLocalYuntaiVersion());
-        }
+
         mView.notifyAdapter();
         if (!planeVersionBean.getLocalPlaneVersion().equals("1") && planeVersionBean.isPlaneVersionIsForceUpgrade()) {
             //飞控强制升级,先注释掉
@@ -108,222 +69,6 @@ public class UserFragPresenter implements UserFragContract.Presenter, BasePresen
 //            mView.showUpgradeProgress(ConstantFields.UPGRADE_FW.START_UPGRADE_PLANE_FW, -1);
         }
 
-    }
-
-    @Override
-    public void functionItemOnClick(ExpandableListItem item, String[] nameStr, String[] flypaiChild, String[] planeChild, String[] debugChild) {
-        String itemName = item.getItemName();
-        LogUtils.d("当前选择的item，无子View的item单击,onChildItemClick==》itemName=" + itemName);
-        if (itemName.equals(flypaiChild[0])) {
-            // TODO: 2020/7/18 视频教程
-//            mView.startToActivity(VIDEO_TEACH, 0);
-//            LogUtils.d("选择第一项" + flypaiChild[0]);
-        } else if (itemName.equals(flypaiChild[1])) {
-            // TODO: 2020/7/18 用户手册
-//            LogUtils.d("选择第二项" + flypaiChild[1]);
-        } else if (itemName.equals(nameStr[1])) {
-//            LogUtils.d("选择第二项" + nameStr[1]);
-            mView.startToActivity(OUTLINE_MAP, 0);
-        }
-//        if (itemName.equals(nameStr[2])) {
-//            // TODO: 2019/4/13 商城
-////            IntentUtils.openTaobaoShopping(mView.getPageActivity());
-//        } else if (itemName.equals(nameStr[3])) {
-//            // TODO: 2019/7/24 离线地图
-////            mView.startToActivity(OUTLINE_MAP, 0);
-//        } else if (itemName.equals(nameStr[4])) {
-//            // TODO: 2019/4/13 设置
-//            mView.startToActivity(APP_SETTING, 0);
-//        } else if (itemName.equals(flypaiChild[0])) {
-//            // TODO: 2019/4/13 视频教程
-////            mView.startToActivity(VIDEO_TEACH, 0);
-//        } else if (itemName.equals(flypaiChild[1])) {
-//            // TODO: 2019/4/13 4K说明书
-//            mView.startToActivity(SPECIFICATION, ProductType_4k);
-//        } else if (itemName.equals(flypaiChild[2])) {
-//            // TODO: 2019/8/2 4kair 说明书
-//            mView.startToActivity(SPECIFICATION, ProductType_4kAir);
-//        } else if (itemName.equals(flypaiChild[3])) {
-//            // TODO: 2019/8/2 6k 说明书
-//            mView.startToActivity(SPECIFICATION, ProductType_6kAir);
-//        } else if (itemName.equals(flypaiChild[4])) {
-//            // TODO: 2019/4/13 实名登记教程
-//            LogUtils.d("点击实名登记");
-////            mView.startToActivity(REAL_NAME_REGISTRATION, 0);
-//        } else if (itemName.equals(planeChild[0])) {
-//            // TODO: 2019/4/13 APP更新
-//            if (item instanceof FunctionChildBean) {
-//                FunctionChildBean bean = (FunctionChildBean) item;
-//                if (bean.isNeedUpgrade) {
-//                    if (!IntentUtils.openYingYongBao(mView.getPageActivity())) {
-//                        mView.showToast(ResourceUtils.getString(R.string.install_yinyongbao_client_first));
-//                    }
-////                    LogUtils.d("开始上传飞控固件");
-////                    mView.showUpgradeProgress(ConstantFields.UPGRADE_FW.START_UPGRADE_PLANE_FW, -1);
-//                } else {
-//                    if (!StringUtils.isEmpty(bean.getVersion()))
-//                        mView.showToast(ResourceUtils.getString(R.string.do_not_need_to_upgrade_app));
-//                }
-//            }
-//        } else if (itemName.equals(planeChild[1])) {
-//            // TODO: 2019/4/13 飞控固件更新
-//            if (item instanceof FunctionChildBean) {
-//                FunctionChildBean bean = (FunctionChildBean) item;
-//                if (ConnectManager.getInstance().isConneted()) {
-//                    if (bean.isNeedUpgrade) {
-//                        LogUtils.d("开始上传飞控固件");
-//                        mView.showActionDialog(ConstantFields.ACTION_PARAM.START_UPGRADE_PLANE_FW);
-//                    } else {
-//                        if (!StringUtils.isEmpty(bean.getVersion()))
-//                            mView.showToast(ResourceUtils.getString(R.string.do_not_need_to_upgrade_fw));
-//                        else {
-//                            mView.showToast(ResourceUtils.getString(R.string.connect_flypie));
-//                        }
-//                    }
-//                } else {
-//                    mView.showToast(ResourceUtils.getString(R.string.connect_flypie));
-//                }
-//            }
-//        } else if (itemName.equals(planeChild[2])) {
-//            // TODO: 2019/4/13 相机固件更新
-//            if (item instanceof FunctionChildBean) {
-//                FunctionChildBean bean = (FunctionChildBean) item;
-//                if (ConnectManager.getInstance().isConneted() && !StringUtils.isEmpty(bean.getVersion()) && bean.getVersion().length() > 1) {
-//                    if (bean.isNeedUpgrade) {
-//                        mView.showActionDialog(ConstantFields.ACTION_PARAM.START_UPGRADE_CAMERA_FW);
-//                    } else {
-//                        if (!StringUtils.isEmpty(bean.getVersion()))
-//                            mView.showToast(ResourceUtils.getString(R.string.do_not_need_to_upgrade_fw));
-//                        else {
-//                            mView.showToast(ResourceUtils.getString(R.string.connect_flypie));
-//                        }
-//                    }
-//                } else {
-//                    mView.showToast(ResourceUtils.getString(R.string.connect_flypie));
-//                }
-//            }
-//
-//        } else if (itemName.equals(planeChild[3])) {
-//            // TODO: 2019/4/13 云台固件升级
-////            if (Utils.isDebug) {
-//            if (item instanceof FunctionChildBean) {
-//                FunctionChildBean bean = (FunctionChildBean) item;
-//                if (ConnectManager.getInstance().isConneted()) {
-//                    if (bean.isNeedUpgrade) {
-//                        mView.showActionDialog(ConstantFields.ACTION_PARAM.START_UPGRADE_YUNTAI_FW);
-//                    } else {
-//                        mView.showToast(ResourceUtils.getString(R.string.do_not_need_to_upgrade_fw));
-//                    }
-//                } else {
-//                    mView.showToast(ResourceUtils.getString(R.string.connect_flypie));
-//                }
-//            }
-////            }
-//        } else if (itemName.equals(planeChild[4])) {
-//            // TODO: 2019/11/30 图传升级
-//            startCheckFigureUpgrade();
-////            startFigureUpgrade();
-//        } else if (itemName.endsWith(debugChild[0])) {
-//            // TODO: 2019/11/1 参数设置
-//            LogUtils.d("参数设置");
-//            RxLoopSchedulers.composeIO(mView, new Function() {
-//                @Override
-//                public String apply(Object object) throws Exception {
-//                    String result = "";
-//                    if (itemName.startsWith(ResourceUtils.getStringArray(R.array._FUNCTION_ITEM_DEBUG)[5])) {
-//                        //天空端
-//                        result = RemoteJschUtils.execRemoteCmd(ConstantFields.SHELL_IP.IP424, ConstantFields.SHELL_CMD.UIC_SET_CMD);
-//                    } else {
-//                        //地面端
-//                        result = RemoteJschUtils.execRemoteCmd(ConstantFields.SHELL_IP.IP421, ConstantFields.SHELL_CMD.UIC_SET_CMD);
-//                    }
-//                    return result;
-//                }
-//            }).subscribe(new RxLoopObserver<String>() {
-//                @Override
-//                public void onNext(String value) {
-//                    super.onNext(value);
-//                    this.disposeDisposables();
-//                    ToastUtils.showLongToast("设置参数成功");
-//                    LogUtils.d("设置参数成功=" + value);
-//                }
-//            });
-//        } else if (itemName.endsWith(debugChild[1])) {
-//            // TODO: 2019/11/1 提交设置
-//            LogUtils.d("参数提交");
-//            RxLoopSchedulers.composeIO(mView, new Function() {
-//                @Override
-//                public String apply(Object object) throws Exception {
-//                    String result = "";
-//                    if (itemName.startsWith(ResourceUtils.getStringArray(R.array._FUNCTION_ITEM_DEBUG)[5])) {
-//                        //天空端
-//                        result = RemoteJschUtils.execRemoteCmd(ConstantFields.SHELL_IP.IP424, ConstantFields.SHELL_CMD.UIC_COMMIT_CMD);
-//                    } else {
-//                        //地面端
-//                        result = RemoteJschUtils.execRemoteCmd(ConstantFields.SHELL_IP.IP421, ConstantFields.SHELL_CMD.UIC_COMMIT_CMD);
-//                    }
-//                    return result;
-//                }
-//            }).subscribe(new RxLoopObserver<String>() {
-//                @Override
-//                public void onNext(String value) {
-//                    super.onNext(value);
-//                    this.disposeDisposables();
-//                    ToastUtils.showLongToast("提交参数成功");
-//                    LogUtils.d("提交参数成功=" + value);
-//                }
-//            });
-//        } else if (itemName.endsWith(debugChild[2])) {
-//            // TODO: 2019/11/1 读取设置
-//            LogUtils.d("参数读取");
-//            RxLoopSchedulers.composeIO(mView, new Function() {
-//                @Override
-//                public String apply(Object object) throws Exception {
-//                    String result = "";
-//                    if (itemName.startsWith(ResourceUtils.getStringArray(R.array._FUNCTION_ITEM_DEBUG)[5])) {
-//                        //天空端
-//                        result = RemoteJschUtils.execRemoteCmd(ConstantFields.SHELL_IP.IP424, ConstantFields.SHELL_CMD.UIC_GET_CMD);
-//                    } else {
-//                        //地面端
-//                        result = RemoteJschUtils.execRemoteCmd(ConstantFields.SHELL_IP.IP421, ConstantFields.SHELL_CMD.UIC_GET_CMD);
-//                    }
-//                    return result;
-//                }
-//            }).subscribe(new RxLoopObserver<String>() {
-//                @Override
-//                public void onNext(String value) {
-//                    super.onNext(value);
-//                    this.disposeDisposables();
-//                    ToastUtils.showLongToast("读取参数成功" + value);
-//                    LogUtils.d("读取参数成功=" + value);
-//                }
-//            });
-//        } else if (itemName.endsWith(debugChild[3])) {
-//            // TODO: 2019/11/1 保存设置
-//            LogUtils.d("参数保存");
-//            RxLoopSchedulers.composeIO(mView, new Function() {
-//                @Override
-//                public String apply(Object object) throws Exception {
-//                    String result = "";
-//                    if (itemName.startsWith(ResourceUtils.getStringArray(R.array._FUNCTION_ITEM_DEBUG)[5])) {
-//                        //天空端
-//                        result = RemoteJschUtils.execRemoteCmd(ConstantFields.SHELL_IP.IP424, ConstantFields.SHELL_CMD.RELOAD_CONFIG_CMD);
-//                    } else {
-//                        //地面端
-//                        result = RemoteJschUtils.execRemoteCmd(ConstantFields.SHELL_IP.IP421, ConstantFields.SHELL_CMD.RELOAD_CONFIG_CMD);
-//                    }
-//                    return result;
-//                }
-//            }).subscribe(new RxLoopObserver<String>() {
-//                @Override
-//                public void onNext(String value) {
-//                    super.onNext(value);
-//                    this.disposeDisposables();
-//                    ToastUtils.showLongToast("保存参数成功");
-//                    LogUtils.d("保存参数成功=" + value);
-//                }
-//            });
-//        }
     }
 
     /**

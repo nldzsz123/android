@@ -1,14 +1,10 @@
 package com.feipai.flypai.mvp.contract.fragcontract;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.wifi.ScanResult;
 
-import com.feipai.flypai.beans.FunctionBean;
-import com.feipai.flypai.beans.PlaneVersionBean;
 import com.feipai.flypai.beans.RxbusBean;
 import com.feipai.flypai.mvp.BaseView;
-import com.zaihuishou.expandablerecycleradapter.model.ExpandableListItem;
 
 import java.util.List;
 

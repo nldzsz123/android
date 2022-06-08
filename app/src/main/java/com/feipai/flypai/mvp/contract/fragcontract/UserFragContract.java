@@ -2,17 +2,11 @@ package com.feipai.flypai.mvp.contract.fragcontract;
 
 import android.content.Context;
 
-import com.feipai.flypai.base.BaseSimpleFragment;
 import com.feipai.flypai.beans.ABCmdValue;
-import com.feipai.flypai.beans.FunctionBean;
-import com.feipai.flypai.beans.FunctionChildBean;
 import com.feipai.flypai.beans.PlaneVersionBean;
 import com.feipai.flypai.beans.RxbusBean;
 import com.feipai.flypai.mvp.BaseView;
 import com.feipai.flypai.utils.CameraCommand;
-import com.zaihuishou.expandablerecycleradapter.model.ExpandableListItem;
-
-import java.util.List;
 
 
 public interface UserFragContract {
@@ -53,8 +47,6 @@ public interface UserFragContract {
          */
         void upgradeFailed(int errorCode);
 
-        List<FunctionBean> getFunctionBeans();
-
         void initVersionBean(PlaneVersionBean bean);
 
         /**
@@ -89,17 +81,6 @@ public interface UserFragContract {
          * @param planeVersionBean 所有版本存储对象
          */
         void refreshVersion(PlaneVersionBean planeVersionBean);
-
-        /**
-         * 功能点击事件
-         *
-         * @param item        item绑定参数
-         * @param nameStr     父级item名称
-         * @param flypaiChild 子级item名称
-         * @param planeChild  升级item子级名称
-         */
-        void functionItemOnClick(ExpandableListItem item, String[] nameStr, String[] flypaiChild, String[] planeChild, String[] debugChild);
-
 
         /**
          * 上传相机固件
