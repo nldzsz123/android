@@ -197,10 +197,7 @@ dependencies {
     implementation project(':expandablerecycleradapter')
     implementation project(':mavlinklib')
     implementation project(':videoplayer')
-    implementation project(':videostab')
     implementation project(':autolayout')
     implementation project(':library')
-    implementation project(':vrlib')
-    implementation project(':ucrop')
     implementation files('libs/jsch-0.1.54.jar')
 }

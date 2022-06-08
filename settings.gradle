@@ -1,9 +1,7 @@
-include ':app', ':videostab',
+include ':app',
         ':mavlinklib',
         'kprogresshud',
         'expandablerecycleradapter',
         ':videoplayer',
         ':autolayout',
-        ':library',
-        ':vrlib',
-        ':ucrop'
+        ':library'
