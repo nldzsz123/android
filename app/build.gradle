@@ -202,6 +202,5 @@ dependencies {
     implementation project(':library')
     implementation project(':vrlib')
     implementation project(':ucrop')
-    implementation project(':ffmpaeglib')
     implementation files('libs/jsch-0.1.54.jar')
 }
