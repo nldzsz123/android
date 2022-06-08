@@ -7,9 +7,9 @@ import android.widget.TextView;
 
 import com.feipai.flypai.R;
 import com.feipai.flypai.base.basedialog.BaseDialog;
+import com.feipai.flypai.utils.global.LogUtils;
 import com.feipai.flypai.utils.global.ResourceUtils;
 import com.feipai.flypai.utils.global.StringUtils;
-import com.umeng.commonsdk.statistics.common.MLog;
 import com.zhy.autolayout.utils.AutoUtils;
 
 /**
@@ -153,7 +153,7 @@ public class TakingPanorDialog {
                 mCountTv.setText(String.valueOf(count));
                 if (mCallback != null) mCallback.onCountChanged(count);
             } else {
-                MLog.d("全景", "更新全景对话框----" + count);
+                LogUtils.d("全景", "更新全景对话框----" + count);
                 mStep = COMPLETE;
                 updateClues(mStep, maxTotal, "/" + String.valueOf(maxTotal));
             }

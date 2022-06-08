@@ -49,7 +49,6 @@ import com.feipai.flypai.utils.global.TimeUtils;
 import com.feipai.flypai.utils.global.ToastUtils;
 import com.feipai.flypai.utils.global.Utils;
 import com.feipai.flypai.utils.global.ViewUtils;
-import com.umeng.commonsdk.statistics.common.MLog;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -520,11 +519,11 @@ public class SmartView extends RelativeLayout {
      * 当前拍摄第几张照片
      */
     private void sendPanorMessage(boolean isWide, int count) {
-        MLog.d("全景拍摄", "当前拍摄====》" + count);
+        LogUtils.d("全景拍摄", "当前拍摄====》" + count);
         if (count == 1) {
             startSendServo(1, true, false, count, !isWide ? FIRST_SERVO_PANOR : FIRST_SERVO_WIDE);
         } else if (count > maxCount) {
-            MLog.d("全景拍摄", "全景拍摄完成，云台回中");
+            LogUtils.d("全景拍摄", "全景拍摄完成，云台回中");
             startSendServo(2, true, false, count, CENTER_SERVO);
         }
     }
@@ -537,7 +536,7 @@ public class SmartView extends RelativeLayout {
      * @param servo    当前云台角度
      */
     private void startSendServo(int where, boolean start, boolean isAutoPhoto, int curCount, int servo) {
-        MLog.d("全景拍摄", "云台旋转角度====>" + where + "::::" + start + ":::::" + servo);
+        LogUtils.d("全景拍摄", "云台旋转角度====>" + where + "::::" + start + ":::::" + servo);
         this.isStart = start;
         this.mCurPanorCount = curCount;
         this.mServoAngle = servo;
@@ -555,13 +554,13 @@ public class SmartView extends RelativeLayout {
                     if (!start || !isTakingDialogShown() || isPaused) {
                         //云台旋转成功，拍照
                         this.disposeDisposables();
-                        MLog.d("全景拍摄", "云台旋转成功===>" + curCount);
+                        LogUtils.d("全景拍摄", "云台旋转成功===>" + curCount);
                         if (!isPaused) {
                             if (curCount <= maxCount) {
                                 startTakePanorPhoto(1, isAutoPhoto);
                             } else {
                                 /**完成全景，云台回中*/
-                                MLog.d("全景拍摄", "云台回中成功");
+                                LogUtils.d("全景拍摄", "云台回中成功");
                                 mIPMHelper.dismissTakingPanorD(2);
                             }
                         }
@@ -572,7 +571,7 @@ public class SmartView extends RelativeLayout {
     }
 
     private void startSendYaw(int where, boolean start, boolean isPositiveYaw, int yawAngle, int yawCount) {
-        MLog.d("全景拍摄", "飞机旋转角度====>" + where + "::::" + isStart + ":::::" + yawAngle + ":::::" + yawCount);
+        LogUtils.d("全景拍摄", "飞机旋转角度====>" + where + "::::" + isStart + ":::::" + yawAngle + ":::::" + yawCount);
         this.isStart = start;
 //        this.mIsPositiveYaw = isPositiveYaw;
         this.mYawCount = yawCount;
@@ -605,7 +604,7 @@ public class SmartView extends RelativeLayout {
 
     private void startTakePanorPhoto(int where, boolean isAutoPhoto) {
         if (mCallback != null) mCallback.onModeChange(PhotoModePano, 0);
-        MLog.d("全景拍摄", "计时拍摄延时" + mCurPanorCount + "张" + "|||" + where);
+        LogUtils.d("全景拍摄", "计时拍摄延时" + mCurPanorCount + "张" + "|||" + where);
         time = 0;
         //拍照计时器
         RxLoopSchedulers.composeLoop(mbv, 0, 1000, new Function() {
@@ -622,11 +621,11 @@ public class SmartView extends RelativeLayout {
                     if (time >= delayTime) {
                         //计时结束，开拍
                         this.disposeDisposables();
-                        MLog.d("全景拍摄", "开始拍照" + delayTime + "|||" + mCurPanorCount);
+                        LogUtils.d("全景拍摄", "开始拍照" + delayTime + "|||" + mCurPanorCount);
                         takeSinglePanorPhoto(isAutoPhoto);
                     } else {
                         //计时中...
-                        MLog.d("全景拍摄", "计时中" + time);
+                        LogUtils.d("全景拍摄", "计时中" + time);
                         if (mCallback != null) {
                             mCallback.onDelayTimer(delayTime - time);
                         }
@@ -634,14 +633,14 @@ public class SmartView extends RelativeLayout {
                 } else {
                     //直接结束了，恢复拍摄状态
                     this.disposeDisposables();
-                    MLog.d("延时拍摄", "直接结束" + time);
+                    LogUtils.d("延时拍摄", "直接结束" + time);
                 }
             }
         });
     }
 
     private void takeSinglePanorPhoto(boolean isAutoPhoto) {
-        MLog.d("全景拍摄", "当前拍摄第" + mCurPanorCount + "张");
+        LogUtils.d("全景拍摄", "当前拍摄第" + mCurPanorCount + "张");
         if (mCallback != null) mCallback.onStopVideo(mIsWide, true);
         CameraCommand.getCmdInstance().takePhotoInPanoComplete(mbv, mCurPanorCount == 1, new CameraCommandCallback<String>() {
             @Override
@@ -721,7 +720,7 @@ public class SmartView extends RelativeLayout {
                             break;
                         case 7:
                             //完成
-                            MLog.d("全景拍摄", "广角已经拍摄完成");
+                            LogUtils.d("全景拍摄", "广角已经拍摄完成");
                             break;
                     }
                 }
@@ -770,7 +769,7 @@ public class SmartView extends RelativeLayout {
      */
     private void cancelTakingPanor(int where) {
         if (mCallback != null) mCallback.onDestory();
-        MLog.d("全景拍摄", "退出飞机旋转角度====>" + where);
+        LogUtils.d("全景拍摄", "退出飞机旋转角度====>" + where);
         dialogShowingAndStart(false, false);
         startSendYaw(3, true, false, 0, 106);
     }
@@ -793,26 +792,26 @@ public class SmartView extends RelativeLayout {
             public void onComplete(ABCmdValue<String> data) {
                 if (data.getRval() == 0) {
                     long lastFileTime = TimeUtils.lastVrTime(data.getParam());
-                    MLog.d("全景拍摄", "断开连上，文件名时间=" + lastFileTime);
+                    LogUtils.d("全景拍摄", "断开连上，文件名时间=" + lastFileTime);
                     if (isStartPanor) {
                         // TODO: 2019/7/25 主动开启全景，初始化 全局的currentVrTime;
                         mCurrentVrTime = lastFileTime;
-                        MLog.d("全景拍摄", "主动开拍");
+                        LogUtils.d("全景拍摄", "主动开拍");
                         startTakingPanor(mIsWide);
                     } else {
                         // TODO: 2019/7/25 外界原因获取
                         if (mYawMoveStatus == mYawCount) {
-                            MLog.d("全景拍摄", "(断开再连上)旋转完成,直接拍照");
+                            LogUtils.d("全景拍摄", "(断开再连上)旋转完成,直接拍照");
                             startTakePanorPhoto(3, isAutoPhoto);
                         } else {
-                            MLog.d("全景拍摄", "(断开再连上)其他状态" + mYawMoveStatus + "||" + mYawCount);
+                            LogUtils.d("全景拍摄", "(断开再连上)其他状态" + mYawMoveStatus + "||" + mYawCount);
                             if (mLastVrTime == 0) {
                                 if (mCurrentVrTime != lastFileTime) {
-                                    MLog.d("全景拍摄", "(断开再连上)第一张照片发送了拍照却未收到回复");
+                                    LogUtils.d("全景拍摄", "(断开再连上)第一张照片发送了拍照却未收到回复");
                                     takePanorPhotoSuccess(isAutoPhoto, data.getParam());
                                 } else {
                                     //2:未发送拍照
-                                    MLog.d("全景拍摄", "(断开再连上)第一张照片未发送拍照先不管状态" + mYawMoveStatus);
+                                    LogUtils.d("全景拍摄", "(断开再连上)第一张照片未发送拍照先不管状态" + mYawMoveStatus);
                                     startTakePanorPhoto(4, isAutoPhoto);
                                 }
                             } else {
@@ -820,19 +819,19 @@ public class SmartView extends RelativeLayout {
                                 if (mYawMoveStatus == 0) {
                                     if ((lastFileTime == mCurrentVrTime)) {
                                         //拍照指令发出去了，收到了回复
-                                        MLog.d("全景拍摄", "(断开再连上)刚好拍摄过这张照片,并且收到了照片回复,并且相机旋转中");
+                                        LogUtils.d("全景拍摄", "(断开再连上)刚好拍摄过这张照片,并且收到了照片回复,并且相机旋转中");
                                     } else {
                                         //拍照指令发出去了，未收到回复
-                                        MLog.d("全景拍摄", "(断开再连上)刚好拍摄过这张照片,未收到回复,并且相机旋转中");
+                                        LogUtils.d("全景拍摄", "(断开再连上)刚好拍摄过这张照片,未收到回复,并且相机旋转中");
                                         takePanorPhotoSuccess(isAutoPhoto, data.getParam());
 //                                        takePanorSingleSucces(parma);
                                     }
                                 } else {
                                     if (lastFileTime == mCurrentVrTime) {
-                                        MLog.d("全景拍摄", "(断开再连上)刚好拍摄过这张照片,收到了照片回复,旋转指令发送完成");
+                                        LogUtils.d("全景拍摄", "(断开再连上)刚好拍摄过这张照片,收到了照片回复,旋转指令发送完成");
                                         startTakePanorPhoto(5, isAutoPhoto);
                                     } else {
-                                        MLog.d("全景拍摄", "(断开再连上)刚好拍摄过这张照片,未收到照片回复,那这时候就直接旋转指令咯");
+                                        LogUtils.d("全景拍摄", "(断开再连上)刚好拍摄过这张照片,未收到照片回复,那这时候就直接旋转指令咯");
                                         takePanorPhotoSuccess(isAutoPhoto, data.getParam());
 //                                        takePanorSingleSucces(parma);
                                     }
@@ -843,7 +842,7 @@ public class SmartView extends RelativeLayout {
                 } else {
                     if (isStartPanor) {
                         // TODO: 2019/7/25 主动开启全景，初始化 全局的currentVrTime;
-                        MLog.d("全景拍摄", "主动开拍,获取最后一个文件失败");
+                        LogUtils.d("全景拍摄", "主动开拍,获取最后一个文件失败");
                         startTakingPanor(mIsWide);
                     }
                 }
@@ -1050,12 +1049,12 @@ public class SmartView extends RelativeLayout {
                             //计时结束，开拍
                             this.disposeDisposables();
                             if (isStart) {
-                                MLog.d("延时拍摄", "开始拍照" + delayTime + "|||" + mCurPanorCount);
+                                LogUtils.d("延时拍摄", "开始拍照" + delayTime + "|||" + mCurPanorCount);
                                 takeTimeLapsePhoto(delayTime, mCurPanorCount);
                             }
                         } else {
                             //计时中...
-                            MLog.d("延时拍摄", "计时中" + time);
+                            LogUtils.d("延时拍摄", "计时中" + time);
                             if (mCallback != null) {
                                 mCallback.onDelayTimer(delayTime - time);
                             }
@@ -1063,7 +1062,7 @@ public class SmartView extends RelativeLayout {
                     } else {
                         //直接结束了，恢复拍摄状态
                         this.disposeDisposables();
-                        MLog.d("延时拍摄", "直接结束" + time);
+                        LogUtils.d("延时拍摄", "直接结束" + time);
                     }
                 }
             });
@@ -1077,7 +1076,7 @@ public class SmartView extends RelativeLayout {
      * @param count     当前张数
      */
     private void takeTimeLapsePhoto(int delayTime, int count) {
-        MLog.d("延时拍摄", "正在拍摄第" + count + "张");
+        LogUtils.d("延时拍摄", "正在拍摄第" + count + "张");
         if (mCallback != null) mCallback.onStopVideo(false, true);
         CameraCommand.getCmdInstance().takePhotoInDelayComplete(mbv, count == 1, new CameraCommandCallback<Boolean>() {
             @Override
@@ -1092,7 +1091,7 @@ public class SmartView extends RelativeLayout {
                         /**限定延时拍摄的最大张数240*/
                         dismissDialogAndCancelFunction(3);
                     } else {
-                        MLog.d("延时拍摄", "拍摄成功第" + count + "张，接下来拍摄第" + mCurPanorCount + "张");
+                        LogUtils.d("延时拍摄", "拍摄成功第" + count + "张，接下来拍摄第" + mCurPanorCount + "张");
                         updateDelayCount(mCurPanorCount);
                         if (count == 1) {
                             /**第一张拍摄完，锁定曝光*/
@@ -1346,19 +1345,19 @@ public class SmartView extends RelativeLayout {
 
 
     public void yawStatus(int status) {
-//        MLog.d("全景拍摄", "" + status + "||" + mYawCount);
+//        LogUtils.d("全景拍摄", "" + status + "||" + mYawCount);
         if (isTakingDialogShown() || isDelayTimeTaking()) {
             this.mYawMoveStatus = status;
             if (status == mYawCount) {
                 //旋转完成
-                MLog.d("全景拍摄", "旋转完成....");
+                LogUtils.d("全景拍摄", "旋转完成....");
                 yawSuccess(true);
                 if (isTakingDialogShown()) {
                     mYawCount++;
                 }
             } else if (status == 0) {
                 //正在旋转
-//                MLog.d("全景拍摄", "正在旋转....");
+//                LogUtils.d("全景拍摄", "正在旋转....");
             } else if (status == 20) {
                 //用户动了摇杆，直接停掉
                 //无故出现20
@@ -1416,7 +1415,7 @@ public class SmartView extends RelativeLayout {
      * 曝光锁定成功
      */
     public void aeLockChangedSuccess(FPCameraSettingBase cameraSetting, boolean photoAeLock) {
-        MLog.d("智能拍摄", "曝光锁定====>" + photoAeLock + "||||" + mIsDelayTaking);
+        LogUtils.d("智能拍摄", "曝光锁定====>" + photoAeLock + "||||" + mIsDelayTaking);
         setCameraSetting(cameraSetting);
         if (photoAeLock) {
             if (isTakingDialogShown()) {

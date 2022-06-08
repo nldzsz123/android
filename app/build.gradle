@@ -148,14 +148,6 @@ dependencies {
     implementation rootProject.ext.dependencies.design
     implementation rootProject.ext.dependencies.constraintLayout
     implementation rootProject.ext.dependencies.litepal
-    implementation rootProject.ext.dependencies.umengAnalytics
-    implementation rootProject.ext.dependencies.umengCommon
-    implementation rootProject.ext.dependencies.umengqqShare
-    implementation rootProject.ext.dependencies.umengwxShare
-    implementation rootProject.ext.dependencies.umengsnShare
-    implementation rootProject.ext.dependencies.sina_sdk
-    implementation rootProject.ext.dependencies.umengShareCore
-    implementation rootProject.ext.dependencies.umengShareBoard
     implementation rootProject.ext.dependencies.rxandroid
     implementation rootProject.ext.dependencies.rxjava
     implementation rootProject.ext.dependencies.rxbinding
@@ -165,15 +157,11 @@ dependencies {
     implementation rootProject.ext.dependencies.rxbus
     implementation rootProject.ext.dependencies.logger
     implementation rootProject.ext.dependencies.gson
-    implementation rootProject.ext.dependencies.crashreport_upgrade
-    implementation rootProject.ext.dependencies.nativecrashreport
     implementation rootProject.ext.dependencies.api
     implementation rootProject.ext.dependencies.glide
-    //    implementation rootProject.ext.dependencies.BaseRecyclerViewAdapterHelper
     implementation rootProject.ext.dependencies.recyclerviewV7
     implementation rootProject.ext.dependencies.fragmentation
     implementation rootProject.ext.dependencies.multidex
-    implementation rootProject.ext.dependencies.api
     implementation rootProject.ext.dependencies.retrofit
     implementation rootProject.ext.dependencies.retrofitConverterGson
     implementation rootProject.ext.dependencies.retrofitConverterScalars
@@ -190,7 +178,6 @@ dependencies {
     implementation rootProject.ext.dependencies.swiperecyclerview
     implementation rootProject.ext.dependencies.smartrefreshlayout
     implementation rootProject.ext.dependencies.constraintLayout
-    implementation rootProject.ext.dependencies.qiniu
     implementation rootProject.ext.dependencies.luban
     implementation rootProject.ext.dependencies.map3d
     implementation rootProject.ext.dependencies.maplocation
@@ -199,8 +186,6 @@ dependencies {
     implementation rootProject.ext.dependencies.mapbox_offline
     implementation rootProject.ext.dependencies.mapbox_marker
     implementation rootProject.ext.dependencies.mapbox_turf
-    debugImplementation rootProject.ext.dependencies.leakcanary_debug
-//    implementation rootProject.ext.dependencies.leakcanary_release
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     annotationProcessor rootProject.ext.dependencies.daggerCompiler
     annotationProcessor rootProject.ext.dependencies.butterknifeCompiler
@@ -209,14 +194,11 @@ dependencies {
     implementation files('libs/MobCommons-2018.0523.1925.jar')
     implementation files('libs/MobTools-2018.0523.1923.jar')
     implementation files('libs/SMSSDK-3.2.1.jar')
-    //    implementation files('libs/AMap_Location_V3.7.0_20171218.jar')
-    //    implementation files('libs/Android_Map3D_SDK_V5.7.0_20171229.jar')
     implementation project(':expandablerecycleradapter')
     implementation project(':mavlinklib')
     implementation project(':videoplayer')
     implementation project(':videostab')
     implementation project(':autolayout')
-    implementation project(':jjdxm-ijkplayer')
     implementation project(':library')
     implementation project(':vrlib')
     implementation project(':ucrop')

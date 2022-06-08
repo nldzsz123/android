@@ -5,7 +5,6 @@ include ':app', ':videostab',
         ':videoplayer',
         ':autolayout',
         ':library',
-        ':jjdxm-ijkplayer',
         ':vrlib',
         ':ucrop',
         ':ffmpaeglib'
