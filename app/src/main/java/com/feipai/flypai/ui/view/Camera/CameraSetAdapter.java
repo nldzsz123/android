@@ -221,7 +221,7 @@ public class CameraSetAdapter extends BaseMultiItemQuickAdapter<MultiItemEntity,
             public void onClick(View v) {
                 if (!cellItem.isExpanded()) {
                     setEnabled(false);
-                    expandChild(cellItem, holder.getAdapterPosition());
+                    expand(holder.getAdapterPosition());
                     // 展开 回调
                     if (mCameraSetLisioner != null) {
                         mCameraSetLisioner.configFPDimensionClick(cellItem);

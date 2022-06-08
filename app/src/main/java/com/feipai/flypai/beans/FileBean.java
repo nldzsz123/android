@@ -134,7 +134,6 @@ public class FileBean extends BaseEntity implements MultiItemEntity {
         this.type = type;
     }
 
-    @Override
     public long getTime() {
         return time;
     }

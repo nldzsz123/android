@@ -11,12 +11,10 @@ public class HeaderFileBean<T> extends AbstractExpandableItem<T> implements Mult
     private String titleName;
     private String countSize;
 
-    @Override
     public String getName() {
         return titleName;
     }
 
-    @Override
     public long getTime() {
         return 0;
     }
@@ -33,23 +31,5 @@ public class HeaderFileBean<T> extends AbstractExpandableItem<T> implements Mult
     @Override
     public int getItemType() {
         return ConstantFields.FILE_TYPE.TYPE_DIR;
-    }
-
-    public String getCountText() {
-        if (getSubItems() != null) {
-            if (getSubItems().size() > 0) {
-                int count = getSubItems().size();
-                for (T t : getSubItems()) {
-                    if (t instanceof MultiItemEntity)
-                        if (((MultiItemEntity) t).getName().equals(ConstantFields.FILE_TYPE.EMPTY_FILE_NAME)) {
-                            count--;
-                        }
-                }
-                if (count > 0) {
-                    return "(" + count + ")";
-                }
-            }
-        }
-        return null;
     }
 }

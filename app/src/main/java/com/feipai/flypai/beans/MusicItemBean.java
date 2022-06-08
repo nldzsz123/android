@@ -73,12 +73,10 @@ public class MusicItemBean extends BaseEntity implements MultiItemEntity, Compar
         setIndex(name);
     }
 
-    @Override
     public String getName() {
         return name;
     }
 
-    @Override
     public long getTime() {
         return 0;
     }

@@ -68,6 +68,7 @@ ext {
             "mapbox_offline"          : "com.mapbox.mapboxsdk:mapbox-android-plugin-offline-${version.mapboxMapPrefix}:${version.mapboxOffline}",//mapbox离线
             "mapbox_annotation"       : "com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-${version.mapboxMapPrefix}:${version.mapboxAnnotation}",//mapbox注释
             "mapbox_turf"             : "com.mapbox.mapboxsdk:mapbox-sdk-turf:${version.mapboxTurf}",
-            "KProgressHUD"            : "com.kaopiz:kprogresshud:1.2.0"
+            "KProgressHUD"            : "com.kaopiz:kprogresshud:1.2.0",
+            "library"                 : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47",
     ]
 }

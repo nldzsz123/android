@@ -186,6 +186,7 @@ dependencies {
     implementation rootProject.ext.dependencies.mapbox_marker
     implementation rootProject.ext.dependencies.mapbox_turf
     implementation rootProject.ext.dependencies.KProgressHUD
+    implementation rootProject.ext.dependencies.library
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     annotationProcessor rootProject.ext.dependencies.daggerCompiler
     annotationProcessor rootProject.ext.dependencies.butterknifeCompiler
@@ -193,6 +194,5 @@ dependencies {
     implementation project(':mavlinklib')
     implementation project(':videoplayer')
     implementation project(':autolayout')
-    implementation project(':library')
     implementation files('libs/jsch-0.1.54.jar')
 }
